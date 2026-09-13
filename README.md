@@ -23,7 +23,7 @@ The import is read-only. Raw snapshots are ignored by Git because they are large
 ## Owner migration decisions
 
 - All 5,249 legacy posts are excluded from the new site. They remain in the audit inventory only and must not generate Astro routes or be copied into the repository.
-- Pages remain subject to individual editorial review.
+- Migrate only the 13 current/newly rebuilt pages; exclude the remaining 23 legacy pages.
 - Media remains quarantined until specifically approved.
 
 ## Deployment safety

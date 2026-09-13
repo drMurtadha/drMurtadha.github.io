@@ -21,6 +21,7 @@ The visual idea is an academic field guide to connected intelligence: warm paper
 - Owner reviews all 80 PDFs and any people/student content.
 - Classify every item: migrate, archive privately, link to source, merge, or omit.
 - Apply the confirmed decision to exclude all 5,249 legacy posts; keep only their audit records and add no replacement routes.
+- Import the 13 current/newly rebuilt pages and exclude the 23 remaining legacy pages.
 - Confirm current biography, position, contact details and navigation.
 
 ### 3. Structured import
@@ -64,4 +65,5 @@ The visual idea is an academic field guide to connected intelligence: warm paper
 - [ ] Two missing media records reconciled
 - [ ] Remaining owner privacy/editorial decisions for pages and media
 - [x] Owner decision recorded: all 5,249 legacy posts excluded from publication
+- [x] Owner decision recorded: migrate 13 current pages; exclude 23 legacy pages
 - [ ] GitHub authentication/repository creation

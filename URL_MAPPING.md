@@ -2,6 +2,8 @@
 
 The row-level register is in `audit/generated/url-mapping.csv` (5,285 records plus header). All 5,249 post rows now have `migration_decision=exclude-legacy-post`, an empty target, and `publish_on_new_site=no`.
 
+Of the 36 WordPress pages, 13 current/newly rebuilt pages have `migration_decision=migrate-current-page`. The remaining 23 have `exclude-legacy-page` and no target.
+
 ## Mapping policy
 
 The GitHub user site lives at the domain root. A legacy path such as:

@@ -27,6 +27,10 @@ The detailed inventory is in `audit/generated/content-inventory.csv` (5,285 cont
 
 All 5,249 legacy posts are excluded from the new site. No post body, dated post route, category archive or tag archive will be generated. Their inventory is retained solely as migration evidence and to prevent accidental reintroduction.
 
+Only the current People@UTM page set will be migrated: eight pages created in August–September 2026 and five older-ID pages substantially refreshed in September 2026 and used by the current navigation. This gives 13 current pages; the other 23 legacy pages are excluded.
+
+Current set: Home, Biography, Curriculum vitae, Research Grants, Postgraduate Students, Teaching, Consultancy & Industry Engagement, Scopus-Indexed Publications, Web of Science-Indexed Publications, Other Publications, Verified Non-Indexed Publications, Publications, and Connect/Social Media.
+
 ## Proposed core data model
 
 - `profile`: identity, roles, contacts, persistent researcher identifiers

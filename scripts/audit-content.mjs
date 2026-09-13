@@ -4,6 +4,9 @@ import { resolve } from 'node:path';
 
 const rawDir = resolve(process.argv[2] || 'audit/raw');
 const reportDir = resolve(process.argv[3] || 'audit/generated');
+// Owner-approved current page set: pages created in Aug/Sep 2026 plus legacy-ID
+// pages substantially refreshed for the current homepage/navigation in Sep 2026.
+const currentPageIds = new Set([7543, 7499, 7464, 7462, 7427, 7421, 7402, 7393, 2036, 292, 265, 83, 45]);
 await mkdir(reportDir, { recursive: true });
 const load = async (name) => JSON.parse(await readFile(resolve(rawDir, `${name}.json`), 'utf8'));
 const [posts, pages, media, categories, tags] = await Promise.all(['posts', 'pages', 'media', 'categories', 'tags'].map(load));
@@ -41,7 +44,10 @@ const headers = Object.keys(inventory[0]);
 await writeFile(resolve(reportDir, 'content-inventory.csv'), `${headers.join(',')}\n${inventory.map((row) => headers.map((key) => csv(row[key])).join(',')).join('\n')}\n`);
 await writeFile(resolve(reportDir, 'url-mapping.csv'), `legacy_url,target_path,type,source_status,migration_decision,publish_on_new_site,redirect_required\n${inventory.map((x) => {
   const excluded = x.type === 'post';
-  return [csv(x.legacyUrl), csv(excluded ? '' : x.targetPath), x.type, x.status, excluded ? 'exclude-legacy-post' : 'review-page', excluded ? 'no' : 'pending-review', excluded ? 'no' : 'host-only'].join(',');
+  const legacyPage = x.type === 'page' && !currentPageIds.has(x.id);
+  const omit = excluded || legacyPage;
+  const decision = excluded ? 'exclude-legacy-post' : legacyPage ? 'exclude-legacy-page' : 'migrate-current-page';
+  return [csv(x.legacyUrl), csv(omit ? '' : x.targetPath), x.type, x.status, decision, omit ? 'no' : 'yes', omit ? 'no' : 'host-only'].join(',');
 }).join('\n')}\n`);
 
 const allLinks = entities.flatMap((item) => getLinks(item.content?.rendered).map((url) => ({ source: item.link, url })));

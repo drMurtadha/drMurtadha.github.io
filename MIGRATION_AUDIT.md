@@ -12,6 +12,8 @@ The strongest migration risk is not technical. The media library includes PDFs w
 
 **Owner decision, 13 September 2026:** all 5,249 legacy posts are excluded from publication on the new site. They remain in the inventory only. This removes the social/news corpus from the implementation scope, including its category and tag archive pages.
 
+**Owner decision, 13 September 2026:** migrate only the current People@UTM pages. The working set contains eight pages created in August–September 2026 plus five older-ID pages substantially refreshed in September 2026 and used by the current navigation. Thirteen pages are retained and 23 legacy pages are excluded. The retained `publications` page is flagged for consolidation because newer dedicated Scopus/WoS pages overlap it.
+
 ## Counts captured
 
 | Object | REST total | Retrieved | Notes |

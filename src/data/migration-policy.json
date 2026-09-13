@@ -10,7 +10,26 @@
     "decidedAt": "2026-09-13"
   },
   "pages": {
-    "decision": "review-individually"
+    "decision": "migrate-current-only",
+    "currentCount": 13,
+    "excludedLegacyCount": 23,
+    "currentPageIds": [7543, 7499, 7464, 7462, 7427, 7421, 7402, 7393, 2036, 292, 265, 83, 45],
+    "currentSlugs": [
+      "teaching",
+      "consultancy-industry-engagement",
+      "other-publications",
+      "verified-non-indexed-publications",
+      "scopus-indexed-publications",
+      "web-of-science-indexed-publications",
+      "publications",
+      "home",
+      "social-media",
+      "phd-students",
+      "research-areasinterest",
+      "biography",
+      "cv"
+    ],
+    "classification": "Eight pages created in August/September 2026 plus five older-ID pages substantially refreshed in September 2026 and used by the current site/navigation."
   },
   "media": {
     "decision": "quarantine-until-approved"
