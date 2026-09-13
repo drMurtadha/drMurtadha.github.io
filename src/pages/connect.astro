@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import profile from '../data/academic-profile.json';
+const links = [
+  { type: 'Supervision', name: profile.email, detail: 'Send a CV and a one-page proposal.', href: `mailto:${profile.email}?subject=PhD%20supervision%20inquiry` },
+  { type: 'Collaboration and consultancy', name: profile.email, detail: 'Research partnerships, advisory work and training.', href: `mailto:${profile.email}?subject=Research%20collaboration` },
+  { type: 'ORCID', name: profile.orcid, detail: 'Persistent researcher identifier.', href: `https://orcid.org/${profile.orcid}` },
+  { type: 'Scopus', name: `Author ID ${profile.scopusAuthorId}`, detail: `${profile.metrics.scopus.documents} indexed documents · h-index ${profile.metrics.scopus.hIndex}.`, href: `https://www.scopus.com/authid/detail.uri?authorId=${profile.scopusAuthorId}` },
+  { type: 'Web of Science', name: 'ResearcherID C-9887-2011', detail: 'Core Collection record and verified peer reviews.', href: 'https://www.webofscience.com/wos/author/record/C-9887-2011' },
+  { type: 'Full record', name: 'Curriculum vitae', detail: 'Appointments, grants, teaching, service and downloads.', href: '/cv/' },
+  { type: 'Professional network', name: 'LinkedIn', detail: 'Research, teaching and industry engagement.', href: 'https://www.linkedin.com/in/mohd-murtadha-mohamad/' }
+];
+---
+<BaseLayout title="Connect" description="Research, postgraduate supervision and consultancy contact routes for Mohd Murtadha Mohamad.">
+  <header class="connect-hero"><div><p class="eyebrow">Connect / Academic networks</p><h1>Where to find the work—and <em>me.</em></h1><p>Email is the fastest route for supervision enquiries and collaboration. Everything else points to the same academic record, indexed by different institutions.</p></div><figure><img src="/assets/images/murtadha-portrait-editorial.jpg" alt="Mohd Murtadha Mohamad" width="941" height="1672" /><figcaption>Research · Supervision · Collaboration</figcaption></figure></header>
+  <div class="page-body connect-page"><section class="connect-grid" aria-label="Contact and profile links">{links.map((link, index) => <a href={link.href} rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}><span>{String(index + 1).padStart(2, '0')} / {link.type}</span><h2>{link.name}</h2><p>{link.detail}</p><strong aria-hidden="true">↗</strong></a>)}</section><section class="connect-note"><p class="eyebrow">A useful first message</p><h2>Make the question specific.</h2><p>For postgraduate supervision, include a CV and a one-page proposal. For collaboration or consultancy, briefly describe the problem, intended outcome and timeframe.</p></section></div>
+</BaseLayout>

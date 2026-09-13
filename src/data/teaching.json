@@ -1,0 +1,341 @@
+{
+  "generatedFrom": "https://people.utm.my/murtadha/teaching/",
+  "sourceModifiedAt": "2026-09-13T07:58:08",
+  "summary": {
+    "undergraduateSubjects": 8,
+    "undergraduateSemesterEntries": 28,
+    "undergraduateStudents": "702+",
+    "postgraduateSubjects": 4,
+    "postgraduateSemesterEntries": 20
+  },
+  "subjects": [
+    {
+      "title": "Digital Logic",
+      "entries": [
+        {
+          "Academic session": "2026/2027",
+          "Semester": "1",
+          "Section": "04",
+          "Students": "Ongoing"
+        },
+        {
+          "Academic session": "2022/2023",
+          "Semester": "2",
+          "Section": "01",
+          "Students": "46"
+        },
+        {
+          "Academic session": "2015/2016",
+          "Semester": "1",
+          "Section": "01",
+          "Students": "14"
+        },
+        {
+          "Academic session": "2006/2007",
+          "Semester": "2",
+          "Section": "01",
+          "Students": "2"
+        }
+      ]
+    },
+    {
+      "title": "Network Communications",
+      "entries": [
+        {
+          "Academic session": "2023/2024",
+          "Semester": "1",
+          "Section": "09",
+          "Students": "42"
+        },
+        {
+          "Academic session": "2022/2023",
+          "Semester": "1",
+          "Section": "09",
+          "Students": "36"
+        },
+        {
+          "Academic session": "2021/2022",
+          "Semester": "1",
+          "Section": "06",
+          "Students": "42"
+        },
+        {
+          "Academic session": "2014/2015",
+          "Semester": "2",
+          "Section": "07",
+          "Students": "22"
+        },
+        {
+          "Academic session": "2013/2014",
+          "Semester": "2",
+          "Section": "08",
+          "Students": "18"
+        }
+      ]
+    },
+    {
+      "title": "Computer Organisation & Architecture",
+      "entries": [
+        {
+          "Academic session": "2020/2021",
+          "Semester": "2",
+          "Section": "04",
+          "Students": "40"
+        },
+        {
+          "Academic session": "2019/2020",
+          "Semester": "1",
+          "Section": "01",
+          "Students": "20"
+        },
+        {
+          "Academic session": "2011/2012",
+          "Semester": "1",
+          "Section": "01",
+          "Students": "12"
+        },
+        {
+          "Academic session": "2011/2012",
+          "Semester": "1",
+          "Section": "06",
+          "Students": "39"
+        },
+        {
+          "Academic session": "2010/2011",
+          "Semester": "1",
+          "Section": "01",
+          "Students": "52"
+        },
+        {
+          "Academic session": "2008/2009",
+          "Semester": "1",
+          "Section": "01",
+          "Students": "28"
+        },
+        {
+          "Academic session": "2007/2008",
+          "Semester": "1",
+          "Section": "01",
+          "Students": "32"
+        }
+      ]
+    },
+    {
+      "title": "Application Development",
+      "entries": [
+        {
+          "Academic session": "2017/2018",
+          "Semester": "2",
+          "Section": "01",
+          "Students": "2"
+        },
+        {
+          "Academic session": "2014/2015",
+          "Semester": "1",
+          "Section": "01",
+          "Students": "14"
+        },
+        {
+          "Academic session": "2014/2015",
+          "Semester": "1",
+          "Section": "02",
+          "Students": "30"
+        },
+        {
+          "Academic session": "2010/2011",
+          "Semester": "2",
+          "Section": "05",
+          "Students": "40"
+        },
+        {
+          "Academic session": "2009/2010",
+          "Semester": "2",
+          "Section": "04",
+          "Students": "29"
+        },
+        {
+          "Academic session": "2008/2009",
+          "Semester": "2",
+          "Section": "03",
+          "Students": "32"
+        }
+      ]
+    },
+    {
+      "title": "Programming Techniques I",
+      "entries": [
+        {
+          "Academic session": "2013/2014",
+          "Semester": "2",
+          "Section": "01",
+          "Students": "1"
+        },
+        {
+          "Academic session": "2009/2010",
+          "Semester": "1",
+          "Section": "05",
+          "Students": "35"
+        },
+        {
+          "Academic session": "2007/2008",
+          "Semester": "1",
+          "Section": "02",
+          "Students": "20"
+        }
+      ]
+    },
+    {
+      "title": "Programming Techniques II",
+      "entries": [
+        {
+          "Academic session": "2007/2008",
+          "Semester": "2",
+          "Section": "03",
+          "Students": "18"
+        }
+      ]
+    },
+    {
+      "title": "Operating Systems",
+      "entries": [
+        {
+          "Academic session": "2007/2008",
+          "Semester": "3",
+          "Section": "01",
+          "Students": "27"
+        }
+      ]
+    },
+    {
+      "title": "Computer Organisation & Assembly Language",
+      "entries": [
+        {
+          "Academic session": "2008/2009",
+          "Semester": "1",
+          "Section": "01",
+          "Students": "9"
+        }
+      ]
+    },
+    {
+      "title": "Research Methodology in Computer Science",
+      "entries": [
+        {
+          "Academic session": "2025/2026",
+          "Semester": "1",
+          "Section": "01"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Computer Systems and Architecture",
+      "entries": [
+        {
+          "Academic session": "2025/2026",
+          "Semester": "1",
+          "Section": "52"
+        },
+        {
+          "Academic session": "2021/2022",
+          "Semester": "2",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2020/2021",
+          "Semester": "1",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2020/2021",
+          "Semester": "2",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2019/2020",
+          "Semester": "2",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2018/2019",
+          "Semester": "1",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2018/2019",
+          "Semester": "2",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2017/2018",
+          "Semester": "1",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2017/2018",
+          "Semester": "2",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2016/2017",
+          "Semester": "1",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2016/2017",
+          "Semester": "2",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2013/2014",
+          "Semester": "1",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2012/2013",
+          "Semester": "1",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2011/2012",
+          "Semester": "2",
+          "Section": "01"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Computer Networks and Cloud Computing",
+      "entries": [
+        {
+          "Academic session": "2025/2026",
+          "Semester": "2",
+          "Section": "01, 52, 53"
+        },
+        {
+          "Academic session": "2024/2025",
+          "Semester": "1",
+          "Section": "01, 52"
+        },
+        {
+          "Academic session": "2024/2025",
+          "Semester": "2",
+          "Section": "01"
+        },
+        {
+          "Academic session": "2023/2024",
+          "Semester": "2",
+          "Section": "01, 52"
+        }
+      ]
+    },
+    {
+      "title": "Information Security Seminar",
+      "entries": [
+        {
+          "Academic session": "2012/2013",
+          "Semester": "1",
+          "Section": "01"
+        }
+      ]
+    }
+  ]
+}

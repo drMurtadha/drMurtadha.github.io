@@ -15,7 +15,9 @@
     "audit:wordpress": "node scripts/audit-content.mjs",
     "build:publications": "node scripts/build-publications-data.mjs",
     "build:people": "node scripts/build-people-data.mjs",
-    "build:data": "npm run build:publications && npm run build:people"
+    "build:publication-collections": "node scripts/build-publication-collections.mjs",
+    "build:teaching": "node scripts/build-teaching-data.mjs",
+    "build:data": "npm run build:publications && npm run build:publication-collections && npm run build:people && npm run build:teaching"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.4",

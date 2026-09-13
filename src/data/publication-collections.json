@@ -1,0 +1,752 @@
+{
+  "web-of-science": {
+    "key": "web-of-science",
+    "title": "Web of Science-indexed publications",
+    "label": "Web of Science Core Collection",
+    "expected": 35,
+    "generatedFrom": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+    "sourceModifiedAt": "2026-09-12T16:08:10",
+    "records": [
+      {
+        "year": 2025,
+        "title": "Enhancing MANET Security Through Long Short-Term Memory-Based Trust Prediction in Location-Aided Routing Protocols",
+        "venue": "IEEE Access",
+        "type": "Article",
+        "citations": 5,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001530173700009&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2025,
+        "title": "Smart villages: a systematic review of trends, models, and metrics",
+        "venue": "Cogent Social Sciences",
+        "type": "Review",
+        "citations": 5,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001477106700001&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2025,
+        "title": "Deep Learning and Edge Computing in Agriculture: A Comprehensive Review of Recent Trends and Innovations",
+        "venue": "IEEE Access",
+        "type": "Article",
+        "citations": 4,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001547311700001&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2025,
+        "title": "‘SSDWSN: A Scalable Software-Defined Wireless Sensor Networks’ (vol 12, pg 21787, 2024)",
+        "venue": "IEEE Access",
+        "type": "Correction",
+        "citations": 0,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001457763200041&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2025,
+        "title": "Advanced Intrusion Detection in MANETs (vol 12, pg 150046, 2024)",
+        "venue": "IEEE Access",
+        "type": "Correction",
+        "citations": 0,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001550816100029&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2024,
+        "title": "Advanced Intrusion Detection in MANETs: A Survey of Machine Learning and Optimization Techniques for Mitigating Black/Gray Hole Attacks",
+        "venue": "IEEE Access",
+        "type": "Article",
+        "citations": 24,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001339065500001&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2024,
+        "title": "Enhancing MANET Security Through Federated Learning and Multiobjective Optimization: A Trust-Aware Routing Framework",
+        "venue": "IEEE Access",
+        "type": "Article",
+        "citations": 16,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001375816400009&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2024,
+        "title": "SSDWSN: A Scalable Software-Defined Wireless Sensor Networks",
+        "venue": "IEEE Access",
+        "type": "Article",
+        "citations": 9,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001162068400001&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2023,
+        "title": "An Overview of Machine Learning Techniques in Local Path Planning for Autonomous Underwater Vehicles",
+        "venue": "IEEE Access",
+        "type": "Article",
+        "citations": 36,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000953365100001&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2022,
+        "title": "A Reliable Merging Link Scheme Using Weighted Markov Chain Model in Vehicular Ad Hoc Networks",
+        "venue": "Sensors",
+        "type": "Article",
+        "citations": 2,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000825744800001&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2022,
+        "title": "A Review of the Role of Latency in Multi-controller Placement in Software-Defined-Wide Area Networks",
+        "venue": "Advances on Intelligent Informatics and Computing",
+        "type": "Meeting",
+        "citations": 1,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000783765200036&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2021,
+        "title": "Inverse Document Frequency in K-Nearest Neighbour (K-NN) for Competition Recommendation based on Activity in Online Learning",
+        "venue": "Proc. ICEEIE 2021",
+        "type": "Meeting",
+        "citations": 1,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000863571700092&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2020,
+        "title": "New Smart Map for Tourism using Artificial Intelligence",
+        "venue": "Proc. EECCIS 2020",
+        "type": "Meeting",
+        "citations": 3,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000636996700042&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2020,
+        "title": "The New Intelligent Wireless Sensor Network using Artificial Intelligence for Building Fire Disasters",
+        "venue": "Proc. ICVEE 2020",
+        "type": "Meeting",
+        "citations": 2,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000662609800025&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2020,
+        "title": "A New Adaptive Online Learning using Computational Intelligence",
+        "venue": "Proc. ICVEE 2020",
+        "type": "Meeting",
+        "citations": 0,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000662609800015&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2020,
+        "title": "An Evaluation of Performance of Location-Based and Location-Free Routing Protocols in Underwater Sensor Networks",
+        "venue": "Emerging Trends in Intelligent Computing and Informatics",
+        "type": "Meeting",
+        "citations": 0,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000583758100057&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2019,
+        "title": "Toward Adaptive and Scalable OpenFlow-SDN Flow Control: A Survey",
+        "venue": "IEEE Access",
+        "type": "Article",
+        "citations": 116,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000481972100169&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2019,
+        "title": "An Improved Resampling Scheme for Particle Filtering in Inertial Navigation System",
+        "venue": "Intelligent Information and Database Systems (ACIIDS 2019)",
+        "type": "Meeting",
+        "citations": 3,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000493319700047&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2018,
+        "title": "Review on Energy Efficient Opportunistic Routing Protocol for Underwater Wireless Sensor Networks",
+        "venue": "KSII Transactions on Internet and Information Systems",
+        "type": "Review",
+        "citations": 8,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000440368200006&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2018,
+        "title": "Adaptive Memory Size Based Fuzzy Control for Mobile Pedestrian Navigation",
+        "venue": "Recent Trends in Information and Communication Technology",
+        "type": "Meeting",
+        "citations": 0,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000432202300015&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2016,
+        "title": "Energy Efficient Opportunistic Routing Algorithm for Underwater Sensor Network: A Review",
+        "venue": "Proc. ICSITECH 2016",
+        "type": "Meeting",
+        "citations": 7,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000401505300006&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2016,
+        "title": "Receiver-Based Ad Hoc On Demand Multipath Routing Protocol for Mobile Ad Hoc Networks",
+        "venue": "PLOS ONE",
+        "type": "Article",
+        "citations": 2,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000377369700099&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2016,
+        "title": "An Improved Maintenance Strategy in Ad Hoc On-Demand Routing Protocols for Mobile Ad Hoc Networks",
+        "venue": "Jurnal Teknologi",
+        "type": "Article",
+        "citations": 0,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000391220700008&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2015,
+        "title": "Optimization of Rao-Blackwellized Particle Filter in Activity Pedestrian SLAM: An Initial Proposal",
+        "venue": "Int. J. of Security and Its Applications",
+        "type": "Article",
+        "citations": 3,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000369385600035&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2015,
+        "title": "Offline Beacon Selection-Based RSSI Fingerprinting for Location-Aware Shopping Assistance: A Preliminary Result",
+        "venue": "New Trends in Intelligent Information and Database Systems",
+        "type": "Meeting",
+        "citations": 2,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000378038200031&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2014,
+        "title": "Performance Evaluation of Spatial Correlation-based Feature Detection and Matching for Automated Wheelchair Navigation System",
+        "venue": "Int. J. of Intelligent Transportation Systems Research",
+        "type": "Article",
+        "citations": 3,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000211643300002&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2014,
+        "title": "Performance Analysis of Grey-World-based Feature Detection and Matching for Mobile Positioning Systems",
+        "venue": "Sensing and Imaging",
+        "type": "Article",
+        "citations": 2,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000218325100012&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2013,
+        "title": "Greedy Routing in Underwater Acoustic Sensor Networks: A Survey",
+        "venue": "Int. J. of Distributed Sensor Networks",
+        "type": "Review",
+        "citations": 51,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000322233700001&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2013,
+        "title": "Ubiquitous Positioning: Integrated GPS/Wireless LAN Positioning for Wheelchair Navigation System",
+        "venue": "Intelligent Information and Database Systems (ACIIDS 2013)",
+        "type": "Meeting",
+        "citations": 8,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000340589100041&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2013,
+        "title": "A Case for Societal Digital Security Culture",
+        "venue": "Security and Privacy Protection in Information Processing Systems",
+        "type": "Meeting",
+        "citations": 5,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000364776700029&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2013,
+        "title": "Receiver-Based AODV Routing Protocol for MANETs",
+        "venue": "Proc. ISDA 2013",
+        "type": "Meeting",
+        "citations": 2,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000364966500022&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2012,
+        "title": "Fuzzy Logic-Assisted Geographical Routing over Vehicular Ad Hoc Networks",
+        "venue": "Int. J. of Innovative Computing Information and Control",
+        "type": "Article",
+        "citations": 13,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000306679700012&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2006,
+        "title": "Articulated robot motion planning using ant colony optimisation",
+        "venue": "Proc. 2006 3rd International IEEE Conference Intelligent Systems",
+        "type": "Meeting",
+        "citations": 10,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000244714800122&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2006,
+        "title": "Foraging ant motion planning for articulated robots",
+        "venue": "Proc. 2006 SICE-ICASE International Joint Conference",
+        "type": "Meeting",
+        "citations": 0,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000246237601043&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "year": 2005,
+        "title": "Ant colony robot motion planning",
+        "venue": "Eurocon 2005",
+        "type": "Meeting",
+        "citations": 16,
+        "status": null,
+        "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000237248900055&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      }
+    ]
+  },
+  "other": {
+    "key": "other",
+    "title": "Other verified publications",
+    "label": "RADIS-verified outputs",
+    "expected": 40,
+    "generatedFrom": "https://people.utm.my/murtadha/other-publications/",
+    "sourceModifiedAt": "2026-09-12T16:08:15",
+    "records": [
+      {
+        "year": 2025,
+        "title": "Enhancing rice leaf disease detection using YOLOv8 for smart agriculture in smart villages",
+        "venue": "International Nexus Conference (INEXCO 2025)",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "UTM first author",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "title": "Application of information technology and media information groups in cultural society and product marketing in Tarumajaya Village, Bandung Regency, Indonesia",
+        "venue": "International Nexus Conference (INEXCO 2025)",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "UTM first author",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "title": "Kembara Merdeka Scratch berteraskan AI: integrasi nilai kemerdekaan dalam pembelajaran pengaturcaraan",
+        "venue": "New Academia Learning Innovation (NALI 2025)",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "First UTM corresponding author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Nature-inspired metaheuristic approach to SD-WAN controller placement",
+        "venue": "Interconnected Worlds of Pervasive Computing, IoT and Networking",
+        "type": "Book Chapter",
+        "citations": null,
+        "status": "Penerbit UTM Press · first UTM corresponding author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Energy efficient opportunistic routing in underwater sensor networks",
+        "venue": "Interconnected Worlds of Pervasive Computing, IoT and Networking",
+        "type": "Book Chapter",
+        "citations": null,
+        "status": "Penerbit UTM Press · first UTM corresponding author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Taxonomy of schemes to detect blackhole attacks in MANET",
+        "venue": "Postgraduate Annual Research Seminar 2024",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "UTM · co-author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Challenges and solutions in ad hoc wireless networks: a survey",
+        "venue": "10th International Graduate Conference on Engineering, Science and Humanities",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "School of Graduate Studies, UTM · co-author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "The impact of artificial intelligence on cybercrime: analysis",
+        "venue": "10th International Graduate Conference on Engineering, Science and Humanities",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "UTM Press · co-author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "AI empowerment in academia: UTM expert engages UNPAD students with insightful lecture",
+        "venue": "UTM NewsHub",
+        "type": "Article in mass media",
+        "citations": null,
+        "status": "Individual author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Street mobilegraphy for beginners",
+        "venue": "UTM Engage",
+        "type": "Article in mass media",
+        "citations": null,
+        "status": "Office of Strategic and Corporate Affairs (OSCA)",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Kajian keperluan pengguna dan spesifikasi naik taraf sistem MyMOHES dan Sistem Kajian Pengesanan Graduan (SKPG)",
+        "venue": "Classified / technical report",
+        "type": null,
+        "citations": null,
+        "status": "UTM first author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Laporan akhir: kajian kebolehlaksanaan pembangunan sistem pengurusan maklumat bersepadu Maktab Rendah Sains MARA (MyMRSM)",
+        "venue": "Classified / technical report",
+        "type": null,
+        "citations": null,
+        "status": "UTM first author",
+        "url": null
+      },
+      {
+        "year": 2023,
+        "title": "Video forgery detection via deep learning semantic",
+        "venue": "Proceedings: Computer Science",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "ELSPublishing (ELSP) · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2023,
+        "title": "Laporan spesifikasi keperluan pengguna Sistem Bantuan Kewangan Orang Kurang Upaya (BKOKU)",
+        "venue": "Classified / technical report",
+        "type": null,
+        "citations": null,
+        "status": "Kementerian Pendidikan Tinggi · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2021,
+        "title": "Autonomous underwater vehicle in Internet of Underwater Things: a survey",
+        "venue": "3rd International Conference on Applied Computing (ICAC2021)",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "UTM first author",
+        "url": null
+      },
+      {
+        "year": 2020,
+        "title": "A study on autonomous underwater vehicle for Internet of Underwater Things (IoUT) application",
+        "venue": "Communication Network System Colloquium 2020",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "School of Electrical, Faculty of Engineering · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2020,
+        "title": "A review of machine learning path planning algorithms for autonomous underwater vehicles (AUV) in IoUT",
+        "venue": "12th International Conference on Internet (ICONI 2020)",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "Korea Electronics Technology Institute · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2020,
+        "title": "Implication of global outreach program organizing in student leadership, entrepreneurship and academic performance: Kembara Ilmu Perdana Palembang 2019 case study",
+        "venue": "ICOSD 2019",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "Atlantis Press · corresponding author",
+        "url": null
+      },
+      {
+        "year": 2020,
+        "title": "Patterns of internet use among students Universiti Teknologi Malaysia: Kolej Perdana case study",
+        "venue": "ICOSD 2019",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "Atlantis Press · corresponding author",
+        "url": null
+      },
+      {
+        "year": 2020,
+        "title": "Dokumen rekabentuk aplikasi sistem pengurusan maklumat bersepadu, Akademi Pencegahan Rasuah Malaysia",
+        "venue": "Modules / manual",
+        "type": null,
+        "citations": null,
+        "status": "UTMDigital · corresponding author",
+        "url": null
+      },
+      {
+        "year": 2020,
+        "title": "Dokumen kajian keperluan pengguna sistem maklumat akademik Suruhanjaya Pencegahan Rasuah Malaysia",
+        "venue": "Modules / manual",
+        "type": null,
+        "citations": null,
+        "status": "UTMDigital · co-author",
+        "url": null
+      },
+      {
+        "year": 2019,
+        "title": "Review of existing Shariah-compliant cryptocurrency",
+        "venue": "4th International Halal Conference (INHAC) 2019",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "ACIS, UiTM · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2019,
+        "title": "A comparative analysis of blockchain consensus algorithms from Shariah perspective",
+        "venue": "4th International Halal Conference (INHAC) 2019",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "ACIS, UiTM · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2019,
+        "title": "A comparative analysis of blockchain consensus algorithms from Shariah perspective",
+        "venue": "4th International Halal Conference 2019",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "UiTM · co-author",
+        "url": null
+      },
+      {
+        "year": 2019,
+        "title": "Database summarization for mobile web pre-fetching (MODS) using rough set",
+        "venue": "Classified / technical report",
+        "type": null,
+        "citations": null,
+        "status": "UTM · individual author",
+        "url": null
+      },
+      {
+        "year": 2018,
+        "title": "Realiti kelangsungan hidup pelajar prasiswazah UTM dari aspek perbelanjaan makanan",
+        "venue": "NASDEC 2018",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "Perpustakaan Negara · corresponding author",
+        "url": null
+      },
+      {
+        "year": 2018,
+        "title": "Kem pemantapan Jawatankuasa Kolej Mahasiswa (JKM) Kolej Perdana: kepimpinan dan pembangunan sahsiah",
+        "venue": "NASDEC 2018",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "Co-author",
+        "url": null
+      },
+      {
+        "year": 2017,
+        "title": "Adaptive memory size based fuzzy control for mobile pedestrian navigation",
+        "venue": "Lecture Notes on Data Engineering and Communications Technologies",
+        "type": "Book Chapter",
+        "citations": null,
+        "status": "Springer · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2016,
+        "title": "Fostering team effectiveness among young leaders through outdoor experiential training",
+        "venue": "NASDEC 2016",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "UTM · co-author",
+        "url": null
+      },
+      {
+        "year": 2016,
+        "title": "SHAFEX problem checklist: sistem online pengesanan kategori masalah pelajar",
+        "venue": "NASDEC 2016",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "UTM · co-author",
+        "url": null
+      },
+      {
+        "year": 2016,
+        "title": "A guide to New Academia Learning Innovation",
+        "venue": "Book (text)",
+        "type": null,
+        "citations": null,
+        "status": "UTMLead · co-author",
+        "url": null
+      },
+      {
+        "year": 2016,
+        "title": "UTM e-learning",
+        "venue": "A Guide to New Academia Learning Innovation",
+        "type": "Book Chapter",
+        "citations": null,
+        "status": "UTMLead · co-author",
+        "url": null
+      },
+      {
+        "year": 2015,
+        "title": "An enhanced receiver-based ad hoc on-demand routing protocols for mobile ad hoc networks",
+        "venue": "IICIST 2015",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "UTM · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2015,
+        "title": "A survey of security and privacy in connected vehicles",
+        "venue": "Wireless Sensor and Mobile Ad-Hoc Networks",
+        "type": "Book Chapter",
+        "citations": null,
+        "status": "Springer New York · UTM first author",
+        "url": null
+      },
+      {
+        "year": 2015,
+        "title": "Heart sound classification using hidden Markov model",
+        "venue": "International Conference on Science, Technology and Interdisciplinary Research",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "University of Lampung · co-author",
+        "url": null
+      },
+      {
+        "year": 2015,
+        "title": "Ubiquitous positioning: current taxonomy of location determination for mobile navigation",
+        "venue": "Pervasive Computing and Communications Part 1",
+        "type": "Book Chapter",
+        "citations": null,
+        "status": "Penerbit UTM Press · corresponding author",
+        "url": null
+      },
+      {
+        "year": 2015,
+        "title": "Digital logic teaching module",
+        "venue": "Modules / manual",
+        "type": null,
+        "citations": null,
+        "status": "Co-author",
+        "url": null
+      },
+      {
+        "year": 2015,
+        "title": "Digital logic laboratory manual",
+        "venue": "Modules / manual",
+        "type": null,
+        "citations": null,
+        "status": "Co-author",
+        "url": null
+      },
+      {
+        "year": 2013,
+        "title": "Self-learning vs guided learning: a case study",
+        "venue": "NASDEC 2013",
+        "type": "Conference Paper",
+        "citations": null,
+        "status": "UTM · co-author",
+        "url": null
+      },
+      {
+        "year": 2013,
+        "title": "Problem based lab: issues and challenges",
+        "venue": "NASDEC 2013",
+        "type": "Proceedings",
+        "citations": null,
+        "status": "UTM · co-author",
+        "url": null
+      }
+    ]
+  },
+  "non-indexed": {
+    "key": "non-indexed",
+    "title": "Verified non-indexed publications",
+    "label": "Institutionally verified records",
+    "expected": 5,
+    "generatedFrom": "https://people.utm.my/murtadha/verified-non-indexed-publications/",
+    "sourceModifiedAt": "2026-09-12T16:08:20",
+    "records": [
+      {
+        "year": 2024,
+        "title": "Exploring current methods and trends in heritage preservation: a systematic mapping study",
+        "venue": "Semarak International Journal of Creative Art and Design",
+        "type": "Article",
+        "citations": null,
+        "status": "UTM first author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Mitigating signal transmission decline in sensor networks during congestion using AI techniques",
+        "venue": "International Journal of Business and Administrative Studies",
+        "type": "Article",
+        "citations": null,
+        "status": "Co-author",
+        "url": null
+      },
+      {
+        "year": 2024,
+        "title": "Impedance and data interference during congestion",
+        "venue": "International Journal of Applied and Physical Sciences",
+        "type": "Article",
+        "citations": null,
+        "status": "Co-author",
+        "url": null
+      },
+      {
+        "year": 2018,
+        "title": "PKI validation and encryption scheme for secure UTM online payment system",
+        "venue": "International Journal of Innovative Computing",
+        "type": "Article",
+        "citations": null,
+        "status": "UTM first author",
+        "url": null
+      },
+      {
+        "year": 2008,
+        "title": "Articulated robots motion planning using foraging ant strategy",
+        "venue": "Jurnal Teknologi Maklumat",
+        "type": "Article",
+        "citations": null,
+        "status": "Individual author",
+        "url": null
+      }
+    ]
+  }
+}

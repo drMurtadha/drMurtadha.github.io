@@ -4,7 +4,7 @@ Astro static-site starter for the migration of `people.utm.my/murtadha`. WordPre
 
 The homepage is now implemented as native Astro components. Current Scopus metrics are maintained once in `src/data/academic-profile.json`; approved imported pages consume the same value during sanitised re-import.
 
-Research, Publications, People and CV are also native Astro pages. Their structured datasets are generated deterministically from the approved current-page snapshots; the original sanitised records remain available as migration evidence.
+All 12 public routes are now native Astro pages. Publication, supervision and teaching datasets are generated deterministically from the approved current-page snapshots; the original sanitised records remain available as migration evidence and are not used as runtime page templates.
 
 ## Local use
 

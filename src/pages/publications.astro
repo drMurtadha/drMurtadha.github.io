@@ -23,6 +23,6 @@ import publicationData from '../data/publications.json';
       <p><strong>Snapshot:</strong> profile metrics verified 13 September 2026; detailed list imported from the current People@UTM publication page.</p>
       <a href={`https://www.scopus.com/authid/detail.uri?authorId=${profile.scopusAuthorId}`} rel="noopener noreferrer">Open live Scopus profile ↗</a>
     </div>
-    <PublicationExplorer />
+    <PublicationExplorer records={publicationData.records} />
   </div>
 </BaseLayout>

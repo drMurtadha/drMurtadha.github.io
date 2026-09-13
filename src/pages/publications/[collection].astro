@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PublicationExplorer from '../../components/PublicationExplorer.astro';
+import collections from '../../data/publication-collections.json';
+
+export function getStaticPaths() {
+  return Object.entries(collections).map(([collection, data]) => ({ params: { collection }, props: { data } }));
+}
+const { data } = Astro.props;
+---
+<BaseLayout title={data.title} description={`Explore ${data.records.length} ${data.label} by Mohd Murtadha Mohamad.`}>
+  <header class="page-hero page-hero--publications">
+    <div>
+      <p class="eyebrow">Publications / {data.label}</p>
+      <h1>{data.title}</h1>
+      <p>A structured snapshot of the current verified record, searchable by title, venue and year.</p>
+    </div>
+    <dl class="page-metrics">
+      <div><dt>Detailed records</dt><dd>{data.records.length}</dd></div>
+      <div><dt>Year span</dt><dd class="metric-range">{Math.min(...data.records.map((record) => record.year))}—{Math.max(...data.records.map((record) => record.year))}</dd></div>
+    </dl>
+  </header>
+  <div class="page-body">
+    <nav class="publication-tabs" aria-label="Publication collections">
+      <a href="/publications/">Scopus</a>
+      <a href="/publications/web-of-science/" aria-current={data.key === 'web-of-science' ? 'page' : undefined}>Web of Science</a>
+      <a href="/publications/other/" aria-current={data.key === 'other' ? 'page' : undefined}>Other verified</a>
+      <a href="/publications/non-indexed/" aria-current={data.key === 'non-indexed' ? 'page' : undefined}>Non-indexed</a>
+    </nav>
+    <PublicationExplorer records={data.records} />
+  </div>
+</BaseLayout>

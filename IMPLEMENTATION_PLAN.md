@@ -44,6 +44,8 @@ Current progress: the homepage is now a native Astro composition rather than imp
 
 Research, Publications, People and CV are now native Astro pages as well. The Publications explorer exposes 79 detailed records with title/venue search and year filtering while stating the separate 81-document live profile total. People data is generated from the approved current page into explicit current-PhD, current-Master's and graduate collections. All four pages have responsive, semantic layouts; the research visual remains static inside its future animation boundary.
 
+The remaining Biography, Teaching, Impact, Connect and publication-collection routes have also been rebuilt as native Astro. Teaching exposes 12 course histories with accessible expandable tables. Web of Science, other verified and non-indexed collections contain 35, 40 and 5 structured records respectively. The catch-all imported-HTML renderer has been removed from public routing; imported records remain evidence and deterministic data sources only.
+
 ### 5. Verification and preview
 
 - Run schema validation, static build, local link checks and sampled/rate-limited external checks.
@@ -81,4 +83,7 @@ Research, Publications, People and CV are now native Astro pages as well. The Pu
 - [x] Convert Research, Publications, People and CV to native Astro pages
 - [x] Add deterministic publication and supervision data builders with count validation
 - [x] Verify publication search, year filtering and empty-result behaviour in the browser
+- [x] Convert all remaining public routes to native Astro and remove the catch-all imported-HTML route
+- [x] Structure 12 teaching subjects and the 35/40/5 secondary publication collections
+- [x] Run desktop and 390 px browser QA across all 12 routes with no console errors or horizontal overflow
 - [ ] GitHub authentication/repository creation

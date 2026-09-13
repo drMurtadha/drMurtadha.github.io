@@ -1,6 +1,8 @@
 ---
-import publicationData from '../data/publications.json';
-const years = [...new Set(publicationData.records.map((record) => record.year))];
+interface RecordItem { year: number; title: string; venue: string; type?: string | null; citations?: number | null; status?: string | null; url?: string | null; }
+interface Props { records: RecordItem[]; }
+const { records } = Astro.props;
+const years = [...new Set(records.map((record) => record.year))];
 ---
 <section class="publication-explorer" data-publication-explorer>
   <div class="publication-tools">
@@ -15,16 +17,16 @@ const years = [...new Set(publicationData.records.map((record) => record.year))]
         {years.map((year) => <option value={year}>{year}</option>)}
       </select>
     </label>
-    <p class="publication-count" aria-live="polite"><strong data-publication-count>{publicationData.count}</strong> detailed records</p>
+    <p class="publication-count" aria-live="polite"><strong data-publication-count>{records.length}</strong> detailed records</p>
   </div>
   <ol class="publication-list">
-    {publicationData.records.map((record, index) => (
+    {records.map((record, index) => (
       <li data-publication-item data-year={record.year} data-search={`${record.title} ${record.venue}`.toLowerCase()}>
         <span class="publication-index">{String(index + 1).padStart(2, '0')}</span>
         <div>
           <p class="publication-meta">{record.year} · {record.venue}{record.type ? ` · ${record.type}` : ''}</p>
           <h2>{record.title}</h2>
-          <p class="publication-citations">{record.citations} {record.citations === 1 ? 'citation' : 'citations'}</p>
+          <p class="publication-citations">{record.citations != null ? `${record.citations} ${record.citations === 1 ? 'citation' : 'citations'}` : record.status}</p>
         </div>
         {record.url ? <a href={record.url} rel="noopener noreferrer" aria-label={`Open record: ${record.title}`}>↗</a> : <span></span>}
       </li>

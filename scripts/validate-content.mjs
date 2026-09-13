@@ -21,7 +21,9 @@ const policy = JSON.parse(await readFile(resolve('src/data/migration-policy.json
 const assetPolicy = JSON.parse(await readFile(resolve('src/data/asset-policy.json'), 'utf8'));
 const academicProfile = JSON.parse(await readFile(resolve('src/data/academic-profile.json'), 'utf8'));
 const publicationData = JSON.parse(await readFile(resolve('src/data/publications.json'), 'utf8'));
+const publicationCollections = JSON.parse(await readFile(resolve('src/data/publication-collections.json'), 'utf8'));
 const peopleData = JSON.parse(await readFile(resolve('src/data/people.json'), 'utf8'));
+const teachingData = JSON.parse(await readFile(resolve('src/data/teaching.json'), 'utf8'));
 const approvedImagePaths = new Set(assetPolicy.images.map((asset) => asset.path));
 const approvedDocumentPaths = new Set(assetPolicy.documents.map((asset) => asset.path));
 const importedDir = resolve('src/data/imported-pages');
@@ -36,6 +38,16 @@ if (publicationData.count !== 79 || publicationData.records.length !== 79) {
 }
 if (peopleData.currentPhd.length !== 9 || peopleData.currentMasters.length !== 5 || peopleData.summary.currentStudents !== 14) {
   console.error('Structured supervision data no longer matches the approved current-page snapshot.');
+  failures += 1;
+}
+for (const [key, expected] of Object.entries({ 'web-of-science': 35, other: 40, 'non-indexed': 5 })) {
+  if (publicationCollections[key]?.records.length !== expected) {
+    console.error(`Expected ${expected} records in ${key}; found ${publicationCollections[key]?.records.length}.`);
+    failures += 1;
+  }
+}
+if (teachingData.subjects.length !== 12) {
+  console.error(`Expected 12 teaching subjects; found ${teachingData.subjects.length}.`);
   failures += 1;
 }
 if (importedFiles.length !== policy.pages.currentCount) {
