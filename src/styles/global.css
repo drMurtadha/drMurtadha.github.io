@@ -68,10 +68,6 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 .hero-portrait::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(10, 31, 27, .82)); }
 .hero-portrait figcaption { position: absolute; z-index: 2; left: 2rem; right: 2rem; bottom: 1.6rem; display: flex; justify-content: space-between; color: white; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; }
 .hero-portrait figcaption span { color: var(--gold); }
-.signal { position: absolute; z-index: 2; width: .8rem; aspect-ratio: 1; border-radius: 50%; background: var(--signal); box-shadow: 0 0 0 .55rem rgba(216, 93, 63, .17); }
-.signal--one { top: 21%; left: 15%; }
-.signal--two { top: 43%; right: 10%; }
-.signal--three { bottom: 26%; left: 28%; }
 
 .metrics { color: white; background: var(--forest-deep); }
 .metrics > a { display: grid; grid-template-columns: 1.5fr repeat(3, 1fr) auto; align-items: center; max-width: var(--page); margin: auto; padding: 2rem; text-decoration: none; }
@@ -380,6 +376,11 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 .subject-table table, .impact-streams table { width: 100%; border-collapse: collapse; }
 .subject-table th, .subject-table td, .impact-streams th, .impact-streams td { padding: .75rem; border-bottom: 1px solid var(--line); text-align: left; font-size: .82rem; }
 .subject-table th, .impact-streams th { color: var(--muted); font-size: .65rem; letter-spacing: .08em; text-transform: uppercase; }
+.teaching-group { padding: 5rem 0; border-top: 1px solid var(--ink); }
+.teaching-group__header { max-width: 44rem; margin-bottom: 1rem; }
+.teaching-group__header h2 { margin: .3rem 0 .6rem; font-size: clamp(1.8rem, 3vw, 2.6rem); }
+.teaching-group__header p:last-child { color: var(--muted); }
+.teaching-group--postgraduate { margin: 0 -2rem; padding: 5rem 2rem; background: #dce2db; }
 .impact-capabilities { display: grid; grid-template-columns: repeat(3, 1fr); padding: 6rem 0; border-top: 1px solid var(--ink); }
 .impact-capabilities article { min-height: 22rem; padding: 2rem; border: 1px solid var(--line); }
 .impact-capabilities article:nth-child(2) { background: var(--forest); color: white; }
@@ -426,6 +427,7 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
   .biography-timeline li { grid-template-columns: 1fr; gap: .5rem; }
   .biography-numbers { grid-template-columns: 1fr; }
   .teaching-intro, .connect-note { grid-template-columns: 1fr; }.teaching-intro .eyebrow, .connect-note .eyebrow { grid-column: auto; }
+  .teaching-group--postgraduate { margin-left: -1.25rem; margin-right: -1.25rem; padding-left: 1.25rem; padding-right: 1.25rem; }
   .subject-list summary { grid-template-columns: 2rem minmax(0, 1fr); }.subject-list summary strong { grid-column: 2; }
   .subject-table { padding-left: 2rem; }
   .impact-streams article > header { grid-template-columns: 2rem 1fr; }.impact-streams header > strong { grid-column: 2; }

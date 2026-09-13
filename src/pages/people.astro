@@ -44,7 +44,7 @@ import people from '../data/people.json';
     </section>
 
     <section class="people-section" aria-labelledby="graduates-title">
-      <header><p class="eyebrow">03 / Selected completions</p><h2 id="graduates-title">PhD graduates</h2><p>Selected named records from the current public supervision page.</p></header>
+      <header><p class="eyebrow">03 / Selected completions</p><h2 id="graduates-title">Selected PhD graduates</h2><p>Selected named records from the current public supervision page, not the complete historical total.</p></header>
       <div class="graduate-grid">
         {people.phdGraduates.map((student) => <article><h3>{student.name}</h3><p>{student.detail}</p></article>)}
       </div>

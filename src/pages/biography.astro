@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import people from '../data/people.json';
 const milestones = [
   { year: '2006', title: 'Lecturer at UTM', text: 'The beginning of a long academic chapter at the Faculty of Computing.' },
   { year: '2007', title: 'Doctoral research', text: 'A PhD at Heriot-Watt University connecting bio-inspired search with articulated robot motion planning.' },
@@ -12,7 +13,7 @@ const milestones = [
   <div class="page-body biography-page">
     <section class="biography-intro"><figure><img src="/assets/images/murtadha-portrait-warm.jpg" alt="Mohd Murtadha Mohamad" width="971" height="1619" /><figcaption>Faculty of Computing · Universiti Teknologi Malaysia</figcaption></figure><div><p class="eyebrow">01 / The long view</p><h2>An academic life, connected over time.</h2><p>I started as a lecturer at the Faculty of Computing in 2006 and moved into the Associate Professor role in 2019. In between, I managed university IT services and later served as Deputy Director of UTMDigital.</p><p>My current responsibility is coordinating the PhD in Computer Science programme. Previous roles include Head of the Pervasive Computing Research Group and Faculty Research Manager.</p></div></section>
     <section class="biography-timeline"><header><p class="eyebrow">02 / Trajectory</p><h2>Four chapters.<br />One continuing inquiry.</h2></header><ol>{milestones.map((item) => <li><span>{item.year}</span><div><h3>{item.title}</h3><p>{item.text}</p></div></li>)}</ol></section>
-    <section class="biography-numbers"><div><strong>21</strong><span>Completed PhD students</span></div><div><strong>16</strong><span>Completed Master’s students</span></div><div><strong>9</strong><span>PhD candidates in progress</span></div></section>
+    <section class="biography-numbers"><div><strong>{people.summary.completedSupervisions}</strong><span>Completed supervisions</span></div><div><strong>{people.summary.currentPhd}</strong><span>PhD candidates in progress</span></div><div><strong>{people.summary.currentStudents}</strong><span>Current postgraduate students</span></div></section>
     <section class="research-cta"><p class="eyebrow">Continue the story</p><h2>Research, supervision or collaboration.</h2><a class="button" href="/connect/">Find the right connection</a></section>
   </div>
 </BaseLayout>
