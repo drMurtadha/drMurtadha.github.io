@@ -1,0 +1,639 @@
+{
+  "generatedFrom": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+  "sourceModifiedAt": "2026-09-13T08:15:57",
+  "count": 79,
+  "records": [
+    {
+      "year": 2026,
+      "title": "Enhanced Cluster-Based MAC Protocol Using Dynamic Stable Weighted Clustering and Markov Chain for Efficient VANET Communication",
+      "venue": "Wireless Personal Communications",
+      "type": "Article",
+      "citations": 0,
+      "url": "https://doi.org/10.1007/s11277-026-12069-2"
+    },
+    {
+      "year": 2026,
+      "title": "Enhancing symbolic image classification through Gaussian copulas and optimized distinguishing points",
+      "venue": "PLOS ONE",
+      "type": "Article",
+      "citations": 0,
+      "url": "https://doi.org/10.1371/journal.pone.0346790"
+    },
+    {
+      "year": 2026,
+      "title": "Cross-Modal Intermediate Fusion of Neuroimaging and Genomic Features for Alzheimer’s Diagnosis",
+      "venue": "Proc. ICBTDS 2025",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1145/3786554.3786573"
+    },
+    {
+      "year": 2026,
+      "title": "Explainable Artificial Intelligence (XAI) for Interpretable Heritage Building Maintenance Prediction",
+      "venue": "Proc. ICBTDS 2025",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1145/3786554.3786572"
+    },
+    {
+      "year": 2025,
+      "title": "Enhancing MANET Security Through Long Short-Term Memory-Based Trust Prediction in Location-Aided Routing Protocols",
+      "venue": "IEEE Access",
+      "type": "Article",
+      "citations": 13,
+      "url": "https://doi.org/10.1109/ACCESS.2025.3572619"
+    },
+    {
+      "year": 2025,
+      "title": "Deep Learning and Edge Computing in Agriculture: A Comprehensive Review of Recent Trends and Innovations",
+      "venue": "IEEE Access",
+      "type": "Review",
+      "citations": 11,
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595621"
+    },
+    {
+      "year": 2025,
+      "title": "Smart villages: a systematic review of trends, models, and metrics",
+      "venue": "Cogent Social Sciences",
+      "type": "Article",
+      "citations": 8,
+      "url": "https://doi.org/10.1080/23311886.2025.2492833"
+    },
+    {
+      "year": 2025,
+      "title": "Early skin disease diagnosis by using artificial neural network for internet of healthcare things",
+      "venue": "Indonesian J. of Electrical Engineering and Computer Science",
+      "type": "Article",
+      "citations": 1,
+      "url": "https://doi.org/10.11591/ijeecs.v37.i2.pp1032-1041"
+    },
+    {
+      "year": 2025,
+      "title": "Machine Learning-Based System for Predicting Maintenance Priorities in Heritage Buildings Considering Microclimate Conditions",
+      "venue": "Lecture Notes in Networks and Systems",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1007/978-981-96-5223-5_17"
+    },
+    {
+      "year": 2025,
+      "title": "An Extreme Gradient Boosting for Cancer Feature Extraction and Classification",
+      "venue": "Int. J. on Advanced Science Engineering and Information Technology",
+      "type": "Article",
+      "citations": 0,
+      "url": "https://doi.org/10.18517/ijaseit.15.3.12941"
+    },
+    {
+      "year": 2025,
+      "title": "Maintenance Priority Rating Prediction Based on Microclimate Conditions for Heritage Buildings",
+      "venue": "Proc. ICBASE 2025",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1109/ICBASE66587.2025.11181321"
+    },
+    {
+      "year": 2025,
+      "title": "Corrections: Advanced Intrusion Detection in MANETs",
+      "venue": "IEEE Access",
+      "type": "Erratum",
+      "citations": 0,
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595635"
+    },
+    {
+      "year": 2025,
+      "title": "Corrections to ‘SSDWSN: A Scalable Software-Defined Wireless Sensor Networks’",
+      "venue": "IEEE Access",
+      "type": "Erratum",
+      "citations": 0,
+      "url": "https://doi.org/10.1109/ACCESS.2025.3554084"
+    },
+    {
+      "year": 2024,
+      "title": "Advanced Intrusion Detection in MANETs: A Survey of Machine Learning and Optimization Techniques for Mitigating Black/Gray Hole Attacks",
+      "venue": "IEEE Access",
+      "type": "Article",
+      "citations": 47,
+      "url": "https://doi.org/10.1109/ACCESS.2024.3457682"
+    },
+    {
+      "year": 2024,
+      "title": "Enhancing MANET Security Through Federated Learning and Multiobjective Optimization: A Trust-Aware Routing Framework",
+      "venue": "IEEE Access",
+      "type": "Article",
+      "citations": 39,
+      "url": "https://doi.org/10.1109/ACCESS.2024.3505236"
+    },
+    {
+      "year": 2024,
+      "title": "SSDWSN: A Scalable Software-Defined Wireless Sensor Networks",
+      "venue": "IEEE Access",
+      "type": "Article",
+      "citations": 13,
+      "url": "https://doi.org/10.1109/ACCESS.2024.3362353"
+    },
+    {
+      "year": 2024,
+      "title": "Comprehensive Taxonomy of Schemes for Detecting and Mitigating Blackhole Attacks in Mobile Ad-Hoc Networks",
+      "venue": "Ingenierie des Systemes d’Information",
+      "type": "Article",
+      "citations": 2,
+      "url": "https://doi.org/10.18280/isi.290638"
+    },
+    {
+      "year": 2023,
+      "title": "An Overview of Machine Learning Techniques in Local Path Planning for Autonomous Underwater Vehicles",
+      "venue": "IEEE Access",
+      "type": "Review",
+      "citations": 54,
+      "url": "https://doi.org/10.1109/ACCESS.2023.3249966"
+    },
+    {
+      "year": 2023,
+      "title": "Modified stable weighted clustering scheme for secured V2V communications",
+      "venue": "Int. J. of Vehicle Information and Communication Systems",
+      "type": "Article",
+      "citations": 2,
+      "url": "https://doi.org/10.1504/IJVICS.2023.135087"
+    },
+    {
+      "year": 2022,
+      "title": "Security Challenges and Solutions for Internet of Things based Smart Agriculture: A Review",
+      "venue": "Proc. 4th ICSSA 2022",
+      "type": "Conference Paper",
+      "citations": 18,
+      "url": "https://doi.org/10.1109/ICSSA54161.2022.9870979"
+    },
+    {
+      "year": 2022,
+      "title": "Machine Learning Techniques for Intrusion Detection in Smart Healthcare Systems: A Comparative Analysis",
+      "venue": "Proc. 4th ICSSA 2022",
+      "type": "Conference Paper",
+      "citations": 15,
+      "url": "https://doi.org/10.1109/ICSSA54161.2022.9870973"
+    },
+    {
+      "year": 2022,
+      "title": "Shared Nearest Neighbour in Text Mining for Classification Material in Online Learning Using Mobile Application",
+      "venue": "Int. J. of Interactive Mobile Technologies",
+      "type": "Article",
+      "citations": 12,
+      "url": "https://doi.org/10.3991/ijim.v16i04.28991"
+    },
+    {
+      "year": 2022,
+      "title": "Emotion Detection based on Column Comments in Material of Online Learning using Artificial Intelligence",
+      "venue": "Int. J. of Interactive Mobile Technologies",
+      "type": "Article",
+      "citations": 9,
+      "url": "https://doi.org/10.3991/IJIM.V16I03.28963"
+    },
+    {
+      "year": 2022,
+      "title": "Sign language detection using convolutional neural network for teaching and learning application",
+      "venue": "Indonesian J. of Electrical Engineering and Computer Science",
+      "type": "Article",
+      "citations": 4,
+      "url": "https://doi.org/10.11591/ijeecs.v28.i1.pp358-364"
+    },
+    {
+      "year": 2022,
+      "title": "A Reliable Merging Link Scheme Using Weighted Markov Chain Model in Vehicular Ad Hoc Networks",
+      "venue": "Sensors",
+      "type": "Article",
+      "citations": 3,
+      "url": "https://doi.org/10.3390/s22134861"
+    },
+    {
+      "year": 2022,
+      "title": "Optimization of Random Forest with Genetic Algorithm for Determination of Assessment",
+      "venue": "Proc. ICEECIT 2022",
+      "type": "Conference Paper",
+      "citations": 3,
+      "url": "https://doi.org/10.1109/ICEECIT55908.2022.10030278"
+    },
+    {
+      "year": 2022,
+      "title": "A Review of the Role of Latency in Multi-controller Placement in Software-Defined-Wide Area Networks",
+      "venue": "Lecture Notes on Data Engineering and Communications Technologies",
+      "type": "Book Chapter",
+      "citations": 2,
+      "url": "https://doi.org/10.1007/978-3-030-98741-1_36"
+    },
+    {
+      "year": 2021,
+      "title": "Autonomous Underwater Vehicle in Internet of Underwater Things: A Survey",
+      "venue": "J. of Physics: Conference Series",
+      "type": "Conference Paper",
+      "citations": 8,
+      "url": "https://doi.org/10.1088/1742-6596/2129/1/012080"
+    },
+    {
+      "year": 2021,
+      "title": "Text Mining in Chat Room of Online Learning for Detection Emotion using Artificial Intelligence",
+      "venue": "Proc. ICOMITEE 2021",
+      "type": "Conference Paper",
+      "citations": 8,
+      "url": "https://doi.org/10.1109/ICOMITEE53461.2021.9650099"
+    },
+    {
+      "year": 2021,
+      "title": "Inverse Document Frequency in K-Nearest Neighbour (K-NN) for Competition Recommendation based on Activity in Online Learning",
+      "venue": "Proc. 7th ICEEIE 2021",
+      "type": "Conference Paper",
+      "citations": 1,
+      "url": "https://doi.org/10.1109/ICEEIE52663.2021.9616765"
+    },
+    {
+      "year": 2021,
+      "title": "Matching User in Online Learning using Artificial Intelligence for Recommendation of Competition",
+      "venue": "Proc. 4th ICVEE 2021",
+      "type": "Conference Paper",
+      "citations": 1,
+      "url": "https://doi.org/10.1109/ICVEE54186.2021.9648844"
+    },
+    {
+      "year": 2021,
+      "title": "Weight Term Document in Clustering Algorithm for Classification a Final Project in Online Learning",
+      "venue": "Proc. IRSAEVE 2021",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1109/IRSAEVE52613.2021.9604020"
+    },
+    {
+      "year": 2021,
+      "title": "Detection Emotion using Artificial Intelligence based on Comment in Online Learning",
+      "venue": "Proc. 4th ICVEE 2021",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1109/ICVEE54186.2021.9649682"
+    },
+    {
+      "year": 2021,
+      "title": "Classification of Online Learning Materials Using Artificial Intelligence",
+      "venue": "Proc. 2021 IEEE 7th ITIS",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1109/ITIS53497.2021.9791611"
+    },
+    {
+      "year": 2020,
+      "title": "The New Intelligent Wireless Sensor Network using Artificial Intelligence for Building Fire Disasters",
+      "venue": "Proc. 2020 3rd ICVEE",
+      "type": "Conference Paper",
+      "citations": 8,
+      "url": "https://doi.org/10.1109/ICVEE50212.2020.9243210"
+    },
+    {
+      "year": 2020,
+      "title": "New smart map for tourism using artificial intelligence",
+      "venue": "Proc. EECCIS 2020",
+      "type": "Conference Paper",
+      "citations": 7,
+      "url": "https://doi.org/10.1109/EECCIS49483.2020.9263435"
+    },
+    {
+      "year": 2020,
+      "title": "New Hybrid Algorithm Implementation on spread Wireless Sensor to determine the point of fire in the building",
+      "venue": "Proc. 7th ICITACEE 2020",
+      "type": "Conference Paper",
+      "citations": 3,
+      "url": "https://doi.org/10.1109/ICITACEE50144.2020.9239161"
+    },
+    {
+      "year": 2020,
+      "title": "A New Adaptive Online Learning using Computational Intelligence",
+      "venue": "Proc. 2020 3rd ICVEE",
+      "type": "Conference Paper",
+      "citations": 2,
+      "url": "https://doi.org/10.1109/ICVEE50212.2020.9243193"
+    },
+    {
+      "year": 2020,
+      "title": "A Novel Intelligent Learning for Teaching using Artificial Neural Network",
+      "venue": "Proc. 4th ICOVET 2020",
+      "type": "Conference Paper",
+      "citations": 2,
+      "url": "https://doi.org/10.1109/ICOVET50258.2020.9230093"
+    },
+    {
+      "year": 2020,
+      "title": "A New Smart Learning Framework using Artificial Intelligence",
+      "venue": "Proc. 4th ICOVET 2020",
+      "type": "Conference Paper",
+      "citations": 1,
+      "url": "https://doi.org/10.1109/ICOVET50258.2020.9230323"
+    },
+    {
+      "year": 2020,
+      "title": "An evaluation of performance of location-based and location-free routing protocols in underwater sensor networks",
+      "venue": "Advances in Intelligent Systems and Computing",
+      "type": "Conference Paper",
+      "citations": 1,
+      "url": "https://doi.org/10.1007/978-3-030-33582-3_57"
+    },
+    {
+      "year": 2020,
+      "title": "Smart courses learning for network security using computational intelligence",
+      "venue": "Proc. 2020 iSemantic",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1109/iSemantic50169.2020.9234219"
+    },
+    {
+      "year": 2019,
+      "title": "Toward Adaptive and Scalable OpenFlow-SDN Flow Control: A Survey",
+      "venue": "IEEE Access",
+      "type": "Article",
+      "citations": 165,
+      "url": "https://doi.org/10.1109/ACCESS.2019.2932422"
+    },
+    {
+      "year": 2019,
+      "title": "An Improved Resampling Scheme for Particle Filtering in Inertial Navigation System",
+      "venue": "Lecture Notes in Computer Science",
+      "type": "Conference Paper",
+      "citations": 4,
+      "url": "https://doi.org/10.1007/978-3-030-14802-7_48"
+    },
+    {
+      "year": 2019,
+      "title": "Mobility-aware IMU-based energy efficient routing protocol for UWSN",
+      "venue": "Universal J. of Electrical and Electronic Engineering",
+      "type": "Article",
+      "citations": 3,
+      "url": "https://doi.org/10.13189/ujeee.2019.060411"
+    },
+    {
+      "year": 2019,
+      "title": "Simulation and visualization of acoustic underwater sensor networks using aqua-sim and aqua-3d: An evaluation",
+      "venue": "Int. J. of Advanced Trends in Computer Science and Engineering",
+      "type": "Article",
+      "citations": 2,
+      "url": "https://doi.org/10.30534/ijatcse/2019/93832019"
+    },
+    {
+      "year": 2019,
+      "title": "A survey of TDMA-based MAC protocols for vehicular ad hoc networks",
+      "venue": "Int. J. of Engineering and Advanced Technology",
+      "type": "Article",
+      "citations": 1,
+      "url": "https://doi.org/10.35940/ijeat.E1178.0585C19"
+    },
+    {
+      "year": 2018,
+      "title": "Review on energy efficient opportunistic routing protocol for underwater wireless sensor networks",
+      "venue": "KSII Transactions on Internet and Information Systems",
+      "type": "Review",
+      "citations": 13,
+      "url": "https://doi.org/10.3837/tiis.2018.07.006"
+    },
+    {
+      "year": 2018,
+      "title": "A proposal of location aware shopping assistance using memory-based resampling",
+      "venue": "Lecture Notes in Electrical Engineering",
+      "type": "Conference Paper",
+      "citations": 1,
+      "url": "https://doi.org/10.1007/978-981-10-5281-1_54"
+    },
+    {
+      "year": 2018,
+      "title": "Adaptive memory size based fuzzy control for mobile pedestrian navigation",
+      "venue": "Lecture Notes on Data Engineering and Communications Technologies",
+      "type": "Book Chapter",
+      "citations": 1,
+      "url": "https://doi.org/10.1007/978-3-319-59427-9_15"
+    },
+    {
+      "year": 2018,
+      "title": "Adaptive resampling for emergency rescue location: An initial concept",
+      "venue": "Lecture Notes in Electrical Engineering",
+      "type": "Conference Paper",
+      "citations": 1,
+      "url": "https://doi.org/10.1007/978-981-10-5281-1_30"
+    },
+    {
+      "year": 2017,
+      "title": "Energy efficient opportunistic routing algorithm for underwater sensor network: A review",
+      "venue": "Proc. 2016 2nd ICSITECH",
+      "type": "Conference Paper",
+      "citations": 8,
+      "url": "https://doi.org/10.1109/ICSITech.2016.7852605"
+    },
+    {
+      "year": 2017,
+      "title": "Classification of heart sound signals using autoregressive model and hidden markov model",
+      "venue": "J. of Medical Imaging and Health Informatics",
+      "type": "Article",
+      "citations": 7,
+      "url": "https://doi.org/10.1166/jmihi.2017.2079"
+    },
+    {
+      "year": 2017,
+      "title": "Analysis of ECG biosignal recognition for client identification",
+      "venue": "Proc. 2017 IEEE ICSIPA",
+      "type": "Conference Paper",
+      "citations": 5,
+      "url": "https://doi.org/10.1109/ICSIPA.2017.8120572"
+    },
+    {
+      "year": 2017,
+      "title": "Adaptive memory-based single distribution resampling for particle filter",
+      "venue": "J. of Big Data",
+      "type": "Article",
+      "citations": 3,
+      "url": "https://doi.org/10.1186/s40537-017-0094-3"
+    },
+    {
+      "year": 2016,
+      "title": "Simple and effective method for selecting quasi-identifier",
+      "venue": "J. of Theoretical and Applied Information Technology",
+      "type": "Article",
+      "citations": 13,
+      "url": null
+    },
+    {
+      "year": 2016,
+      "title": "Adaptive interface reconfiguration in low-rate mesh WPANs",
+      "venue": "J. of Computational and Theoretical Nanoscience",
+      "type": "Article",
+      "citations": 8,
+      "url": "https://doi.org/10.1166/jctn.2016.5340"
+    },
+    {
+      "year": 2016,
+      "title": "Receiver-based ad hoc on demand multipath routing protocol for mobile ad hoc networks",
+      "venue": "PLOS ONE",
+      "type": "Article",
+      "citations": 6,
+      "url": "https://doi.org/10.1371/journal.pone.0156670"
+    },
+    {
+      "year": 2016,
+      "title": "Heart sound monitoring system",
+      "venue": "ARPN J. of Engineering and Applied Sciences",
+      "type": "Article",
+      "citations": 6,
+      "url": null
+    },
+    {
+      "year": 2016,
+      "title": "An improved maintenance strategy in ad hoc on-demand routing protocols for mobile ad hoc networks",
+      "venue": "Jurnal Teknologi",
+      "type": "Article",
+      "citations": 0,
+      "url": "https://doi.org/10.11113/jt.v78.9198"
+    },
+    {
+      "year": 2015,
+      "title": "A survey of security and privacy in connected vehicles",
+      "venue": "Wireless Sensor and Mobile Ad Hoc Networks",
+      "type": "Book Chapter",
+      "citations": 69,
+      "url": "https://doi.org/10.1007/978-1-4939-2468-4_10"
+    },
+    {
+      "year": 2015,
+      "title": "Emergency rescue localization (ERL) using GPS, wireless LAN and camera",
+      "venue": "Int. J. of Software Engineering and Its Applications",
+      "type": "Article",
+      "citations": 14,
+      "url": "https://doi.org/10.14257/ijseia.2015.9.9.19"
+    },
+    {
+      "year": 2015,
+      "title": "Offline beacon selection-based RSSI fingerprinting for location-aware shopping assistance: A preliminary result",
+      "venue": "Studies in Computational Intelligence",
+      "type": "Article",
+      "citations": 8,
+      "url": "https://doi.org/10.1007/978-3-319-16211-9_31"
+    },
+    {
+      "year": 2015,
+      "title": "Optimization of Rao-Blackwellized particle filter in activity pedestrian SLAM: An initial proposal",
+      "venue": "Int. J. of Security and Its Applications",
+      "type": "Article",
+      "citations": 6,
+      "url": "https://doi.org/10.14257/ijsia.2015.9.11.35"
+    },
+    {
+      "year": 2015,
+      "title": "Experimental evaluation of TCP congestion control mechanisms in short and long distance networks",
+      "venue": "J. of Theoretical and Applied Information Technology",
+      "type": "Article",
+      "citations": 4,
+      "url": null
+    },
+    {
+      "year": 2015,
+      "title": "A proposal of emergency rescue location (ERL) using optimization of inertial measurement unit (IMU) based pedestrian SLAM",
+      "venue": "Int. J. of Smart Home",
+      "type": "Article",
+      "citations": 4,
+      "url": "https://doi.org/10.14257/ijsh.2015.9.12.02"
+    },
+    {
+      "year": 2014,
+      "title": "Wireless LAN/FM radio-based robust mobile indoor positioning: An initial outcome",
+      "venue": "Int. J. of Software Engineering and Its Applications",
+      "type": "Article",
+      "citations": 10,
+      "url": "https://doi.org/10.14257/ijseia.2014.8.2.31"
+    },
+    {
+      "year": 2014,
+      "title": "Performance Analysis of Grey-World-based Feature Detection and Matching for Mobile Positioning Systems",
+      "venue": "Sensing and Imaging",
+      "type": "Article",
+      "citations": 9,
+      "url": "https://doi.org/10.1007/s11220-014-0095-7"
+    },
+    {
+      "year": 2014,
+      "title": "Performance Evaluation of Spatial Correlation-based Feature Detection and Matching for Automated Wheelchair Navigation System",
+      "venue": "Int. J. of Intelligent Transportation Systems Research",
+      "type": "Article",
+      "citations": 8,
+      "url": "https://doi.org/10.1007/s13177-013-0064-x"
+    },
+    {
+      "year": 2014,
+      "title": "Receiver-based AODV routing protocol for MANETs",
+      "venue": "Proc. ISDA",
+      "type": "Conference Paper",
+      "citations": 3,
+      "url": "https://doi.org/10.1109/ISDA.2013.6920721"
+    },
+    {
+      "year": 2013,
+      "title": "Greedy routing in underwater acoustic sensor networks: A survey",
+      "venue": "Int. J. of Distributed Sensor Networks",
+      "type": "Review",
+      "citations": 78,
+      "url": "https://doi.org/10.1155/2013/701834"
+    },
+    {
+      "year": 2013,
+      "title": "Ubiquitous positioning: Integrated GPS/wireless LAN positioning for wheelchair navigation system",
+      "venue": "Lecture Notes in Computer Science",
+      "type": "Conference Paper",
+      "citations": 13,
+      "url": "https://doi.org/10.1007/978-3-642-36546-1_41"
+    },
+    {
+      "year": 2013,
+      "title": "A case for societal digital security culture",
+      "venue": "IFIP Advances in Information and Communication Technology",
+      "type": "Conference Paper",
+      "citations": 9,
+      "url": "https://doi.org/10.1007/978-3-642-39218-4_29"
+    },
+    {
+      "year": 2012,
+      "title": "Fuzzy logic-assisted geographical routing over Vehicular Ad Hoc Networks",
+      "venue": "Int. J. of Innovative Computing Information and Control",
+      "type": "Article",
+      "citations": 21,
+      "url": null
+    },
+    {
+      "year": 2012,
+      "title": "Investigation of color constancy for ubiquitous wireless LAN/camera positioning: An initial outcome",
+      "venue": "Int. J. of Advancements in Computing Technology",
+      "type": "Article",
+      "citations": 10,
+      "url": "https://doi.org/10.4156/ijact.vol4.issue7.30"
+    },
+    {
+      "year": 2012,
+      "title": "Performance evaluation of mobile U-navigation based on GPS/WLAN hybridization",
+      "venue": "J. of Convergence Information Technology",
+      "type": "Article",
+      "citations": 6,
+      "url": "https://doi.org/10.4156/jcit.vol7.issue12.27"
+    },
+    {
+      "year": 2006,
+      "title": "Articulated robot motion planning using ant colony optimisation",
+      "venue": "IEEE Intelligent Systems",
+      "type": "Journal Article",
+      "citations": 21,
+      "url": "https://doi.org/10.1109/IS.2006.348503"
+    },
+    {
+      "year": 2006,
+      "title": "Foraging ant motion planning for articulated robots",
+      "venue": "Proc. 2006 SICE-ICASE International Joint Conference",
+      "type": "Conference Paper",
+      "citations": 0,
+      "url": "https://doi.org/10.1109/SICE.2006.314876"
+    },
+    {
+      "year": 2005,
+      "title": "Ant colony robot motion planning",
+      "venue": "Eurocon 2005",
+      "type": "Conference Paper",
+      "citations": 28,
+      "url": "https://doi.org/10.1109/eurcon.2005.1629898"
+    }
+  ]
+}

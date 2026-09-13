@@ -4,6 +4,8 @@ Astro static-site starter for the migration of `people.utm.my/murtadha`. WordPre
 
 The homepage is now implemented as native Astro components. Current Scopus metrics are maintained once in `src/data/academic-profile.json`; approved imported pages consume the same value during sanitised re-import.
 
+Research, Publications, People and CV are also native Astro pages. Their structured datasets are generated deterministically from the approved current-page snapshots; the original sanitised records remain available as migration evidence.
+
 ## Local use
 
 ```sh
@@ -18,6 +20,7 @@ npm run build
 npm run import:wordpress -- --out=audit/raw
 npm run audit:wordpress -- audit/raw audit/generated
 npm run import:pages -- audit/raw/pages.json src/data/imported-pages
+npm run build:data
 npm run check:external -- --limit=25
 ```
 

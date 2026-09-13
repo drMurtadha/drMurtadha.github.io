@@ -1,0 +1,38 @@
+[
+  {
+    "index": "01",
+    "title": "Pervasive and connected computing",
+    "summary": "Intelligent environments, IoT and context-aware systems—computing that recedes into the background of a real place.",
+    "keywords": ["IoT", "Context awareness", "Intelligent environments"]
+  },
+  {
+    "index": "02",
+    "title": "Wireless sensor networks",
+    "summary": "Resilient sensing, routing and deployment, including software-defined and scalable control architectures.",
+    "keywords": ["Routing", "Topology", "SDWSN"]
+  },
+  {
+    "index": "03",
+    "title": "Underwater acoustic networks",
+    "summary": "Communication in difficult underwater environments: opportunistic routing, AUV path planning and the Internet of Underwater Things.",
+    "keywords": ["UWASN", "IoUT", "AUV"]
+  },
+  {
+    "index": "04",
+    "title": "Motion planning",
+    "summary": "Robot navigation, path planning and bio-inspired optimisation, extending doctoral work on foraging-ant strategies.",
+    "keywords": ["Robotics", "Path planning", "Optimisation"]
+  },
+  {
+    "index": "05",
+    "title": "Indoor positioning",
+    "summary": "WiFi, camera-based and hybrid positioning for pedestrian navigation and emergency rescue location.",
+    "keywords": ["WiFi", "Vision", "Localisation"]
+  },
+  {
+    "index": "06",
+    "title": "AI for built heritage",
+    "summary": "Microclimate sensing and maintenance-priority prediction for heritage buildings, connected with UTM KALAM.",
+    "keywords": ["Microclimates", "Explainable AI", "UTM KALAM"]
+  }
+]

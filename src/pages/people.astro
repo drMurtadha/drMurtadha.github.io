@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import people from '../data/people.json';
+---
+<BaseLayout title="People and supervision" description="Current postgraduate researchers and selected completed supervision by Mohd Murtadha Mohamad at Universiti Teknologi Malaysia.">
+  <header class="page-hero page-hero--people">
+    <div>
+      <p class="eyebrow">People / Postgraduate supervision</p>
+      <h1>Good research starts with <em>people.</em></h1>
+      <p>Current projects connect wireless and underwater sensor networks, mobile ad-hoc systems, indoor positioning, robotics and applied AI.</p>
+    </div>
+    <dl class="page-metrics">
+      <div><dt>Current students</dt><dd>{people.summary.currentStudents}</dd></div>
+      <div><dt>Current PhD</dt><dd>{people.summary.currentPhd}</dd></div>
+      <div><dt>Completed</dt><dd>{people.summary.completedSupervisions}</dd></div>
+      <div><dt>Research clusters</dt><dd>4</dd></div>
+    </dl>
+  </header>
+
+  <figure class="people-banner">
+    <img src="/assets/images/murtadha-supervision-meeting.jpg" alt="Mohd Murtadha reviewing simulation results with doctoral candidates" width="1448" height="1086" />
+    <figcaption>Progress meeting · Faculty of Computing, UTM</figcaption>
+  </figure>
+
+  <div class="page-body people-page">
+    <section class="people-section" aria-labelledby="current-phd-title">
+      <header><p class="eyebrow">01 / Current supervision</p><h2 id="current-phd-title">Current PhD researchers</h2><p>Nine doctoral researchers: eight with Mohd Murtadha as main supervisor and one as co-supervisor.</p></header>
+      <ol class="people-list">
+        {people.currentPhd.map((student, index) => (
+          <li>
+            <span>{String(index + 1).padStart(2, '0')}</span>
+            <div><h3>{student.name}</h3><p>{student.programme}</p></div>
+            <p>{student.role}</p>
+            <p>{student.progress}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <section class="people-section people-section--tint" aria-labelledby="masters-title">
+      <header><p class="eyebrow">02 / Current supervision</p><h2 id="masters-title">Master’s researchers</h2></header>
+      <div class="name-grid">
+        {people.currentMasters.map((student) => <article><h3>{student.name}</h3><p>{student.detail}</p></article>)}
+      </div>
+    </section>
+
+    <section class="people-section" aria-labelledby="graduates-title">
+      <header><p class="eyebrow">03 / Selected completions</p><h2 id="graduates-title">PhD graduates</h2><p>Selected named records from the current public supervision page.</p></header>
+      <div class="graduate-grid">
+        {people.phdGraduates.map((student) => <article><h3>{student.name}</h3><p>{student.detail}</p></article>)}
+      </div>
+    </section>
+
+    <section class="people-invitation">
+      <p class="eyebrow">Considering postgraduate research?</p>
+      <h2>Bring a one-page proposal<br />and a problem worth pursuing.</h2>
+      <p>Current supervision interests include network security, IoT sensing, underwater systems, positioning and autonomous systems.</p>
+      <a class="button" href="mailto:murtadha@utm.my?subject=PhD%20supervision%20inquiry">Discuss postgraduate research</a>
+    </section>
+  </div>
+</BaseLayout>

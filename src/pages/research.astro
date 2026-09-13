@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AnimationSlot from '../components/AnimationSlot.astro';
+import themes from '../data/research-themes.json';
+---
+<BaseLayout title="Research" description="Six connected research themes spanning pervasive computing, resilient sensing, underwater networks, motion planning, indoor positioning and AI for built heritage.">
+  <header class="page-hero page-hero--research">
+    <div>
+      <p class="eyebrow">Research / Networked Intelligence</p>
+      <h1>Systems that hold together in <em>difficult places.</em></h1>
+      <p>Pervasive computing, motion planning and underwater wireless sensor networks, with an emphasis on work that has direct human use.</p>
+    </div>
+    <p class="page-hero__statement">Six active themes.<br />One common question:<br /><strong>how does a system stay reliable when the environment refuses to cooperate?</strong></p>
+  </header>
+
+  <div class="page-body research-page">
+    <section class="research-anchor">
+      <div>
+        <p class="eyebrow">The thread through everything</p>
+        <h2>Wireless sensor networks</h2>
+      </div>
+      <p>Resilient sensing, routing and deployment—protocols and topology control for networks that must hold together with scarce energy, unstable links and no maintenance window.</p>
+    </section>
+
+    <AnimationSlot name="research-theme-field" label="Reserved boundary for future research-theme motion">
+      <ol class="theme-grid">
+        {themes.map((theme) => (
+          <li>
+            <span>{theme.index}</span>
+            <h2>{theme.title}</h2>
+            <p>{theme.summary}</p>
+            <ul aria-label={`${theme.title} keywords`}>{theme.keywords.map((keyword) => <li>{keyword}</li>)}</ul>
+          </li>
+        ))}
+      </ol>
+    </AnimationSlot>
+
+    <section class="research-context">
+      <div><p class="eyebrow">Security and trust</p><h2>Intelligence across moving networks.</h2></div>
+      <p>Network security connects intrusion detection for mobile ad-hoc networks, trust-aware routing, federated learning for distributed defence and drift-aware detection for industrial IoT.</p>
+      <p>The other half stays physical. Positioning research needs a real, awkward space to fail in before it works anywhere—which is why heritage-building work with KALAM matters more than it looks on paper.</p>
+    </section>
+
+    <section class="research-cta">
+      <p class="eyebrow">Research and supervision</p>
+      <h2>Bring a difficult environment<br />and a question worth testing.</h2>
+      <a class="button" href="mailto:murtadha@utm.my?subject=Research%20collaboration">Start a conversation</a>
+    </section>
+  </div>
+</BaseLayout>

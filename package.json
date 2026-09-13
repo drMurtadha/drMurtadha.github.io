@@ -12,7 +12,10 @@
     "check:external": "node scripts/check-external-links.mjs",
     "import:wordpress": "node scripts/import-wordpress.mjs",
     "import:pages": "node scripts/import-approved-pages.mjs",
-    "audit:wordpress": "node scripts/audit-content.mjs"
+    "audit:wordpress": "node scripts/audit-content.mjs",
+    "build:publications": "node scripts/build-publications-data.mjs",
+    "build:people": "node scripts/build-people-data.mjs",
+    "build:data": "npm run build:publications && npm run build:people"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.4",

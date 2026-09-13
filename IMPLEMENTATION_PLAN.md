@@ -42,6 +42,8 @@ Current progress: all 13 approved page records are now stored as static build da
 
 Current progress: the homepage is now a native Astro composition rather than imported WordPress HTML. It includes the approved office and supervision photographs, a static semantic research constellation inside the reserved animation boundary, selected research narratives, a people/supervision feature, and a restrained UTM ASCEND 2030 institutional layer. Scopus metrics are held centrally in `src/data/academic-profile.json`; the owner-verified snapshot is 81 documents, 885 citations and h-index 15 as at 13 September 2026.
 
+Research, Publications, People and CV are now native Astro pages as well. The Publications explorer exposes 79 detailed records with title/venue search and year filtering while stating the separate 81-document live profile total. People data is generated from the approved current page into explicit current-PhD, current-Master's and graduate collections. All four pages have responsive, semantic layouts; the research visual remains static inside its future animation boundary.
+
 ### 5. Verification and preview
 
 - Run schema validation, static build, local link checks and sampled/rate-limited external checks.
@@ -76,4 +78,7 @@ Current progress: the homepage is now a native Astro composition rather than imp
 - [x] Desktop and 390 px mobile visual QA for Home and Publications; navigation wrap corrected; no browser console errors
 - [x] Build native Astro homepage and verify it at desktop and 390 px widths with no horizontal overflow
 - [x] Centralise owner-verified Scopus metrics (81 documents, 885 citations, h-index 15)
+- [x] Convert Research, Publications, People and CV to native Astro pages
+- [x] Add deterministic publication and supervision data builders with count validation
+- [x] Verify publication search, year filtering and empty-result behaviour in the browser
 - [ ] GitHub authentication/repository creation

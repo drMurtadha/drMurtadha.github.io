@@ -1,0 +1,59 @@
+---
+import publicationData from '../data/publications.json';
+const years = [...new Set(publicationData.records.map((record) => record.year))];
+---
+<section class="publication-explorer" data-publication-explorer>
+  <div class="publication-tools">
+    <label>
+      <span>Search title or venue</span>
+      <input type="search" placeholder="e.g. underwater, routing, IEEE" data-publication-search />
+    </label>
+    <label>
+      <span>Publication year</span>
+      <select data-publication-year>
+        <option value="">All years</option>
+        {years.map((year) => <option value={year}>{year}</option>)}
+      </select>
+    </label>
+    <p class="publication-count" aria-live="polite"><strong data-publication-count>{publicationData.count}</strong> detailed records</p>
+  </div>
+  <ol class="publication-list">
+    {publicationData.records.map((record, index) => (
+      <li data-publication-item data-year={record.year} data-search={`${record.title} ${record.venue}`.toLowerCase()}>
+        <span class="publication-index">{String(index + 1).padStart(2, '0')}</span>
+        <div>
+          <p class="publication-meta">{record.year} · {record.venue}{record.type ? ` · ${record.type}` : ''}</p>
+          <h2>{record.title}</h2>
+          <p class="publication-citations">{record.citations} {record.citations === 1 ? 'citation' : 'citations'}</p>
+        </div>
+        {record.url ? <a href={record.url} rel="noopener noreferrer" aria-label={`Open record: ${record.title}`}>↗</a> : <span></span>}
+      </li>
+    ))}
+  </ol>
+  <p class="publication-empty" data-publication-empty hidden>No records match this search.</p>
+</section>
+
+<script>
+  const explorer = document.querySelector('[data-publication-explorer]');
+  if (explorer) {
+    const search = explorer.querySelector('[data-publication-search]');
+    const year = explorer.querySelector('[data-publication-year]');
+    const items = [...explorer.querySelectorAll('[data-publication-item]')];
+    const count = explorer.querySelector('[data-publication-count]');
+    const empty = explorer.querySelector('[data-publication-empty]');
+    const filter = () => {
+      const query = search.value.trim().toLowerCase();
+      const selectedYear = year.value;
+      let visible = 0;
+      for (const item of items) {
+        const match = (!query || item.dataset.search.includes(query)) && (!selectedYear || item.dataset.year === selectedYear);
+        item.hidden = !match;
+        if (match) visible += 1;
+      }
+      count.textContent = String(visible);
+      empty.hidden = visible !== 0;
+    };
+    search.addEventListener('input', filter);
+    year.addEventListener('change', filter);
+  }
+</script>

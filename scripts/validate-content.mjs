@@ -20,12 +20,22 @@ if (failures) process.exit(1);
 const policy = JSON.parse(await readFile(resolve('src/data/migration-policy.json'), 'utf8'));
 const assetPolicy = JSON.parse(await readFile(resolve('src/data/asset-policy.json'), 'utf8'));
 const academicProfile = JSON.parse(await readFile(resolve('src/data/academic-profile.json'), 'utf8'));
+const publicationData = JSON.parse(await readFile(resolve('src/data/publications.json'), 'utf8'));
+const peopleData = JSON.parse(await readFile(resolve('src/data/people.json'), 'utf8'));
 const approvedImagePaths = new Set(assetPolicy.images.map((asset) => asset.path));
 const approvedDocumentPaths = new Set(assetPolicy.documents.map((asset) => asset.path));
 const importedDir = resolve('src/data/imported-pages');
 const importedFiles = (await readdir(importedDir)).filter((name) => name.endsWith('.json') && name !== 'manifest.json');
 if (academicProfile.metrics.scopus.hIndex !== 15) {
   console.error(`Expected verified Scopus h-index 15; found ${academicProfile.metrics.scopus.hIndex}.`);
+  failures += 1;
+}
+if (publicationData.count !== 79 || publicationData.records.length !== 79) {
+  console.error(`Expected 79 detailed publication records; found ${publicationData.records.length}.`);
+  failures += 1;
+}
+if (peopleData.currentPhd.length !== 9 || peopleData.currentMasters.length !== 5 || peopleData.summary.currentStudents !== 14) {
+  console.error('Structured supervision data no longer matches the approved current-page snapshot.');
   failures += 1;
 }
 if (importedFiles.length !== policy.pages.currentCount) {

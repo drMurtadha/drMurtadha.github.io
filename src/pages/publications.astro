@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PublicationExplorer from '../components/PublicationExplorer.astro';
+import profile from '../data/academic-profile.json';
+import publicationData from '../data/publications.json';
+---
+<BaseLayout title="Scopus-indexed publications" description={`Explore ${publicationData.count} detailed Scopus-indexed publication records by Mohd Murtadha Mohamad.`}>
+  <header class="page-hero page-hero--publications">
+    <div>
+      <p class="eyebrow">Publications / Scopus record</p>
+      <h1>A research record built across <em>two decades.</em></h1>
+      <p>Search the detailed record by title, venue or year. Profile totals can differ from the page listing as Scopus updates its indexes.</p>
+    </div>
+    <dl class="page-metrics">
+      <div><dt>Documents</dt><dd>{profile.metrics.scopus.documents}</dd></div>
+      <div><dt>Citations</dt><dd>{profile.metrics.scopus.citations}</dd></div>
+      <div><dt>h-index</dt><dd>{profile.metrics.scopus.hIndex}</dd></div>
+      <div><dt>Detailed here</dt><dd>{publicationData.count}</dd></div>
+    </dl>
+  </header>
+  <div class="page-body">
+    <div class="record-note">
+      <p><strong>Snapshot:</strong> profile metrics verified 13 September 2026; detailed list imported from the current People@UTM publication page.</p>
+      <a href={`https://www.scopus.com/authid/detail.uri?authorId=${profile.scopusAuthorId}`} rel="noopener noreferrer">Open live Scopus profile ↗</a>
+    </div>
+    <PublicationExplorer />
+  </div>
+</BaseLayout>

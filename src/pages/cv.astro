@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import profile from '../data/academic-profile.json';
+import themes from '../data/research-themes.json';
+const journey = [
+  { when: 'Current', title: 'Coordinator, PhD in Computer Science', detail: 'Faculty of Computing, Universiti Teknologi Malaysia.' },
+  { when: '2019—present', title: 'Associate Professor', detail: 'Research, teaching, supervision and academic leadership.' },
+  { when: '2012', title: 'Visiting Researcher', detail: 'Eindhoven University of Technology · Erasmus Mundus IDEAS.' },
+  { when: '2007', title: 'PhD, Heriot-Watt University', detail: 'Foraging Ant Motion Planning for Articulated Robots.' },
+  { when: '2006—present', title: 'Academic career at UTM', detail: 'Faculty of Computing, Universiti Teknologi Malaysia.' }
+];
+---
+<BaseLayout title="Curriculum vitae" description="Academic profile and downloadable curriculum vitae of Mohd Murtadha Mohamad, Associate Professor at Universiti Teknologi Malaysia.">
+  <header class="cv-hero">
+    <div class="cv-hero__copy">
+      <p class="eyebrow">Academic profile / Curriculum vitae</p>
+      <h1>Mohd Murtadha<br /><em>Mohamad.</em></h1>
+      <p>{profile.role} at the {profile.institution}, working across pervasive computing, intelligent sensing, networked systems and postgraduate education.</p>
+      <div class="cv-links">
+        <a href={`mailto:${profile.email}`}>Email</a>
+        <a href={`https://orcid.org/${profile.orcid}`} rel="noopener noreferrer">ORCID</a>
+        <a href={`https://www.scopus.com/authid/detail.uri?authorId=${profile.scopusAuthorId}`} rel="noopener noreferrer">Scopus</a>
+      </div>
+    </div>
+    <figure><img src="/assets/images/murtadha-portrait-mono.jpg" alt="Portrait of Mohd Murtadha Mohamad" width="1122" height="1402" /><figcaption>Faculty of Computing · UTM</figcaption></figure>
+  </header>
+
+  <section class="cv-metrics" aria-label="Academic profile metrics">
+    <div><strong>{profile.metrics.scopus.documents}</strong><span>Scopus documents</span></div>
+    <div><strong>{profile.metrics.scopus.citations}</strong><span>Scopus citations</span></div>
+    <div><strong>{profile.metrics.scopus.hIndex}</strong><span>Scopus h-index</span></div>
+    <div><strong>37</strong><span>Completed supervisions</span></div>
+  </section>
+
+  <div class="page-body cv-page">
+    <section class="cv-section">
+      <header><p class="eyebrow">01 / Current appointment</p><h2>Academic leadership and responsibilities</h2></header>
+      <div class="cv-role-grid">
+        <article><span>Role</span><h3>{profile.role}</h3><p>{profile.institution}.</p></article>
+        <article><span>Programme</span><h3>{profile.programmeRole}</h3><p>Postgraduate academic coordination and community support.</p></article>
+        <article><span>Research</span><h3>Researcher and supervisor</h3><p>Networked sensing, motion planning and AI-enabled environments.</p></article>
+      </div>
+    </section>
+
+    <section class="cv-section cv-section--journey">
+      <header><p class="eyebrow">02 / Academic journey</p><h2>A career built across connected roles.</h2></header>
+      <ol class="cv-timeline">{journey.map((item) => <li><span>{item.when}</span><div><h3>{item.title}</h3><p>{item.detail}</p></div></li>)}</ol>
+    </section>
+
+    <section class="cv-section">
+      <header><p class="eyebrow">03 / Research themes</p><h2>Six directions, one system of inquiry.</h2></header>
+      <div class="cv-theme-list">{themes.map((theme) => <a href="/research/"><span>{theme.index}</span>{theme.title}</a>)}</div>
+    </section>
+
+    <section class="cv-download">
+      <div><p class="eyebrow">Full record / September 2026</p><h2>Download the complete curriculum vitae.</h2><p>46-page A4 PDF retained as an approved local static document.</p></div>
+      <a class="button" href="/assets/documents/mohd-murtadha-cv-2026.pdf">Open CV PDF</a>
+    </section>
+  </div>
+</BaseLayout>

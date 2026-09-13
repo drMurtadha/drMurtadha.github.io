@@ -1,0 +1,156 @@
+{
+  "generatedFrom": "https://people.utm.my/murtadha/phd-students/",
+  "sourceModifiedAt": "2026-09-13T07:58:05",
+  "summary": {
+    "currentStudents": 14,
+    "currentPhd": 9,
+    "completedSupervisions": 37
+  },
+  "currentPhd": [
+    {
+      "name": "Asma Basharat",
+      "programme": "PhD (Computer Science)",
+      "role": "Main",
+      "progress": "Semester 12 of 16"
+    },
+    {
+      "name": "Saad Mohsen Hassan Alogaili",
+      "programme": "PhD (Computer Science)",
+      "role": "Main",
+      "progress": "Examination stage"
+    },
+    {
+      "name": "Mohammed Ibrahem Abdelrahman Alatrash",
+      "programme": "PhD (Computer Science)",
+      "role": "Main",
+      "progress": "Semester 7 of 16"
+    },
+    {
+      "name": "Al-Ani Mohammed Nsaif Mustafa",
+      "programme": "PhD (Computer Science)",
+      "role": "Main",
+      "progress": "Semester 6 of 16"
+    },
+    {
+      "name": "Riyadhmohammed Riyadh M Mohammed",
+      "programme": "PhD (Computer Science)",
+      "role": "Main",
+      "progress": "Semester 5 of 16"
+    },
+    {
+      "name": "Cindy Ujan",
+      "programme": "PhD (Computer Science)",
+      "role": "Main",
+      "progress": "Semester 12 of 16"
+    },
+    {
+      "name": "Qasim Mohamed Muhanna Alriyami",
+      "programme": "PhD (Computer Science)",
+      "role": "Main",
+      "progress": "Semester 2 of 16"
+    },
+    {
+      "name": "Mohamed Eiamin Mohamed Ali Elkanzi",
+      "programme": "PhD (Computer Science)",
+      "role": "Co-supervisor",
+      "progress": "Semester 2 of 16"
+    },
+    {
+      "name": "Raziman bin Zakaria",
+      "programme": "PhD (Computer Science)",
+      "role": "Main",
+      "progress": "Semester 1 of 16"
+    }
+  ],
+  "currentMasters": [
+    {
+      "name": "Lim Poh Seng",
+      "detail": "Master of Computer Science · Mixed mode"
+    },
+    {
+      "name": "Hu Han",
+      "detail": "Master of Computer Science · Mixed mode"
+    },
+    {
+      "name": "Tan Zin You",
+      "detail": "Master of Computer Science · ODL mixed mode"
+    },
+    {
+      "name": "Netrha Shri A/P Rama Moorthy",
+      "detail": "Master of Cyber Security · ODL"
+    },
+    {
+      "name": "Nur Azuaniza Mat Ariffin",
+      "detail": "Master of Cyber Security · ODL"
+    }
+  ],
+  "phdGraduates": [
+    {
+      "name": "Mohammad Taghi Kheir Abadi",
+      "detail": "2015 · Main"
+    },
+    {
+      "name": "Mudassar Ahmad",
+      "detail": "2016 · Co-supervisor"
+    },
+    {
+      "name": "Abdulaziz Yahya Yahya Al-Nahari",
+      "detail": "2018 · Main"
+    },
+    {
+      "name": "Wan Mohd Ya’akob bin Wan Bejuri",
+      "detail": "2019 · Main"
+    },
+    {
+      "name": "Muhammad Tayyab",
+      "detail": "2020 · Co-supervisor"
+    },
+    {
+      "name": "Nasarudin bin Ismail",
+      "detail": "2021 · Main"
+    },
+    {
+      "name": "Siti Hadrina binti Sheikh Hussain",
+      "detail": "2022 · Main"
+    },
+    {
+      "name": "Siman Emmanuel",
+      "detail": "2024 · Co-supervisor"
+    },
+    {
+      "name": "Chinonso Okereke",
+      "detail": "2025 · Main"
+    },
+    {
+      "name": "Mohammed Abduljalil Mohammed Al-Saeedi",
+      "detail": "2025 · Main"
+    }
+  ],
+  "mastersGraduates": [
+    {
+      "category": "By research · 3",
+      "names": [
+        "Wan Mohd Ya’akob bin Wan Bejuri (2013)",
+        "Md Fadil bin Md Esa (2014)",
+        "Nur Shahirah binti Jailani (2025)"
+      ]
+    },
+    {
+      "category": "Mixed mode · 5",
+      "names": [
+        "Bashir Abdullahi (2019)",
+        "Umar Sani (2020)",
+        "Cindy Ujan (2020)",
+        "Ali Abdulghaffar Kadhim Aal-Mosleh (2023)",
+        "Lim Poh Seng (2026)"
+      ]
+    },
+    {
+      "category": "Taught course · 2",
+      "names": [
+        "Raziman bin Zakaria (2018)",
+        "Tai Yuh Ling (2025)"
+      ]
+    }
+  ]
+}
