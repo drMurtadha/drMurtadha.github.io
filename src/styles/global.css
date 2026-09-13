@@ -106,6 +106,13 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 .constellation-map li > span { color: var(--signal); font-size: .66rem; font-weight: 800; }
 .constellation-map h3 { margin: .7rem 0; font-size: 1.6rem; }
 .constellation-map p { margin: 0; color: var(--muted); font-size: .86rem; }
+.constellation-map li:nth-child(1) { --fx: -3rem; --fy: -2.4rem; }
+.constellation-map li:nth-child(2) { --fx: 0; --fy: -3rem; }
+.constellation-map li:nth-child(3) { --fx: 3rem; --fy: -1.6rem; }
+.constellation-map li:nth-child(4) { --fx: 2.4rem; --fy: 2.4rem; }
+.constellation-map li:nth-child(5) { --fx: -2.4rem; --fy: 2.4rem; }
+[data-animation-slot="research-constellation"][data-formation="pending"] .constellation-map li { opacity: 0; transform: translate(var(--fx, 0), var(--fy, 0)) scale(.88); }
+[data-animation-slot="research-constellation"][data-formation="active"] .constellation-map li { opacity: 1; transform: translate(0, 0) scale(1); transition: transform .7s cubic-bezier(.16, .84, .44, 1), opacity .6s ease; transition-delay: calc(var(--node, 0) * .1s); }
 
 .selected { background: var(--surface); max-width: none; }
 .selected > * { max-width: calc(var(--page) - 4rem); margin-left: auto; margin-right: auto; }
