@@ -4,6 +4,8 @@ import navigation from '../data/navigation.json';
 const { title, description } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
+const currentPath = Astro.url.pathname;
+const isActive = (target: string) => target === '/' ? currentPath === '/' : currentPath.startsWith(target);
 ---
 <!doctype html>
 <html lang="en">
@@ -12,6 +14,11 @@ const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="robots" content={indexable ? 'index,follow' : 'noindex,nofollow'} />
+    <meta name="theme-color" content="#173d34" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${title} | Mohd Murtadha`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href={canonical} />
     <title>{title} | Mohd Murtadha</title>
@@ -21,13 +28,13 @@ const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
     <header class="site-header">
       <a class="identity" href="/">Mohd Murtadha</a>
       <nav aria-label="Primary navigation">
-        {navigation.primary.map((item) => <a href={item.target}>{item.label}</a>)}
-        <a href="/connect/">Connect</a>
+        {navigation.primary.map((item) => <a href={item.target} aria-current={isActive(item.target) ? 'page' : undefined}>{item.label}</a>)}
+        <a href="/connect/" aria-current={isActive('/connect/') ? 'page' : undefined}>Connect</a>
       </nav>
     </header>
     <main id="main"><slot /></main>
     <footer>
-      <p>Academic profile · Universiti Teknologi Malaysia</p>
+      <p>Mohd Murtadha Mohamad · Academic profile<br /><a href="/cv/">Curriculum vitae</a> · <a href="mailto:murtadha@utm.my">Contact</a></p>
       <p class="institutional">Aligned with UTM ASCEND 2030: knowledge, impact and connected intelligence.</p>
     </footer>
   </body>

@@ -7,6 +7,7 @@ const snapshotPath = resolve(process.argv[2] || 'audit/raw/pages.json');
 const outputDir = resolve(process.argv[3] || 'src/data/imported-pages');
 const policy = JSON.parse(await readFile(resolve('src/data/migration-policy.json'), 'utf8'));
 const assetPolicy = JSON.parse(await readFile(resolve('src/data/asset-policy.json'), 'utf8'));
+const academicProfile = JSON.parse(await readFile(resolve('src/data/academic-profile.json'), 'utf8'));
 const pages = JSON.parse(await readFile(snapshotPath, 'utf8'));
 const approved = new Set(policy.pages.currentPageIds);
 const approvedImages = new Map(assetPolicy.images.map((asset) => [asset.sourceFilename, asset.path]));
@@ -86,6 +87,13 @@ function cleanPage(page) {
     }
     if (/^https?:\/\//.test(anchor.getAttribute('href') || '')) {
       anchor.setAttribute('rel', 'noopener noreferrer');
+    }
+  }
+  for (const metric of site.querySelectorAll('.mm-metric, .mm-stat')) {
+    const label = metric.querySelector('.mm-metric__label, .mm-stat__label')?.text.trim().toLowerCase();
+    if (label === 'scopus h-index') {
+      const value = metric.querySelector('.mm-metric__n, .mm-stat__n');
+      if (value) value.set_content(String(academicProfile.metrics.scopus.hIndex));
     }
   }
   return site.innerHTML.trim();

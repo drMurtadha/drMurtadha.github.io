@@ -19,10 +19,15 @@ if (failures) process.exit(1);
 
 const policy = JSON.parse(await readFile(resolve('src/data/migration-policy.json'), 'utf8'));
 const assetPolicy = JSON.parse(await readFile(resolve('src/data/asset-policy.json'), 'utf8'));
+const academicProfile = JSON.parse(await readFile(resolve('src/data/academic-profile.json'), 'utf8'));
 const approvedImagePaths = new Set(assetPolicy.images.map((asset) => asset.path));
 const approvedDocumentPaths = new Set(assetPolicy.documents.map((asset) => asset.path));
 const importedDir = resolve('src/data/imported-pages');
 const importedFiles = (await readdir(importedDir)).filter((name) => name.endsWith('.json') && name !== 'manifest.json');
+if (academicProfile.metrics.scopus.hIndex !== 15) {
+  console.error(`Expected verified Scopus h-index 15; found ${academicProfile.metrics.scopus.hIndex}.`);
+  failures += 1;
+}
 if (importedFiles.length !== policy.pages.currentCount) {
   console.error(`Expected ${policy.pages.currentCount} approved page records; found ${importedFiles.length}.`);
   failures += 1;

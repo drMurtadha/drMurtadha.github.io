@@ -1,0 +1,18 @@
+{
+  "name": "Mohd Murtadha Mohamad",
+  "shortName": "Mohd Murtadha",
+  "role": "Associate Professor",
+  "institution": "Faculty of Computing, Universiti Teknologi Malaysia",
+  "programmeRole": "Coordinator, PhD in Computer Science",
+  "email": "murtadha@utm.my",
+  "orcid": "0000-0002-1478-0138",
+  "scopusAuthorId": "16033644000",
+  "metrics": {
+    "scopus": {
+      "documents": 81,
+      "citations": 885,
+      "hIndex": 15,
+      "verifiedAt": "2026-09-13"
+    }
+  }
+}

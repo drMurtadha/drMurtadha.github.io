@@ -40,6 +40,8 @@ Current progress: all 13 approved page records are now stored as static build da
 - Add project/people/impact relationships and reduced-motion support.
 - Introduce AnimMaster only after content structure, performance budget and accessibility acceptance criteria are stable.
 
+Current progress: the homepage is now a native Astro composition rather than imported WordPress HTML. It includes the approved office and supervision photographs, a static semantic research constellation inside the reserved animation boundary, selected research narratives, a people/supervision feature, and a restrained UTM ASCEND 2030 institutional layer. Scopus metrics are held centrally in `src/data/academic-profile.json`; the owner-verified snapshot is 81 documents, 885 citations and h-index 15 as at 13 September 2026.
+
 ### 5. Verification and preview
 
 - Run schema validation, static build, local link checks and sampled/rate-limited external checks.
@@ -72,4 +74,6 @@ Current progress: all 13 approved page records are now stored as static build da
 - [x] Enforce build-time guards against posts, unapproved pages and WordPress media dependencies
 - [x] Integrate five approved photographs and the latest CV through a strict asset allowlist
 - [x] Desktop and 390 px mobile visual QA for Home and Publications; navigation wrap corrected; no browser console errors
+- [x] Build native Astro homepage and verify it at desktop and 390 px widths with no horizontal overflow
+- [x] Centralise owner-verified Scopus metrics (81 documents, 885 citations, h-index 15)
 - [ ] GitHub authentication/repository creation

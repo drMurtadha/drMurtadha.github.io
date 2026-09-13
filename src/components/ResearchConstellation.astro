@@ -1,11 +1,35 @@
 ---
 import AnimationSlot from './AnimationSlot.astro';
-const themes = ['Wireless sensor networks', 'Ad-hoc networks', 'Indoor positioning', 'Edge intelligence', 'Network security'];
+const themes = [
+  { index: '01', title: 'Network resilience', body: 'Trust-aware routing, mobile ad-hoc systems and distributed defence.' },
+  { index: '02', title: 'Underwater sensing', body: 'Communication and intelligence beyond conventional radio.' },
+  { index: '03', title: 'Autonomous systems', body: 'Motion planning, path optimisation and machine perception.' },
+  { index: '04', title: 'Indoor positioning', body: 'Context-aware location using WiFi, cameras and hybrid signals.' },
+  { index: '05', title: 'Heritage intelligence', body: 'IoT microclimates and explainable AI for historic buildings.' }
+];
 ---
-<section class="section constellation">
-  <p class="eyebrow">Research constellation</p>
-  <h2>Ideas become stronger through their connections.</h2>
-  <AnimationSlot name="research-constellation" label="Reserved research constellation interaction">
-    <ul>{themes.map((theme, index) => <li style={`--i:${index}`}>{theme}</li>)}</ul>
+<section class="research-field section" aria-labelledby="research-field-title">
+  <header class="section-heading">
+    <p class="eyebrow">01 / Research constellation</p>
+    <h2 id="research-field-title">Different environments.<br /><em>One connected inquiry.</em></h2>
+    <p>Each theme is a point in a wider system: sensing informs networks, networks enable autonomy, and data becomes useful through context.</p>
+  </header>
+  <AnimationSlot name="research-constellation" label="Reserved boundary for the future interactive research constellation">
+    <div class="constellation-map">
+      <svg viewBox="0 0 1000 560" role="presentation" aria-hidden="true" preserveAspectRatio="none">
+        <path d="M145 110 L505 74 L835 140 L690 430 L330 470 Z" />
+        <path d="M145 110 L690 430 M505 74 L330 470 M835 140 L330 470" />
+      </svg>
+      <ol>
+        {themes.map((theme, index) => (
+          <li style={`--node:${index}`}>
+            <span>{theme.index}</span>
+            <h3>{theme.title}</h3>
+            <p>{theme.body}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
   </AnimationSlot>
+  <a class="text-link" href="/research/">Enter the research field <span aria-hidden="true">↗</span></a>
 </section>

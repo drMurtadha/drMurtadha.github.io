@@ -2,6 +2,8 @@
 
 Astro static-site starter for the migration of `people.utm.my/murtadha`. WordPress is an import source only; the built site has no WordPress runtime dependency.
 
+The homepage is now implemented as native Astro components. Current Scopus metrics are maintained once in `src/data/academic-profile.json`; approved imported pages consume the same value during sanitised re-import.
+
 ## Local use
 
 ```sh

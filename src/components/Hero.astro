@@ -1,14 +1,23 @@
 ---
 import AnimationSlot from './AnimationSlot.astro';
 ---
-<section class="hero">
-  <div class="hero-copy">
+<section class="home-hero" aria-labelledby="hero-title">
+  <div class="home-hero__copy">
     <p class="eyebrow">Murtadha / Networked Intelligence</p>
-    <h1>Researching intelligence across connected systems.</h1>
-    <p class="lede">Wireless networks, resilient sensing, software-defined systems and human-centred academic collaboration.</p>
-    <div class="actions"><a class="button" href="/research/">Explore research</a><a href="/publications/">View publications</a></div>
+    <h1 id="hero-title">Intelligence is not isolated. It is <em>connected.</em></h1>
+    <p class="lede">Research across networked sensing, resilient systems, autonomous movement and the people who make knowledge travel.</p>
+    <div class="actions">
+      <a class="button" href="/research/">Explore the research</a>
+      <a class="text-link" href="/publications/">Publication record <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
-  <AnimationSlot name="hero-network" label="Reserved interactive network visualisation">
-    <div class="network-placeholder" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  <AnimationSlot name="hero-network" label="Reserved boundary for the future Networked Intelligence motion layer">
+    <figure class="hero-portrait">
+      <img src="/assets/images/murtadha-office-desk.jpg" alt="Mohd Murtadha working at his academic office desk" width="1448" height="1086" fetchpriority="high" />
+      <figcaption><span>01</span> Faculty of Computing · UTM</figcaption>
+      <div class="signal signal--one" aria-hidden="true"></div>
+      <div class="signal signal--two" aria-hidden="true"></div>
+      <div class="signal signal--three" aria-hidden="true"></div>
+    </figure>
   </AnimationSlot>
 </section>
