@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-09-13T00:30:36.892Z",
+  "limitedTo": 15,
+  "timeoutMs": 12000,
+  "results": [
+    {
+      "url": "https://orcid.org/0000-0002-1478-0138",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://orcid.org/0000-0002-1478-0138",
+      "elapsedMs": 931
+    },
+    {
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://id.elsevier.com/as/authorization.oauth2?state=6e7c8b16-6d34-4119-9fd5-35cb45ecae61&ui_locales=en-US&redirect_uri=https://www.scopus.com/pages/callback/url&client_id=SCOPUS&platSite=SC/scopus&additionalPlatSites=SD%2Fscience%2CRX%2Freaxys%2CGH%2Fgeneralhospital%2CGH%2Fckaus%2CGH%2Fckesp%2CGH%2Fckfra%2CGH%2Fckjap%2CSVE%2FSciVal%2CMDY%2Fmendeley%2CSVF%2FSciValFundingSite&response_type=code&scope=openid+profile+email+els_auth_info+els_analytics_info+urn:com:elsevier:idp:policy:product:indv_identity&els_policy=idp_policy_indv_identity_plus&prompt=none&authType=SINGLE_SIGN_IN",
+      "elapsedMs": 850
+    },
+    {
+      "url": "https://doi.org/10.1007/s11277-026-12069-2",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://link.springer.com/article/10.1007/s11277-026-12069-2",
+      "elapsedMs": 1116
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0346790",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346790",
+      "elapsedMs": 2215
+    },
+    {
+      "url": "https://doi.org/10.1145/3786554.3786573",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://dl.acm.org/doi/10.1145/3786554.3786573",
+      "elapsedMs": 453
+    },
+    {
+      "url": "https://doi.org/10.1145/3786554.3786572",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://dl.acm.org/doi/10.1145/3786554.3786572",
+      "elapsedMs": 218
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3572619",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://ieeexplore.ieee.org/document/11077142/",
+      "elapsedMs": 300
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595621",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://ieeexplore.ieee.org/document/11112602/",
+      "elapsedMs": 314
+    },
+    {
+      "url": "https://doi.org/10.1080/23311886.2025.2492833",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.tandfonline.com/doi/full/10.1080/23311886.2025.2492833",
+      "elapsedMs": 225
+    },
+    {
+      "url": "https://doi.org/10.11591/ijeecs.v37.i2.pp1032-1041",
+      "status": null,
+      "ok": false,
+      "error": "fetch failed",
+      "elapsedMs": 10747
+    },
+    {
+      "url": "https://doi.org/10.1007/978-981-96-5223-5_17",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-981-96-5223-5_17",
+      "elapsedMs": 630
+    },
+    {
+      "url": "https://doi.org/10.18517/ijaseit.15.3.12941",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://ijaseit.insightsociety.org/index.php/ijaseit/article/view/12941",
+      "elapsedMs": 623
+    },
+    {
+      "url": "https://doi.org/10.1109/ICBASE66587.2025.11181321",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://ieeexplore.ieee.org/document/11181321/",
+      "elapsedMs": 140
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595635",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://ieeexplore.ieee.org/document/11122309/",
+      "elapsedMs": 127
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3554084",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://ieeexplore.ieee.org/document/10947252/",
+      "elapsedMs": 298
+    }
+  ]
+}

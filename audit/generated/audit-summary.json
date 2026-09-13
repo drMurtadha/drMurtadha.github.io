@@ -1,0 +1,1667 @@
+{
+  "generatedAt": "2026-09-13T00:28:04.058Z",
+  "counts": {
+    "posts": 5249,
+    "pages": 36,
+    "media": 107,
+    "pdfs": 80,
+    "categories": 713,
+    "tags": 3377,
+    "uniqueLinks": 59423,
+    "researchProfileLinks": 217
+  },
+  "dateRange": {
+    "oldest": "2012-10-04T22:34:19",
+    "newest": "2026-08-23T19:07:51"
+  },
+  "statuses": {
+    "publish": 5285
+  },
+  "mediaTypes": {
+    "image/gif": 2,
+    "image/png": 5,
+    "application/pdf": 80,
+    "image/jpeg": 18,
+    "application/vnd.ms-powerpoint": 2
+  },
+  "linkClasses": {
+    "internal": 257,
+    "external": 59020,
+    "other": 144
+  },
+  "topExternalDomains": [
+    {
+      "domain": "mashable.com",
+      "count": 26230
+    },
+    {
+      "domain": "twitter.com",
+      "count": 8645
+    },
+    {
+      "domain": "rack.1.mshcdn.com",
+      "count": 5236
+    },
+    {
+      "domain": "www.facebook.com",
+      "count": 3732
+    },
+    {
+      "domain": "feeds.feedburner.com",
+      "count": 3610
+    },
+    {
+      "domain": "a.amz.mshcdn.com",
+      "count": 2642
+    },
+    {
+      "domain": "i.amz.mshcdn.com",
+      "count": 1468
+    },
+    {
+      "domain": "ad.doubleclick.net",
+      "count": 1278
+    },
+    {
+      "domain": "pubads.g.doubleclick.net",
+      "count": 946
+    },
+    {
+      "domain": "t.co",
+      "count": 902
+    },
+    {
+      "domain": "rack.2.mshcdn.com",
+      "count": 647
+    },
+    {
+      "domain": "rack.3.mshcdn.com",
+      "count": 642
+    },
+    {
+      "domain": "rack.0.mshcdn.com",
+      "count": 608
+    },
+    {
+      "domain": "doi.org",
+      "count": 151
+    },
+    {
+      "domain": "www.youtube.com",
+      "count": 150
+    },
+    {
+      "domain": "www.instagram.com",
+      "count": 84
+    },
+    {
+      "domain": "www.reddit.com",
+      "count": 73
+    },
+    {
+      "domain": "on.mash.to",
+      "count": 59
+    },
+    {
+      "domain": "www.dropbox.com",
+      "count": 40
+    },
+    {
+      "domain": "www.webofscience.com",
+      "count": 38
+    },
+    {
+      "domain": "www.nytimes.com",
+      "count": 30
+    },
+    {
+      "domain": "itunes.apple.com",
+      "count": 22
+    },
+    {
+      "domain": "www.theguardian.com",
+      "count": 21
+    },
+    {
+      "domain": "www.bbc.com",
+      "count": 20
+    },
+    {
+      "domain": "www.abc.net.au",
+      "count": 19
+    },
+    {
+      "domain": "www.bbc.co.uk",
+      "count": 19
+    },
+    {
+      "domain": "imgur.com",
+      "count": 18
+    },
+    {
+      "domain": "giphy.com",
+      "count": 18
+    },
+    {
+      "domain": "www.scopus.com",
+      "count": 16
+    },
+    {
+      "domain": "www.amazon.com",
+      "count": 16
+    },
+    {
+      "domain": "www.bloomberg.com",
+      "count": 16
+    },
+    {
+      "domain": "www.themuse.com",
+      "count": 14
+    },
+    {
+      "domain": "orcid.org",
+      "count": 12
+    },
+    {
+      "domain": "www.washingtonpost.com",
+      "count": 12
+    },
+    {
+      "domain": "www.telegraph.co.uk",
+      "count": 12
+    },
+    {
+      "domain": "www.smh.com.au",
+      "count": 11
+    },
+    {
+      "domain": "drive.google.com",
+      "count": 10
+    },
+    {
+      "domain": "www.google.com",
+      "count": 10
+    },
+    {
+      "domain": "www.flickr.com",
+      "count": 9
+    },
+    {
+      "domain": "www.rollingstone.com",
+      "count": 9
+    },
+    {
+      "domain": "bigstory.ap.org",
+      "count": 8
+    },
+    {
+      "domain": "www.nasa.gov",
+      "count": 8
+    },
+    {
+      "domain": "www.kickstarter.com",
+      "count": 8
+    },
+    {
+      "domain": "www.buzzfeed.com",
+      "count": 8
+    },
+    {
+      "domain": "www.livescience.com",
+      "count": 8
+    },
+    {
+      "domain": "www.billboard.com",
+      "count": 8
+    },
+    {
+      "domain": "www.linkedin.com",
+      "count": 7
+    },
+    {
+      "domain": "www.straitstimes.com",
+      "count": 7
+    },
+    {
+      "domain": "www.reuters.com",
+      "count": 7
+    },
+    {
+      "domain": "www.dailymail.co.uk",
+      "count": 7
+    }
+  ],
+  "canonicalOverrides": [],
+  "researchLinks": [
+    {
+      "source": "https://people.utm.my/murtadha/teaching/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/teaching/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/consultancy-industry-engagement/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/consultancy-industry-engagement/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/other-publications/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/other-publications/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/verified-non-indexed-publications/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/verified-non-indexed-publications/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/s11277-026-12069-2"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1371/journal.pone.0346790"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1145/3786554.3786573"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1145/3786554.3786572"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2025.3572619"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595621"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1080/23311886.2025.2492833"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.11591/ijeecs.v37.i2.pp1032-1041"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-981-96-5223-5_17"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.18517/ijaseit.15.3.12941"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICBASE66587.2025.11181321"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595635"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2025.3554084"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2024.3457682"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2024.3505236"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2024.3362353"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.18280/isi.290638"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2023.3249966"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1504/IJVICS.2023.135087"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICSSA54161.2022.9870979"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICSSA54161.2022.9870973"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.3991/ijim.v16i04.28991"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.3991/IJIM.V16I03.28963"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.11591/ijeecs.v28.i1.pp358-364"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.3390/s22134861"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICEECIT55908.2022.10030278"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-3-030-98741-1_36"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1088/1742-6596/2129/1/012080"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICOMITEE53461.2021.9650099"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICEEIE52663.2021.9616765"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICVEE54186.2021.9648844"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/IRSAEVE52613.2021.9604020"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICVEE54186.2021.9649682"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ITIS53497.2021.9791611"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICVEE50212.2020.9243210"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/EECCIS49483.2020.9263435"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICITACEE50144.2020.9239161"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICVEE50212.2020.9243193"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICOVET50258.2020.9230093"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICOVET50258.2020.9230323"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-3-030-33582-3_57"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/iSemantic50169.2020.9234219"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2019.2932422"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-3-030-14802-7_48"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.13189/ujeee.2019.060411"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.30534/ijatcse/2019/93832019"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.35940/ijeat.E1178.0585C19"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.3837/tiis.2018.07.006"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-981-10-5281-1_54"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-3-319-59427-9_15"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-981-10-5281-1_30"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICSITech.2016.7852605"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1166/jmihi.2017.2079"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ICSIPA.2017.8120572"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1186/s40537-017-0094-3"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1166/jctn.2016.5340"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1371/journal.pone.0156670"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.11113/jt.v78.9198"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-1-4939-2468-4_10"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.14257/ijseia.2015.9.9.19"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-3-319-16211-9_31"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.14257/ijsia.2015.9.11.35"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.14257/ijsh.2015.9.12.02"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.14257/ijseia.2014.8.2.31"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/s11220-014-0095-7"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/s13177-013-0064-x"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/ISDA.2013.6920721"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1155/2013/701834"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-3-642-36546-1_41"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1007/978-3-642-39218-4_29"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.4156/ijact.vol4.issue7.30"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.4156/jcit.vol7.issue12.27"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/IS.2006.348503"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/SICE.2006.314876"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/scopus-indexed-publications/",
+      "url": "https://doi.org/10.1109/eurcon.2005.1629898"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/wos/author/record/C-9887-2011"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:001530173700009&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:001477106700001&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:001547311700001&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:001457763200041&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:001550816100029&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:001339065500001&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:001375816400009&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:001162068400001&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000953365100001&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000825744800001&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000783765200036&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000863571700092&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000636996700042&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000662609800025&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000662609800015&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000583758100057&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000481972100169&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000493319700047&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000440368200006&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000432202300015&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000401505300006&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000377369700099&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000391220700008&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000369385600035&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000378038200031&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000211643300002&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000218325100012&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000322233700001&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000340589100041&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000364776700029&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000364966500022&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000306679700012&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000244714800122&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000246237601043&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=wordpress2026&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000237248900055&amp;DestLinkType=FullRecord&amp;DestApp=WOS_CPL"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/web-of-science-indexed-publications/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.11591/eei.v15i4.10905"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/s11277-026-12069-2"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1371/journal.pone.0346790"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1145/3786554.3786573"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1145/3786554.3786572"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.11591/ijeecs.v37.i2.pp1032-1041"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-981-96-5223-5_17"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595635"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595621"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2025.3554084"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1080/23311886.2025.2492833"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.18517/ijaseit.15.3.12941"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICBASE66587.2025.11181321"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2025.3572619"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.18280/isi.290638"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2024.3362353"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2024.3505236"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2024.3457682"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1504/IJVICS.2023.135087"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2023.3249966"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.11591/ijeecs.v28.i1.pp358-364"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.3390/s22134861"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICEECIT55908.2022.10030278"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICSSA54161.2022.9870973"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.3991/ijim.v16i04.28991"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.3991/IJIM.V16I03.28963"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-3-030-98741-1_36"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICSSA54161.2022.9870979"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1088/1742-6596/2129/1/012080"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICOMITEE53461.2021.9650099"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICVEE54186.2021.9648844"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/IRSAEVE52613.2021.9604020"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICVEE54186.2021.9649682"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ITIS53497.2021.9791611"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICEEIE52663.2021.9616765"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICVEE50212.2020.9243210"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICVEE50212.2020.9243193"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICITACEE50144.2020.9239161"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/iSemantic50169.2020.9234219"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICOVET50258.2020.9230323"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICOVET50258.2020.9230093"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/EECCIS49483.2020.9263435"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-3-030-33582-3_57"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.13189/ujeee.2019.060411"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.35940/ijeat.E1178.0585C19"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.30534/ijatcse/2019/93832019"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-3-030-14802-7_48"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ACCESS.2019.2932422"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.3837/tiis.2018.07.006"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-981-10-5281-1_54"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-3-319-59427-9_15"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-981-10-5281-1_30"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1186/s40537-017-0094-3"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1166/jmihi.2017.2079"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICSITech.2016.7852605"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ICSIPA.2017.8120572"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://www.scopus.com/record/display.uri?eid=84980028057&amp;origin=resultslist"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1166/jctn.2016.5340"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1371/journal.pone.0156670"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://www.scopus.com/record/display.uri?eid=84973127003&amp;origin=resultslist"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.11113/jt.v78.9198"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://www.scopus.com/record/display.uri?eid=84921271979&amp;origin=resultslist"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-3-319-16211-9_31"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-1-4939-2468-4_10"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.14257/ijsh.2015.9.12.02"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.14257/ijsia.2015.9.11.35"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.14257/ijseia.2015.9.9.19"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/s11220-014-0095-7"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/ISDA.2013.6920721"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.14257/ijseia.2014.8.2.31"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/s13177-013-0064-x"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1155/2013/701834"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-3-642-36546-1_41"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1007/978-3-642-39218-4_29"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.4156/jcit.vol7.issue12.27"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://www.scopus.com/record/display.uri?eid=84862333746&amp;origin=resultslist"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.4156/ijact.vol4.issue7.30"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/SICE.2006.314876"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/IS.2006.348503"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/publications/",
+      "url": "https://doi.org/10.1109/eurcon.2005.1629898"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/social-media/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/social-media/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/social-media/",
+      "url": "https://www.webofscience.com/wos/author/record/C-9887-2011"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/phd-students/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/phd-students/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/research-areasinterest/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/research-areasinterest/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/biography/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/biography/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/cv/",
+      "url": "https://orcid.org/0000-0002-1478-0138"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/cv/",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000"
+    },
+    {
+      "source": "https://people.utm.my/murtadha/cv/",
+      "url": "https://www.webofscience.com/wos/author/record/C-9887-2011"
+    }
+  ],
+  "pdfs": [
+    {
+      "id": 7604,
+      "title": "MOHD MURTADHA CV UTM 2026 UPDATED",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2026/09/MOHD-MURTADHA-CV-UTM-2026-UPDATED.pdf",
+      "parent": null,
+      "privacyReview": false
+    },
+    {
+      "id": 7503,
+      "title": "MOHD MURTADHA CV UTM 2026 UPDATED",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2026/08/MOHD-MURTADHA-CV-UTM-2026-UPDATED-1.pdf",
+      "parent": null,
+      "privacyReview": false
+    },
+    {
+      "id": 7484,
+      "title": "MOHD MURTADHA CV UTM 2026 UPDATED",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2026/08/MOHD-MURTADHA-CV-UTM-2026-UPDATED.pdf",
+      "parent": null,
+      "privacyReview": false
+    },
+    {
+      "id": 5713,
+      "title": "jcr-web-jctn",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/JCR-Web-JCTN.pdf",
+      "parent": 5693,
+      "privacyReview": false
+    },
+    {
+      "id": 5712,
+      "title": "scopus-adaptive-interface-reconfiguration-in-low-rate",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/Scopus-adaptive-interface-reconfiguration-in-low-rate.pdf",
+      "parent": 5693,
+      "privacyReview": false
+    },
+    {
+      "id": 5711,
+      "title": "scopus-simple-and-effective-method-for-selecting-quasi-identifier",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/SCOPUS-Simple-and-effective-method-for-selecting-quasi-identifier-.pdf",
+      "parent": 5693,
+      "privacyReview": false
+    },
+    {
+      "id": 5710,
+      "title": "sijil-penghargaan-jk-pelaksana-kem-peny-masalah",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/SIJIL-PENGHARGAAN-JK-PELAKSANA-KEM-PENY-MASALAH.pdf",
+      "parent": 5693,
+      "privacyReview": true
+    },
+    {
+      "id": 5704,
+      "title": "pembantu-pengerusi-viva-almazroi",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/PEMBANTU-PENGERUSI-VIVA-ALMAZROI.pdf",
+      "parent": 5693,
+      "privacyReview": true
+    },
+    {
+      "id": 5703,
+      "title": "pembantu-pengerusi-viva-jumail",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/PEMBANTU-PENGERUSI-VIVA-JUMAIL.pdf",
+      "parent": 5693,
+      "privacyReview": true
+    },
+    {
+      "id": 5702,
+      "title": "pembantu-pengerusi-viva-khalid-haseeb",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/PEMBANTU-PENGERUSI-VIVA-KHALID-HASEEB.pdf",
+      "parent": 5693,
+      "privacyReview": true
+    },
+    {
+      "id": 5701,
+      "title": "pembantu-pengerusi-viva-khshif-naseer",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/PEMBANTU-PENGERUSI-VIVA-KHSHIF-NASEER.pdf",
+      "parent": 5693,
+      "privacyReview": true
+    },
+    {
+      "id": 5700,
+      "title": "pembantu-pengerusi-viva-shafil",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/PEMBANTU-PENGERUSI-VIVA-SHAFIL.pdf",
+      "parent": 5693,
+      "privacyReview": true
+    },
+    {
+      "id": 5697,
+      "title": "thank-you-letter-for-reviewer",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/THANK-YOU-LETTER-FOR-REVIEWER.pdf",
+      "parent": 5693,
+      "privacyReview": false
+    },
+    {
+      "id": 5694,
+      "title": "e-prosiding nasdec 2016",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/12/eProsidingNasdec2016.pdf",
+      "parent": 5693,
+      "privacyReview": false
+    },
+    {
+      "id": 3543,
+      "title": "Chapter 10_Network and Interconnet extended",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/02/Chapter-10_Network-and-Interconnet-extended.pdf",
+      "parent": 1979,
+      "privacyReview": false
+    },
+    {
+      "id": 3358,
+      "title": "Dynamic Branch Prediction",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/02/Dynamic-Branch-Prediction.pdf",
+      "parent": 1979,
+      "privacyReview": true
+    },
+    {
+      "id": 3178,
+      "title": "Scoreboard Dynamic Scheduling",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/02/Scoreboard-Dynamic-Scheduling.pdf",
+      "parent": 1979,
+      "privacyReview": true
+    },
+    {
+      "id": 2820,
+      "title": "Advanced Pipelining for",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/02/Advanced-Pipelining-for.pdf",
+      "parent": 1979,
+      "privacyReview": false
+    },
+    {
+      "id": 2502,
+      "title": "Pandan Menulis Tesis UTM",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/04/15642556-Panduan-Menulis-Tesis-UTM.pdf",
+      "parent": 2501,
+      "privacyReview": false
+    },
+    {
+      "id": 2207,
+      "title": "MCC2313_Chapter2_Computer_Performance_Examples_and_Cost",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/02/MCC2313_Chapter2_Computer_Performance_Examples_and_Cost.pdf",
+      "parent": 1979,
+      "privacyReview": false
+    },
+    {
+      "id": 2115,
+      "title": "Cramming more components onto integrated circuits",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/02/moore.pdf",
+      "parent": 1979,
+      "privacyReview": false
+    },
+    {
+      "id": 1988,
+      "title": "MCC2313_Chapter1_Intro_StudVer",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/02/MCC2313_Chapter1_Intro_StudVer.pdf",
+      "parent": 1979,
+      "privacyReview": false
+    },
+    {
+      "id": 1980,
+      "title": "L1_MCCS2313_Feb2016",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/02/L1_MCCS2313_Feb2016.pdf",
+      "parent": 1979,
+      "privacyReview": false
+    },
+    {
+      "id": 1976,
+      "title": "Chapter_2_V6.2 edited Foad and Marina 25-2-2014 (lecture edition)",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_2_V6.2-edited-Foad-and-Marina-25-2-2014-lecture-edition.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 1516,
+      "title": "Markah Pelajar space penang 1",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/01/Markah-Pelajar-space-penang-1.pdf",
+      "parent": 1514,
+      "privacyReview": true
+    },
+    {
+      "id": 1515,
+      "title": "Markah Pelajar space penang 2",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/01/Markah-Pelajar-space-penang-2.pdf",
+      "parent": 1514,
+      "privacyReview": true
+    },
+    {
+      "id": 1270,
+      "title": "new borang sukipt run",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/01/new-borang-sukipt-run.pdf",
+      "parent": 1269,
+      "privacyReview": true
+    },
+    {
+      "id": 776,
+      "title": "digital logik",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2016/01/digital-logik.pdf",
+      "parent": 774,
+      "privacyReview": false
+    },
+    {
+      "id": 629,
+      "title": "irbcarpath9-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath9-eps-converted-to.pdf",
+      "parent": 628,
+      "privacyReview": false
+    },
+    {
+      "id": 626,
+      "title": "irbcarpath8-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath8-eps-converted-to.pdf",
+      "parent": 625,
+      "privacyReview": false
+    },
+    {
+      "id": 623,
+      "title": "irbcarpath7-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath7-eps-converted-to.pdf",
+      "parent": 622,
+      "privacyReview": false
+    },
+    {
+      "id": 620,
+      "title": "irbcarpath6-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath6-eps-converted-to.pdf",
+      "parent": 619,
+      "privacyReview": false
+    },
+    {
+      "id": 617,
+      "title": "irbcarpath5-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath5-eps-converted-to.pdf",
+      "parent": 616,
+      "privacyReview": false
+    },
+    {
+      "id": 614,
+      "title": "irbcarpath4-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath4-eps-converted-to.pdf",
+      "parent": 613,
+      "privacyReview": false
+    },
+    {
+      "id": 611,
+      "title": "irbcarpath3-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath3-eps-converted-to.pdf",
+      "parent": 610,
+      "privacyReview": false
+    },
+    {
+      "id": 608,
+      "title": "irbcarpath2-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath2-eps-converted-to.pdf",
+      "parent": 607,
+      "privacyReview": false
+    },
+    {
+      "id": 605,
+      "title": "irbcarpath1-eps-converted-to",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/irbcarpath1-eps-converted-to.pdf",
+      "parent": 604,
+      "privacyReview": false
+    },
+    {
+      "id": 602,
+      "title": "Scopus – Document details Offlien Beacon Selection",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/Scopus-Document-details-Offlien-Beacon-Selection.pdf",
+      "parent": 601,
+      "privacyReview": false
+    },
+    {
+      "id": 599,
+      "title": "Bengkel Penyelesaian Robokar",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/IMG_6581-Bengkel-Robokar.pdf",
+      "parent": 598,
+      "privacyReview": false
+    },
+    {
+      "id": 596,
+      "title": "Bengkel robokar",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/IMG_6582-Bengkel-robokar.pdf",
+      "parent": 595,
+      "privacyReview": false
+    },
+    {
+      "id": 593,
+      "title": "image (2)",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/image-2-1.pdf",
+      "parent": 592,
+      "privacyReview": false
+    },
+    {
+      "id": 591,
+      "title": "image (2)",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/image-2.pdf",
+      "parent": null,
+      "privacyReview": false
+    },
+    {
+      "id": 586,
+      "title": "IJSIA ToC November 2015",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/IJSIA-ToC-November-2015.pdf",
+      "parent": 585,
+      "privacyReview": false
+    },
+    {
+      "id": 583,
+      "title": "Hakcipta",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/Hakcipta.pdf",
+      "parent": 582,
+      "privacyReview": false
+    },
+    {
+      "id": 580,
+      "title": "ye ke?",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/brochure_webo_14092015.pdf",
+      "parent": 579,
+      "privacyReview": false
+    },
+    {
+      "id": 577,
+      "title": "BookChapter2015",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/BookChapter2015.pdf",
+      "parent": 576,
+      "privacyReview": false
+    },
+    {
+      "id": 574,
+      "title": "Contoh Final Logik Digital 2014-2015-1",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/Contoh-Final-Logik-Digital-2014-2015-1.pdf",
+      "parent": 573,
+      "privacyReview": false
+    },
+    {
+      "id": 563,
+      "title": "Chapter_6",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/12/Chapter_6.pdf",
+      "parent": 562,
+      "privacyReview": false
+    },
+    {
+      "id": 544,
+      "title": "Lab 3 STUDENT VERSION",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Lab-3-STUDENT-VERSION.pdf",
+      "parent": 410,
+      "privacyReview": true
+    },
+    {
+      "id": 540,
+      "title": "File2",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/05/Test-2-.pdf",
+      "parent": 538,
+      "privacyReview": false
+    },
+    {
+      "id": 539,
+      "title": "File1",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/05/Test-1-v2_.pdf",
+      "parent": 538,
+      "privacyReview": false
+    },
+    {
+      "id": 536,
+      "title": "Chapter_5_V6.3 edited Marina 14-04-2014",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_5_V6.3-edited-Marina-14-04-2014.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 534,
+      "title": "Chapter_4_V6.3 edited Marina 27-03-2014",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_4_V6.3-edited-Marina-27-03-2014.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 532,
+      "title": "Chapter_3_V6.3 edited Foad and Marina – 17 Mac 2014",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_3_V6.3-edited-Foad-and-Marina-17-Mac-2014.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 523,
+      "title": "Test1-SemII 2013-14",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2015/03/Test1-SemII-2013-14.pdf",
+      "parent": 522,
+      "privacyReview": false
+    },
+    {
+      "id": 511,
+      "title": "Chapter_1_V6.2 Marina and Foad edited 9-2-2014",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_1_V6.2-Marina-and-Foad-edited-9-2-2014.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 509,
+      "title": "Chapter_1_V6.2 edited 9-2-2014",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_1_V6.2-edited-9-2-2014.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 507,
+      "title": "L1_SCSR1213_Network_Communication_Sem 2 20142015 edited 24022015",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/L1_SCSR1213_Network_Communication_Sem-2-20142015-edited-24022015.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 504,
+      "title": "L1_SCSR1213_Network_Communication_Sem 2 20142015",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/L1_SCSR1213_Network_Communication_Sem-2-20142015.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 498,
+      "title": "assignment SCSR2033",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/09/assignment-SCSR2033.pdf",
+      "parent": 491,
+      "privacyReview": false
+    },
+    {
+      "id": 446,
+      "title": "Lab 2 Packet Tracer for Students",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Lab-2-Packet-Tracer-for-Students.pdf",
+      "parent": 410,
+      "privacyReview": true
+    },
+    {
+      "id": 442,
+      "title": "Introduction to Computers and Programming",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/01-1-Ch01-Introduction-to-Computers-and-Programming.pdf",
+      "parent": 399,
+      "privacyReview": false
+    },
+    {
+      "id": 435,
+      "title": "Lab 2 Activities",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Lab-2-Activities.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 434,
+      "title": "Lab 2 Preliminary Work",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Preliminary-work-lab2.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 429,
+      "title": "Chapter_3_V6.2 Latest",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_3_V6.2-Latest.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 424,
+      "title": "TP1_assignment_2",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/TP2_assignment_2.pdf",
+      "parent": 399,
+      "privacyReview": false
+    },
+    {
+      "id": 418,
+      "title": "Preliminary Wireshark_Intro_v6.0",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Preliminary-Wireshark_Intro_v6.0.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 416,
+      "title": "Lab 1 prepare",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Lab-1-prepare.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 414,
+      "title": "Chapter_2_V6.2 edited Foad and Marina 25-2-2014",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_2_V6.2-edited-Foad-and-Marina-25-2-2014.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 411,
+      "title": "Chapter_2_V6.2 edited Foad and Marina 20-2-2014",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/Chapter_2_V6.2-edited-Foad-and-Marina-20-2-2014.pdf",
+      "parent": 410,
+      "privacyReview": false
+    },
+    {
+      "id": 405,
+      "title": "lab2c",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/lab2c.pdf",
+      "parent": 399,
+      "privacyReview": false
+    },
+    {
+      "id": 400,
+      "title": "TP1: chapter_01",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2014/02/chapter_01.pdf",
+      "parent": 399,
+      "privacyReview": false
+    },
+    {
+      "id": 391,
+      "title": "Application Development – Project Submission Guidelines",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2013/12/Application-Development-Project-Submission-Guidelines.pdf",
+      "parent": 390,
+      "privacyReview": false
+    },
+    {
+      "id": 387,
+      "title": "DR. MURTADHA MOHAMAD",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2013/12/DR.-MURTADHA-MOHAMAD.pdf",
+      "parent": null,
+      "privacyReview": false
+    },
+    {
+      "id": 378,
+      "title": "Tutorial_mid_2013",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2013/11/Tutorial_mid_2013.pdf",
+      "parent": 377,
+      "privacyReview": false
+    },
+    {
+      "id": 375,
+      "title": "Muat turun kuiz 1",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2013/10/kuiz-1.pdf",
+      "parent": 374,
+      "privacyReview": false
+    },
+    {
+      "id": 372,
+      "title": "Group Assignment",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2013/10/Assignment-2-Final_7oct13_update.pdf",
+      "parent": 371,
+      "privacyReview": false
+    },
+    {
+      "id": 365,
+      "title": "Jadual pergerkan felo 2-31 ogos",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2012/10/Jadual-pergerkan-felo-2-31-ogos.pdf",
+      "parent": 237,
+      "privacyReview": false
+    },
+    {
+      "id": 361,
+      "title": "SPACE2013_2",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2012/10/SPACE2013_21.pdf",
+      "parent": 253,
+      "privacyReview": false
+    },
+    {
+      "id": 354,
+      "title": "SPACE2013_2",
+      "url": "https://people.utm.my/murtadha/wp-content/uploads/sites/717/2012/10/SPACE2013_2.pdf",
+      "parent": 253,
+      "privacyReview": false
+    }
+  ]
+}
