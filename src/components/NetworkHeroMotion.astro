@@ -1,0 +1,16 @@
+---
+interface Node { href: string; index: string; label: string; }
+const nodes: Node[] = [
+  { href: '/research/', index: '01', label: 'Research' },
+  { href: '/people/', index: '02', label: 'Supervision' },
+  { href: '/publications/', index: '03', label: 'Publications' },
+  { href: '/impact/', index: '04', label: 'ASCEND 2030' },
+];
+---
+<div class="hero-network-nodes" aria-label="Related areas of work">
+  {nodes.map((node, index) => (
+    <a class="hero-network-nodes__node" href={node.href} style={`--i:${index}`}>
+      <span>{node.index}</span>{node.label}
+    </a>
+  ))}
+</div>
