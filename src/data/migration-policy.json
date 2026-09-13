@@ -1,0 +1,18 @@
+{
+  "legacyPosts": {
+    "count": 5249,
+    "decision": "exclude",
+    "publishOnNewSite": false,
+    "generateRoutes": false,
+    "copyBodiesToRepository": false,
+    "retainInventoryForAudit": true,
+    "decidedByOwner": true,
+    "decidedAt": "2026-09-13"
+  },
+  "pages": {
+    "decision": "review-individually"
+  },
+  "media": {
+    "decision": "quarantine-until-approved"
+  }
+}

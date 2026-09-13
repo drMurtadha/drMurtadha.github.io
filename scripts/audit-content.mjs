@@ -39,7 +39,10 @@ const inventory = entities.map((item) => {
 
 const headers = Object.keys(inventory[0]);
 await writeFile(resolve(reportDir, 'content-inventory.csv'), `${headers.join(',')}\n${inventory.map((row) => headers.map((key) => csv(row[key])).join(',')).join('\n')}\n`);
-await writeFile(resolve(reportDir, 'url-mapping.csv'), `legacy_url,target_path,type,status,redirect_required\n${inventory.map((x) => [csv(x.legacyUrl), csv(x.targetPath), x.type, x.status, x.targetPath !== normalizePath(x.legacyUrl) ? 'yes' : 'host-only'].join(',')).join('\n')}\n`);
+await writeFile(resolve(reportDir, 'url-mapping.csv'), `legacy_url,target_path,type,source_status,migration_decision,publish_on_new_site,redirect_required\n${inventory.map((x) => {
+  const excluded = x.type === 'post';
+  return [csv(x.legacyUrl), csv(excluded ? '' : x.targetPath), x.type, x.status, excluded ? 'exclude-legacy-post' : 'review-page', excluded ? 'no' : 'pending-review', excluded ? 'no' : 'host-only'].join(',');
+}).join('\n')}\n`);
 
 const allLinks = entities.flatMap((item) => getLinks(item.content?.rendered).map((url) => ({ source: item.link, url })));
 const linkRows = [...new Map(allLinks.map((x) => [`${x.source}\n${x.url}`, x])).values()];

@@ -13,7 +13,7 @@ The detailed inventory is in `audit/generated/content-inventory.csv` (5,285 cont
 | Teaching | Teaching, classes, current semester, course pages | Curate current material; archive old resources separately |
 | Impact | Consultancy and industry engagement, intellectual property | Structured case studies/evidence |
 | Media | 107 retrieved attachments, including 80 PDFs | Quarantine; privacy/copyright/accessibility review |
-| Legacy stream | 5,249 posts, mostly 2016–2017 social/news imports | Preserve URL inventory; default to archive/exclude from primary navigation |
+| Legacy stream | 5,249 posts, mostly 2016–2017 social/news imports | **Owner decision: do not publish; retain inventory only** |
 | Events | Events and child pages | Confirm whether plugin data is still meaningful; export separately if needed |
 
 ## Key observations
@@ -22,6 +22,10 @@ The detailed inventory is in `audit/generated/content-inventory.csv` (5,285 cont
 - The 713 categories and 3,377 tags primarily reflect imported social/news material and should not define the new site taxonomy.
 - The current homepage already expresses “Murtadha / Networked Intelligence”; the Astro concept continues this direction instead of imitating a corporate portal.
 - The 80 PDFs are not approved migration assets. Filenames/titles include material that may be confidential or inappropriate for public Git history.
+
+## Confirmed owner decision
+
+All 5,249 legacy posts are excluded from the new site. No post body, dated post route, category archive or tag archive will be generated. Their inventory is retained solely as migration evidence and to prevent accidental reintroduction.
 
 ## Proposed core data model
 

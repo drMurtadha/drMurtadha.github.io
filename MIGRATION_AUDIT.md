@@ -10,6 +10,8 @@ The WordPress subsite is reachable and its public REST API is suitable as an **i
 
 The strongest migration risk is not technical. The media library includes PDFs whose titles suggest student marks, forms, certificates, viva records and administrative material. Nothing in the media library should be bulk-published to GitHub until privacy, ownership and copyright checks are complete.
 
+**Owner decision, 13 September 2026:** all 5,249 legacy posts are excluded from publication on the new site. They remain in the inventory only. This removes the social/news corpus from the implementation scope, including its category and tag archive pages.
+
 ## Counts captured
 
 | Object | REST total | Retrieved | Notes |

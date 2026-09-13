@@ -20,6 +20,12 @@ npm run check:external -- --limit=25
 
 The import is read-only. Raw snapshots are ignored by Git because they are large and can include material that requires privacy/copyright review. Generated inventories may be committed deliberately.
 
+## Owner migration decisions
+
+- All 5,249 legacy posts are excluded from the new site. They remain in the audit inventory only and must not generate Astro routes or be copied into the repository.
+- Pages remain subject to individual editorial review.
+- Media remains quarantined until specifically approved.
+
 ## Deployment safety
 
 - Pushes run the build job only.

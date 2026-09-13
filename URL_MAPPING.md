@@ -1,6 +1,6 @@
 # URL mapping
 
-The row-level draft is in `audit/generated/url-mapping.csv` (5,285 mappings plus header).
+The row-level register is in `audit/generated/url-mapping.csv` (5,285 records plus header). All 5,249 post rows now have `migration_decision=exclude-legacy-post`, an empty target, and `publish_on_new_site=no`.
 
 ## Mapping policy
 
@@ -12,7 +12,15 @@ maps initially to:
 
 `https://drmurtadha.github.io/biography/`
 
-This removes only the multisite prefix `/murtadha`. Existing dated post paths should be retained for archived posts unless an editorial merge has an explicit redirect target.
+This removes only the multisite prefix `/murtadha` for approved pages. Legacy dated posts are intentionally excluded and receive no new-site target.
+
+## Legacy-post policy
+
+- Do not generate any of the 5,249 dated post routes.
+- Do not migrate post bodies, category archives or tag archives.
+- Do not redirect excluded posts to the homepage; that would create misleading soft-404 behaviour.
+- Keep the old URLs in the audit register only.
+- Any future article is new curated content and does not inherit this exclusion automatically.
 
 ## Core curated mappings
 
