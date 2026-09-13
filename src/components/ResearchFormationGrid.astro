@@ -1,0 +1,19 @@
+---
+---
+<script>
+  const slot = document.querySelector('[data-animation-slot="research-constellation"]');
+  const cards = slot?.querySelectorAll('.constellation-map li');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (slot && cards?.length && !reduceMotion && 'IntersectionObserver' in window) {
+    slot.setAttribute('data-formation', 'pending');
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        requestAnimationFrame(() => slot.setAttribute('data-formation', 'active'));
+        observer.disconnect();
+      }
+    }, { threshold: 0.3 });
+    observer.observe(slot);
+  }
+</script>
