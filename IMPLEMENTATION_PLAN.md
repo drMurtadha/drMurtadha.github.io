@@ -18,7 +18,7 @@ The visual idea is an academic field guide to connected intelligence: warm paper
 
 ### 2. Privacy and editorial triage — required next
 
-- Owner reviews all 80 PDFs and any people/student content.
+- Owner reviews the remaining PDFs and any people/student content; the latest CV is approved separately.
 - Classify every item: migrate, archive privately, link to source, merge, or omit.
 - Apply the confirmed decision to exclude all 5,249 legacy posts; keep only their audit records and add no replacement routes.
 - Import the 13 current/newly rebuilt pages and exclude the 23 remaining legacy pages.
@@ -31,7 +31,7 @@ The visual idea is an academic field guide to connected intelligence: warm paper
 - Download only approved first-party media, verify checksums and produce accessible alternatives.
 - Generate all approved legacy routes and a redirect/canonical manifest.
 
-Current progress: all 13 approved page records are now stored as static build data. Twelve routes are generated because the earlier 2026 `publications` page is consolidated into the newer Scopus route. WordPress wrappers/scripts and the homepage post feed are removed; unapproved media is represented by review placeholders.
+Current progress: all 13 approved page records are now stored as static build data. Twelve routes are generated because the earlier 2026 `publications` page is consolidated into the newer Scopus route. WordPress wrappers/scripts and the homepage post feed are removed. Five owner-provided photographs and the latest 46-page CV are local static assets; unapproved media is represented by review placeholders.
 
 ### 4. Experience layer
 
@@ -70,5 +70,6 @@ Current progress: all 13 approved page records are now stored as static build da
 - [x] Owner decision recorded: migrate 13 current pages; exclude 23 legacy pages
 - [x] Import and sanitise 13 approved page records into 12 static routes
 - [x] Enforce build-time guards against posts, unapproved pages and WordPress media dependencies
+- [x] Integrate five approved photographs and the latest CV through a strict asset allowlist
 - [x] Desktop and 390 px mobile visual QA for Home and Publications; navigation wrap corrected; no browser console errors
 - [ ] GitHub authentication/repository creation

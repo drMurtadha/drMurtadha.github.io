@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "sourceFilename": "murtadha-office-desk.jpg",
+      "path": "/assets/images/murtadha-office-desk.jpg",
+      "primaryUse": "home",
+      "approvedByOwner": true
+    },
+    {
+      "sourceFilename": "murtadha-supervision-meeting.jpg",
+      "path": "/assets/images/murtadha-supervision-meeting.jpg",
+      "primaryUse": "people",
+      "approvedByOwner": true
+    },
+    {
+      "sourceFilename": "murtadha-portrait-warm.jpg",
+      "path": "/assets/images/murtadha-portrait-warm.jpg",
+      "primaryUse": "biography",
+      "approvedByOwner": true
+    },
+    {
+      "sourceFilename": "murtadha-portrait-mono.jpg",
+      "path": "/assets/images/murtadha-portrait-mono.jpg",
+      "primaryUse": "cv",
+      "approvedByOwner": true
+    },
+    {
+      "sourceFilename": "murtadha-portrait-editorial.jpg",
+      "path": "/assets/images/murtadha-portrait-editorial.jpg",
+      "primaryUse": "connect",
+      "approvedByOwner": true
+    }
+  ],
+  "documents": [
+    {
+      "sourceFilename": "MOHD-MURTADHA-CV-UTM-2026-UPDATED.pdf",
+      "path": "/assets/documents/mohd-murtadha-cv-2026.pdf",
+      "label": "Curriculum Vitae — Mohd Murtadha Mohamad",
+      "sourceMediaId": 7604,
+      "sourceDate": "2026-09",
+      "pages": 46,
+      "sha256": "8adb025cad46b04e925cb928700f38bac9a7d6fcd5502f9822d0c5c66ffa471c",
+      "approvedByOwner": true
+    }
+  ]
+}

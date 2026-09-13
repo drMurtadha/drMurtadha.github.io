@@ -18,6 +18,9 @@ for (const root of roots) {
 if (failures) process.exit(1);
 
 const policy = JSON.parse(await readFile(resolve('src/data/migration-policy.json'), 'utf8'));
+const assetPolicy = JSON.parse(await readFile(resolve('src/data/asset-policy.json'), 'utf8'));
+const approvedImagePaths = new Set(assetPolicy.images.map((asset) => asset.path));
+const approvedDocumentPaths = new Set(assetPolicy.documents.map((asset) => asset.path));
 const importedDir = resolve('src/data/imported-pages');
 const importedFiles = (await readdir(importedDir)).filter((name) => name.endsWith('.json') && name !== 'manifest.json');
 if (importedFiles.length !== policy.pages.currentCount) {
@@ -30,9 +33,21 @@ for (const file of importedFiles) {
     console.error(`Unapproved WordPress page imported: ${file} (${record.legacyId})`);
     failures += 1;
   }
-  for (const forbidden of [/<script\b/i, /<img\b/i, /\/wp-content\//i, /href=["']\/murtadha\//i, /wp-block-post\b/i]) {
+  for (const forbidden of [/<script\b/i, /\/wp-content\//i, /href=["']\/murtadha\//i, /wp-block-post\b/i]) {
     if (forbidden.test(record.html)) {
       console.error(`Forbidden legacy/runtime content in ${file}: ${forbidden}`);
+      failures += 1;
+    }
+  }
+  for (const match of record.html.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["']/gi)) {
+    if (!approvedImagePaths.has(match[1])) {
+      console.error(`Unapproved image in ${file}: ${match[1]}`);
+      failures += 1;
+    }
+  }
+  for (const match of record.html.matchAll(/<a\b[^>]*\bhref=["'](\/assets\/documents\/[^"']+)["']/gi)) {
+    if (!approvedDocumentPaths.has(match[1])) {
+      console.error(`Unapproved document in ${file}: ${match[1]}`);
       failures += 1;
     }
   }

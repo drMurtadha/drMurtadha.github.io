@@ -19,6 +19,10 @@
 .imported-page :where(.mm-table,table){width:100%;border-collapse:collapse;display:block;overflow-x:auto}
 .imported-page :where(th,td){padding:.8rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .imported-page :where(.mm-btn,.ni-button,.mm-more,.ni-text-link){display:inline-block;padding:.7rem 1rem;background:var(--ink);color:#fff;text-decoration:none;margin:.5rem .5rem .5rem 0}
+.imported-page img{display:block;width:100%;max-width:100%;height:auto;object-fit:cover}
+.imported-page :where(.ni-portrait,.mm-mast--photo,.mm-figure figure){overflow:hidden;background:#ded7cf}
+.imported-page :where(.ni-portrait,.mm-mast--photo) img{aspect-ratio:4/3}
+.imported-page .ni-portrait img{aspect-ratio:3/4;object-position:center top}
 .imported-page .media-review-placeholder{display:grid;place-content:center;gap:.4rem;min-height:16rem;padding:2rem;background:repeating-linear-gradient(135deg,#e5dfd6,#e5dfd6 8px,#eee9e2 8px,#eee9e2 16px);color:var(--muted);text-align:center;border:1px solid var(--line)}
 .imported-page .media-review-placeholder small{text-transform:uppercase;letter-spacing:.12em;font-weight:800}
 .imported-page .media-download-placeholder{display:inline-flex;flex-direction:column;gap:.2rem;padding:.8rem 1rem;border:1px dashed var(--line);color:var(--muted)}

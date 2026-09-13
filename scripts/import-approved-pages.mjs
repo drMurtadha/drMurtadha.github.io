@@ -6,8 +6,11 @@ import { resolve } from 'node:path';
 const snapshotPath = resolve(process.argv[2] || 'audit/raw/pages.json');
 const outputDir = resolve(process.argv[3] || 'src/data/imported-pages');
 const policy = JSON.parse(await readFile(resolve('src/data/migration-policy.json'), 'utf8'));
+const assetPolicy = JSON.parse(await readFile(resolve('src/data/asset-policy.json'), 'utf8'));
 const pages = JSON.parse(await readFile(snapshotPath, 'utf8'));
 const approved = new Set(policy.pages.currentPageIds);
+const approvedImages = new Map(assetPolicy.images.map((asset) => [asset.sourceFilename, asset.path]));
+const approvedDocuments = new Map(assetPolicy.documents.map((asset) => [asset.sourceFilename, asset.path]));
 
 const routeMap = new Map([
   ['/murtadha/', '/'],
@@ -30,6 +33,14 @@ function stripTags(value = '') {
   return parse(value).text.trim().replace(/\s+/g, ' ');
 }
 
+function filenameFromUrl(value = '') {
+  try {
+    return decodeURIComponent(new URL(value, 'https://people.utm.my').pathname.split('/').at(-1));
+  } catch {
+    return '';
+  }
+}
+
 function cleanPage(page) {
   let source = page.content.rendered;
   const contentStart = source.match(/<div id=["']ni-main["'][^>]*><\/div>/i);
@@ -41,6 +52,16 @@ function cleanPage(page) {
     for (const element of site.querySelectorAll(selector)) element.remove();
   }
   for (const image of site.querySelectorAll('img')) {
+    const sourceFilename = filenameFromUrl(image.getAttribute('src'));
+    const approvedPath = approvedImages.get(sourceFilename);
+    if (approvedPath) {
+      image.setAttribute('src', approvedPath);
+      image.setAttribute('loading', 'lazy');
+      image.setAttribute('decoding', 'async');
+      image.removeAttribute('srcset');
+      image.removeAttribute('sizes');
+      continue;
+    }
     const alt = image.getAttribute('alt') || image.getAttribute('title') || 'Image';
     image.replaceWith(`<span class="media-review-placeholder" role="img" aria-label="${alt.replaceAll('"', '&quot;')}"><small>Media pending review</small><span>${alt}</span></span>`);
   }
@@ -48,6 +69,11 @@ function cleanPage(page) {
     const href = anchor.getAttribute('href');
     if (!href) continue;
     if (/\/wp-content\//i.test(href)) {
+      const approvedPath = approvedDocuments.get(filenameFromUrl(href));
+      if (approvedPath) {
+        anchor.setAttribute('href', approvedPath);
+        continue;
+      }
       const label = anchor.text.trim().replace(/\s+/g, ' ') || 'Download';
       anchor.replaceWith(`<span class="media-download-placeholder"><small>Download pending media review</small><span>${label}</span></span>`);
       continue;

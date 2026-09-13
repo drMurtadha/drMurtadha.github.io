@@ -30,7 +30,7 @@ This removes only the multisite prefix `/murtadha` for approved pages. Legacy da
 |---|---|---|
 | `/murtadha/` | `/` | New Networked Intelligence homepage |
 | `/murtadha/biography/` | `/biography/` | Curated biography |
-| `/murtadha/cv/` | `/cv/` | Current CV landing page; PDF only after review |
+| `/murtadha/cv/` | `/cv/` | Current CV landing page; approved September 2026 PDF stored locally |
 | `/murtadha/research-areasinterest/` | `/research/` | Research constellation and themes |
 | `/murtadha/scopus-indexed-publications/` | `/publications/` | Consolidated explorer |
 | `/murtadha/web-of-science-indexed-publications/` | `/publications/?index=wos` | Filter/view, plus redirect where supported |

@@ -25,9 +25,9 @@ The import is read-only. Raw snapshots are ignored by Git because they are large
 
 - All 5,249 legacy posts are excluded from the new site. They remain in the audit inventory only and must not generate Astro routes or be copied into the repository.
 - Migrate only the 13 current/newly rebuilt pages; exclude the remaining 23 legacy pages.
-- Media remains quarantined until specifically approved.
+- Five owner-provided photographs and the latest CV PDF are approved. All other media remains quarantined.
 
-The approved-page importer strips WordPress headers/footers, scripts, post-query blocks and legacy archive sections. It rewrites internal routes and replaces media with review placeholders. Validation fails if an unapproved page ID, post block, script, image, `/wp-content/` dependency or `/murtadha/` link is introduced.
+The approved-page importer strips WordPress headers/footers, scripts, post-query blocks and legacy archive sections. It rewrites internal routes, maps allowlisted assets to local static files, and replaces other media with review placeholders. Validation fails if an unapproved page ID, post block, asset, `/wp-content/` dependency or `/murtadha/` link is introduced. See [ASSET_REGISTER.md](ASSET_REGISTER.md).
 
 ## Deployment safety
 

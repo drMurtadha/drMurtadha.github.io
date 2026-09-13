@@ -18,7 +18,7 @@ The strongest migration risk is not technical. The media library includes PDFs w
 
 The 13 approved source pages have been imported into static local JSON records. They generate 12 routes: Home plus Biography, Research, People, Teaching, Impact, CV, Connect, Scopus publications, Web of Science publications, Other publications and Non-indexed publications. The older overlapping 2026 `publications` source is retained for reconciliation but does not create a duplicate route.
 
-The importer removes WordPress/theme wrappers, scripts, the homepage post-query block and preserved legacy-overview sections. All image and download references are replaced with review placeholders, leaving no runtime `/wp-content/` dependency. The source-note link back to People@UTM remains a normal external citation, not a content/API dependency.
+The importer removes WordPress/theme wrappers, scripts, the homepage post-query block and preserved legacy-overview sections. Five owner-provided photographs and the newest audited CV (media ID 7604) are mapped to local allowlisted files. All other image and download references become review placeholders, leaving no runtime `/wp-content/` dependency. The source-note link back to People@UTM remains a normal external citation, not a content/API dependency.
 
 ## Counts captured
 
@@ -62,7 +62,7 @@ The public API reports relevant menu routes, but `/wp/v2/menus`, `/wp/v2/menu-it
 
 | Risk | Impact | Control |
 |---|---|---|
-| Sensitive or student-related PDFs | Privacy/data exposure | Quarantine all media; owner review before copying |
+| Sensitive or student-related PDFs | Privacy/data exposure | Quarantine all unapproved media; owner review before copying |
 | Republishing third-party news/social content | Copyright and relevance | Archive inventory; do not feature by default; review retention policy |
 | 59k links include stale shorteners/embeds | Broken experience/security | Deduplicate, classify, then rate-limited status validation |
 | Canonical duplication during parallel run | SEO dilution | Preview stays `noindex`; switch canonicals only at approved cutover |
