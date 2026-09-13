@@ -79,6 +79,10 @@ After the native Astro routes were built, every unique external anchor in the ge
 
 The 59,423 legacy source/link pairs remain inventoried rather than requested over HTTP. They belong overwhelmingly to the 5,249 excluded posts; issuing tens of thousands of requests would add load without affecting the approved static site.
 
+### Broken-DOI investigation (13 September 2026)
+
+The one `broken` result, `https://doi.org/10.14257/ijseia.2014.8.2.31` ("Wireless LAN/FM radio-based robust mobile indoor positioning: An initial outcome", *International Journal of Software Engineering and Its Applications*, 2014), was checked against Crossref: a direct lookup of the DOI returns `404` (not registered with Crossref), and a Crossref bibliographic search on the exact title returns no matching record under any DOI. This pattern is consistent with a known publisher-side (SERSC) DOI registration/resolution gap rather than a transcription error in this repository. No authoritative replacement DOI was found, so the record in `src/data/publications.json` is left unchanged; the title/venue/year citation remains the public record of the work. This stays an open editorial-review item for the owner, not an automatically "fixed" link.
+
 ## GitHub status
 
 The public repository `drMurtadha/drMurtadha.github.io` was created and `main` was pushed at commit `9f226eab252f399939c01bdcbdcff09844bf9739`. GitHub Actions completed the build successfully and skipped deployment as designed. The special repository name causes GitHub to attach a Pages source configuration automatically, but no Pages artifact has been deployed and the site remains unavailable. Indexing, DNS and People@UTM are unchanged.

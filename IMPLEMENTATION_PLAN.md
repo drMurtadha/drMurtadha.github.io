@@ -92,3 +92,6 @@ Current progress: the output validator now requires all 13 static outputs (inclu
 - [x] Add Person structured data, social metadata and web manifest
 - [x] Add output integrity and performance-budget checks to the standard build
 - [x] GitHub repository created and `main` pushed; build workflow passed and deploy job remained skipped
+- [x] Re-verified all 12 routes and the 404 page at desktop and 390 px widths: no horizontal overflow, no console errors, working search/filter and empty-result states, keyboard-operable accordions and navigation, visible focus indicators, reduced-motion support intact
+- [x] Hardened `validate-build.mjs` with a legacy `/murtadha/`-path guard and a `target="_blank"` safe-`rel` guard on the final build output
+- [x] Investigated the one broken legacy DOI via Crossref; no authoritative replacement found, so the record is left unchanged with an editorial-review note (see `MIGRATION_AUDIT.md`)

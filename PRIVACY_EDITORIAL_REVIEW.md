@@ -28,6 +28,7 @@ The People page therefore presents a concise public supervision record without d
 - Confirm the role “Coordinator, PhD in Computer Science”.
 - Confirm `murtadha@utm.my` as the public contact address.
 - Confirm that publication metrics are a dated snapshot: 81 documents, 885 citations and h-index 15 as at 13 September 2026.
-- Review the single unresolved legacy DOI and the transient/link-access cases listed in `audit/generated/external-link-status-current-site.json`; do not delete scholarly links solely because automated access is blocked.
+- The single unresolved legacy DOI (`10.14257/ijseia.2014.8.2.31`) was checked against Crossref: not registered under that DOI, and no matching record under any DOI for the exact title. No authoritative replacement was found, so the citation is left unchanged; see `MIGRATION_AUDIT.md` for the evidence. Owner sign-off on this specific record is still open.
+- The transient/link-access cases listed in `audit/generated/external-link-status-current-site.json` remain access-controlled or transient by classification; do not delete scholarly links solely because automated access is blocked.
 
 No deployment, indexing change, DNS change or People@UTM modification is authorised by this checklist.
