@@ -22,9 +22,14 @@ for (const route of routes) {
   try { JSON.parse(page.querySelector('script[type="application/ld+json"]')?.text || ''); }
   catch { failures.push(`${route}: invalid or missing JSON-LD`); }
   if (/\/wp-content\//i.test(html)) failures.push(`${route}: WordPress media dependency found`);
+  if (/href=["']\/murtadha\//i.test(html)) failures.push(`${route}: legacy /murtadha/ internal path found`);
   for (const image of page.querySelectorAll('img')) {
     if (!image.getAttribute('alt')?.trim()) failures.push(`${route}: image missing alt text`);
     if (!image.getAttribute('width') || !image.getAttribute('height')) failures.push(`${route}: image missing intrinsic dimensions`);
+  }
+  for (const link of page.querySelectorAll('a[target="_blank"]')) {
+    const rel = link.getAttribute('rel') || '';
+    if (!/\bnoopener\b/.test(rel)) failures.push(`${route}: target="_blank" link missing rel="noopener" (${link.getAttribute('href')})`);
   }
 }
 
