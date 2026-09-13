@@ -1,0 +1,80 @@
+[
+  {
+    "legacyId": 45,
+    "slug": "cv",
+    "title": "Curriculum vitae",
+    "sourceModifiedAt": "2026-09-12T16:07:47"
+  },
+  {
+    "legacyId": 83,
+    "slug": "biography",
+    "title": "Biography",
+    "sourceModifiedAt": "2026-09-13T07:57:55"
+  },
+  {
+    "legacyId": 265,
+    "slug": "research-areasinterest",
+    "title": "Research Grants",
+    "sourceModifiedAt": "2026-09-13T07:57:59"
+  },
+  {
+    "legacyId": 292,
+    "slug": "phd-students",
+    "title": "Postgraduate Students",
+    "sourceModifiedAt": "2026-09-13T07:58:05"
+  },
+  {
+    "legacyId": 2036,
+    "slug": "social-media",
+    "title": "Connect",
+    "sourceModifiedAt": "2026-09-12T16:07:52"
+  },
+  {
+    "legacyId": 7393,
+    "slug": "home",
+    "title": "Home",
+    "sourceModifiedAt": "2026-09-13T07:44:34"
+  },
+  {
+    "legacyId": 7402,
+    "slug": "publications",
+    "title": "Scopus-Indexed Publications",
+    "sourceModifiedAt": "2026-09-08T07:30:46"
+  },
+  {
+    "legacyId": 7421,
+    "slug": "web-of-science-indexed-publications",
+    "title": "Web of Science-Indexed Publications",
+    "sourceModifiedAt": "2026-09-12T16:08:10"
+  },
+  {
+    "legacyId": 7427,
+    "slug": "scopus-indexed-publications",
+    "title": "Scopus-Indexed Publications",
+    "sourceModifiedAt": "2026-09-13T08:15:57"
+  },
+  {
+    "legacyId": 7462,
+    "slug": "verified-non-indexed-publications",
+    "title": "Verified Non-Indexed Publications",
+    "sourceModifiedAt": "2026-09-12T16:08:20"
+  },
+  {
+    "legacyId": 7464,
+    "slug": "other-publications",
+    "title": "Other Publications",
+    "sourceModifiedAt": "2026-09-12T16:08:15"
+  },
+  {
+    "legacyId": 7499,
+    "slug": "consultancy-industry-engagement",
+    "title": "Consultancy & Industry Engagement",
+    "sourceModifiedAt": "2026-09-13T07:58:11"
+  },
+  {
+    "legacyId": 7543,
+    "slug": "teaching",
+    "title": "Teaching",
+    "sourceModifiedAt": "2026-09-13T07:58:08"
+  }
+]

@@ -1,13 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Hero from '../components/Hero.astro';
-import ResearchConstellation from '../components/ResearchConstellation.astro';
+import ImportedContent from '../components/ImportedContent.astro';
+import home from '../data/imported-pages/home.json';
 ---
-<BaseLayout title="Networked Intelligence" description="Academic profile and research network of Associate Professor Mohd Murtadha Mohamad.">
-  <Hero />
-  <ResearchConstellation />
-  <section class="section split">
-    <div><p class="eyebrow">Academic practice</p><h2>Research, teaching and service—made legible.</h2></div>
-    <p>This static site is being migrated from People@UTM. WordPress remains the source during migration, but the published site will have no runtime dependency on it.</p>
-  </section>
+<BaseLayout title="Networked Intelligence" description={home.description}>
+  <ImportedContent html={home.html} sourceModifiedAt={home.sourceModifiedAt} legacyUrl={home.legacyUrl} />
 </BaseLayout>

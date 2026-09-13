@@ -14,6 +14,12 @@ The strongest migration risk is not technical. The media library includes PDFs w
 
 **Owner decision, 13 September 2026:** migrate only the current People@UTM pages. The working set contains eight pages created in August–September 2026 plus five older-ID pages substantially refreshed in September 2026 and used by the current navigation. Thirteen pages are retained and 23 legacy pages are excluded. The retained `publications` page is flagged for consolidation because newer dedicated Scopus/WoS pages overlap it.
 
+## Approved-page import status
+
+The 13 approved source pages have been imported into static local JSON records. They generate 12 routes: Home plus Biography, Research, People, Teaching, Impact, CV, Connect, Scopus publications, Web of Science publications, Other publications and Non-indexed publications. The older overlapping 2026 `publications` source is retained for reconciliation but does not create a duplicate route.
+
+The importer removes WordPress/theme wrappers, scripts, the homepage post-query block and preserved legacy-overview sections. All image and download references are replaced with review placeholders, leaving no runtime `/wp-content/` dependency. The source-note link back to People@UTM remains a normal external citation, not a content/API dependency.
+
 ## Counts captured
 
 | Object | REST total | Retrieved | Notes |

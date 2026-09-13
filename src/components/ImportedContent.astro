@@ -1,0 +1,16 @@
+---
+interface Props { html: string; sourceModifiedAt: string; legacyUrl: string; }
+const { html, sourceModifiedAt, legacyUrl } = Astro.props;
+---
+<article class="imported-page">
+  <div set:html={html} />
+  <footer class="source-note">
+    <span>Content migrated from the current People@UTM page, last modified {new Date(sourceModifiedAt).toLocaleDateString('en-MY', { dateStyle: 'long' })}.</span>
+    <a href={legacyUrl} rel="external">View source</a>
+  </footer>
+</article>
+
+<style>
+  .source-note{max-width:76rem;margin:0 auto;padding:1.5rem 2rem 4rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:2rem;color:var(--muted);font-size:.8rem}
+  @media(max-width:760px){.source-note{display:block}.source-note a{display:block;margin-top:.5rem}}
+</style>

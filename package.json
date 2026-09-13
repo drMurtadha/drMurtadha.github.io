@@ -11,10 +11,12 @@
     "check:links": "node scripts/check-links.mjs dist",
     "check:external": "node scripts/check-external-links.mjs",
     "import:wordpress": "node scripts/import-wordpress.mjs",
+    "import:pages": "node scripts/import-approved-pages.mjs",
     "audit:wordpress": "node scripts/audit-content.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.4",
-    "astro": "7.3.2"
+    "astro": "7.3.2",
+    "node-html-parser": "^7.0.1"
   }
 }

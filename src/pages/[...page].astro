@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ImportedContent from '../components/ImportedContent.astro';
+
+export function getStaticPaths() {
+  const modules = import.meta.glob('../data/imported-pages/*.json', { eager: true });
+  const bySlug = Object.fromEntries(Object.entries(modules).map(([path, module]) => {
+    const slug = path.split('/').at(-1).replace('.json', '');
+    return [slug, module.default];
+  }));
+  const routes = {
+    biography: 'biography',
+    research: 'research-areasinterest',
+    people: 'phd-students',
+    teaching: 'teaching',
+    impact: 'consultancy-industry-engagement',
+    cv: 'cv',
+    connect: 'social-media',
+    publications: 'scopus-indexed-publications',
+    'publications/web-of-science': 'web-of-science-indexed-publications',
+    'publications/other': 'other-publications',
+    'publications/non-indexed': 'verified-non-indexed-publications',
+  };
+  return Object.entries(routes).map(([page, slug]) => ({ params: { page }, props: { record: bySlug[slug] } }));
+}
+
+const { record } = Astro.props;
+---
+<BaseLayout title={record.title} description={record.description}>
+  <ImportedContent html={record.html} sourceModifiedAt={record.sourceModifiedAt} legacyUrl={record.legacyUrl} />
+</BaseLayout>

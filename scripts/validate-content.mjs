@@ -16,4 +16,26 @@ for (const root of roots) {
   }
 }
 if (failures) process.exit(1);
-console.log('Content validation passed.');
+
+const policy = JSON.parse(await readFile(resolve('src/data/migration-policy.json'), 'utf8'));
+const importedDir = resolve('src/data/imported-pages');
+const importedFiles = (await readdir(importedDir)).filter((name) => name.endsWith('.json') && name !== 'manifest.json');
+if (importedFiles.length !== policy.pages.currentCount) {
+  console.error(`Expected ${policy.pages.currentCount} approved page records; found ${importedFiles.length}.`);
+  failures += 1;
+}
+for (const file of importedFiles) {
+  const record = JSON.parse(await readFile(resolve(importedDir, file), 'utf8'));
+  if (!policy.pages.currentPageIds.includes(record.legacyId)) {
+    console.error(`Unapproved WordPress page imported: ${file} (${record.legacyId})`);
+    failures += 1;
+  }
+  for (const forbidden of [/<script\b/i, /<img\b/i, /\/wp-content\//i, /href=["']\/murtadha\//i, /wp-block-post\b/i]) {
+    if (forbidden.test(record.html)) {
+      console.error(`Forbidden legacy/runtime content in ${file}: ${forbidden}`);
+      failures += 1;
+    }
+  }
+}
+if (failures) process.exit(1);
+console.log(`Content validation passed (${importedFiles.length} approved pages; legacy posts excluded).`);

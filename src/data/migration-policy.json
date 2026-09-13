@@ -29,7 +29,11 @@
       "biography",
       "cv"
     ],
-    "classification": "Eight pages created in August/September 2026 plus five older-ID pages substantially refreshed in September 2026 and used by the current site/navigation."
+    "classification": "Eight pages created in August/September 2026 plus five older-ID pages substantially refreshed in September 2026 and used by the current site/navigation.",
+    "consolidation": {
+      "home": "Imported into the Astro root route.",
+      "publications": "Retained as source evidence and consolidated into the newer Scopus publication route; no duplicate public route."
+    }
   },
   "media": {
     "decision": "quarantine-until-approved"

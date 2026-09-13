@@ -31,6 +31,8 @@ The visual idea is an academic field guide to connected intelligence: warm paper
 - Download only approved first-party media, verify checksums and produce accessible alternatives.
 - Generate all approved legacy routes and a redirect/canonical manifest.
 
+Current progress: all 13 approved page records are now stored as static build data. Twelve routes are generated because the earlier 2026 `publications` page is consolidated into the newer Scopus route. WordPress wrappers/scripts and the homepage post feed are removed; unapproved media is represented by review placeholders.
+
 ### 4. Experience layer
 
 - Implement research constellation progressively: semantic list first, enhancement second.
@@ -66,4 +68,6 @@ The visual idea is an academic field guide to connected intelligence: warm paper
 - [ ] Remaining owner privacy/editorial decisions for pages and media
 - [x] Owner decision recorded: all 5,249 legacy posts excluded from publication
 - [x] Owner decision recorded: migrate 13 current pages; exclude 23 legacy pages
+- [x] Import and sanitise 13 approved page records into 12 static routes
+- [x] Enforce build-time guards against posts, unapproved pages and WordPress media dependencies
 - [ ] GitHub authentication/repository creation

@@ -1,5 +1,6 @@
 ---
 interface Props { title: string; description: string; }
+import navigation from '../data/navigation.json';
 const { title, description } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
@@ -19,9 +20,8 @@ const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
     <header class="site-header">
       <a class="identity" href="/">Mohd Murtadha</a>
       <nav aria-label="Primary navigation">
-        <a href="/biography/">Biography</a>
-        <a href="/research/">Research</a>
-        <a href="/publications/">Publications</a>
+        {navigation.primary.map((item) => <a href={item.target}>{item.label}</a>)}
+        <a href="/connect/">Connect</a>
       </nav>
     </header>
     <main id="main"><slot /></main>
@@ -34,4 +34,5 @@ const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
 
 <style is:global>
   @import '../styles/global.css';
+  @import '../styles/imported-content.css';
 </style>

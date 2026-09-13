@@ -15,6 +15,7 @@ npm run build
 ```sh
 npm run import:wordpress -- --out=audit/raw
 npm run audit:wordpress -- audit/raw audit/generated
+npm run import:pages -- audit/raw/pages.json src/data/imported-pages
 npm run check:external -- --limit=25
 ```
 
@@ -25,6 +26,8 @@ The import is read-only. Raw snapshots are ignored by Git because they are large
 - All 5,249 legacy posts are excluded from the new site. They remain in the audit inventory only and must not generate Astro routes or be copied into the repository.
 - Migrate only the 13 current/newly rebuilt pages; exclude the remaining 23 legacy pages.
 - Media remains quarantined until specifically approved.
+
+The approved-page importer strips WordPress headers/footers, scripts, post-query blocks and legacy archive sections. It rewrites internal routes and replaces media with review placeholders. Validation fails if an unapproved page ID, post block, script, image, `/wp-content/` dependency or `/murtadha/` link is introduced.
 
 ## Deployment safety
 
