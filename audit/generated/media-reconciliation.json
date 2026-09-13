@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-13T12:06:57Z",
+  "endpoint": "https://people.utm.my/murtadha/wp-json/wp/v2/media",
+  "reportedTotal": 109,
+  "reportedTotalPagesAt100": 2,
+  "runs": [
+    {
+      "perPage": 100,
+      "pageLengths": [98, 9],
+      "returned": 107,
+      "uniqueIds": 107
+    },
+    {
+      "perPage": 50,
+      "pageLengths": [48, 50, 9],
+      "returned": 107,
+      "uniqueIds": 107
+    }
+  ],
+  "conclusion": "The public REST response advertises 109 records but exposes only 107 unique records, independently of page size. The two-record difference is a source-side count/visibility inconsistency and not a pagination loss in the migration.",
+  "control": "Keep unapproved media quarantined. Repeat enumeration at any approved freeze/cutover and compare the 107 visible IDs before importing new media."
+}

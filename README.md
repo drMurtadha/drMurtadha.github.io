@@ -41,4 +41,4 @@ The approved-page importer strips WordPress headers/footers, scripts, post-query
 - Search indexing is disabled by default through `PUBLIC_SITE_INDEXABLE=false` and `robots.txt`.
 - Do not enable indexing, change DNS, or alter People@UTM until the owner approves cutover.
 
-See [MIGRATION_AUDIT.md](MIGRATION_AUDIT.md) and [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
+See [MIGRATION_AUDIT.md](MIGRATION_AUDIT.md), [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md), and the final owner checklist in [PRIVACY_EDITORIAL_REVIEW.md](PRIVACY_EDITORIAL_REVIEW.md).

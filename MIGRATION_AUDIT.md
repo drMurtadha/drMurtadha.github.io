@@ -26,7 +26,7 @@ The importer removes WordPress/theme wrappers, scripts, the homepage post-query 
 |---|---:|---:|---|
 | Posts | 5,249 | 5,249 | All returned as `publish` |
 | Pages | 36 | 36 | All returned as `publish` |
-| Media | 109 | 107 | API advertised 109 but pagination returned 107; investigate deleted/restricted/racing records |
+| Media | 109 advertised | 107 visible | Repeated with page sizes 100 and 50; both return the same 107 unique IDs. This is a source-side count/visibility inconsistency, not migration pagination loss. |
 | PDFs | — | 80 | Subset of retrieved media; privacy review required |
 | Categories | 713 | 713 | `Other` contains 5,244 posts |
 | Tags | 3,377 | 3,377 | High-cardinality social/news taxonomy |
@@ -73,9 +73,15 @@ The public API reports relevant menu routes, but `/wp/v2/menus`, `/wp/v2/menu-it
 
 A deliberately small, rate-limited check covered the first 15 unique research/profile destinations. ORCID and several Springer/PLOS DOI resolutions returned `200`; IEEE DOI resolutions returned `202` with valid IEEE Xplore destinations. Scopus and several publisher sites returned `403` after redirecting to their expected domains, which indicates bot/access control rather than a proven broken link. One DOI request failed at transport level and needs a later retry. Results are stored in `audit/generated/external-link-status.json`; HTTP status alone must not be used to delete scholarly links.
 
+## Generated-site external-link crawl
+
+After the native Astro routes were built, every unique external anchor in the generated site was checked with a rate limit. The run covered all 114 links: 95 were reachable, 10 were access-controlled (including LinkedIn's bot-blocking status `999`), eight had transient transport failures, and one old DOI returned `404`. Access controls and transport failures are review states rather than proof of a broken scholarly record. The complete dated evidence is stored in `audit/generated/external-link-status-current-site.json`.
+
+The 59,423 legacy source/link pairs remain inventoried rather than requested over HTTP. They belong overwhelmingly to the 5,249 excluded posts; issuing tens of thousands of requests would add load without affecting the approved static site.
+
 ## GitHub status
 
-Read-only GitHub inspection found no repository named `drMurtadha/drMurtadha.github.io`. The local GitHub CLI identifies account `drMurtadha`, but its token is invalid. No repository was created, no remote was changed and nothing was published.
+The public repository `drMurtadha/drMurtadha.github.io` was created and `main` was pushed at commit `9f226eab252f399939c01bdcbdcff09844bf9739`. GitHub Actions completed the build successfully and skipped deployment as designed. The special repository name causes GitHub to attach a Pages source configuration automatically, but no Pages artifact has been deployed and the site remains unavailable. Indexing, DNS and People@UTM are unchanged.
 
 ## Evidence files
 
@@ -86,5 +92,7 @@ Read-only GitHub inspection found no repository named `drMurtadha/drMurtadha.git
 - `audit/generated/pdfs.json` — PDF media list
 - `audit/generated/audit-summary.json` — machine-readable aggregate and research links
 - `audit/generated/external-link-status.json` — rate-limited 15-link research/profile sample
+- `audit/generated/external-link-status-current-site.json` — all external links rendered by the generated site
+- `audit/generated/media-reconciliation.json` — repeated pagination evidence for the 109-versus-107 media discrepancy
 
 The raw 35 MB API snapshot is kept outside the deliverable repo under the local `work/wordpress-snapshot` directory and is intentionally excluded from deployment.

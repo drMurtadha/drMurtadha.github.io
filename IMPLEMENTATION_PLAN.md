@@ -16,9 +16,9 @@ The visual idea is an academic field guide to connected intelligence: warm paper
 - Establish static Astro starter, content schemas, scripts, validation and CI.
 - Keep deployment manual and indexing disabled.
 
-### 2. Privacy and editorial triage — required next
+### 2. Privacy and editorial triage — one owner decision remains
 
-- Owner reviews the remaining PDFs and any people/student content; the latest CV is approved separately.
+- Owner confirms visibility of current-student names and progress details. All non-approved PDFs remain quarantined; the latest CV is approved separately.
 - Classify every item: migrate, archive privately, link to source, merge, or omit.
 - Apply the confirmed decision to exclude all 5,249 legacy posts; keep only their audit records and add no replacement routes.
 - Import the 13 current/newly rebuilt pages and exclude the 23 remaining legacy pages.
@@ -71,8 +71,8 @@ Current progress: the output validator now requires all 13 static outputs (inclu
 - [x] GitHub Pages build workflow with manual-only deploy
 - [x] GitHub repository existence check
 - [x] Rate-limited external-link checker and a small persistent-research-link sample
-- [ ] Full external-link HTTP status crawl (deferred; 59k unique pairs require domain deduplication, exclusions and rate limits)
-- [ ] Two missing media records reconciled
+- [x] Full HTTP status crawl of all 114 unique external links used by the generated site; the 59k legacy-post link pairs remain inventory-only because those posts are excluded
+- [x] Two-record media discrepancy reconciled as a source REST count/visibility inconsistency: two pagination strategies each expose the same 107 unique records while the header reports 109
 - [ ] Remaining owner privacy/editorial decisions for pages and media
 - [x] Owner decision recorded: all 5,249 legacy posts excluded from publication
 - [x] Owner decision recorded: migrate 13 current pages; exclude 23 legacy pages
@@ -91,4 +91,4 @@ Current progress: the output validator now requires all 13 static outputs (inclu
 - [x] Add accessible mobile navigation and custom static 404 page
 - [x] Add Person structured data, social metadata and web manifest
 - [x] Add output integrity and performance-budget checks to the standard build
-- [ ] GitHub authentication/repository creation
+- [x] GitHub repository created and `main` pushed; build workflow passed and deploy job remained skipped

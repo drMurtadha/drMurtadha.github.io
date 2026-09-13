@@ -9,7 +9,7 @@ Base: `https://people.utm.my/murtadha/wp-json`
 | `/` | API discovery, namespaces and routes | No | Public |
 | `/wp/v2/posts?per_page=100&page=N&context=view` | Posts and rendered content | No | 5,249 retrieved |
 | `/wp/v2/pages?per_page=100&page=N&context=view` | Pages and rendered content | No | 36 retrieved |
-| `/wp/v2/media?per_page=100&page=N&context=view` | Attachment metadata/source URLs | No | 107 retrieved; header claimed 109 |
+| `/wp/v2/media?per_page=N&page=N&context=view` | Attachment metadata/source URLs | No | Header claims 109; repeated page sizes of 100 and 50 both expose the same 107 unique IDs, confirming a source count/visibility inconsistency |
 | `/wp/v2/categories` | Legacy taxonomy | No | 713 retrieved |
 | `/wp/v2/tags` | Legacy taxonomy | No | 3,377 retrieved |
 | `/wp/v2/users` | Public author attribution | No | 1 retrieved |

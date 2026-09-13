@@ -12,6 +12,7 @@
     "check:links": "node scripts/check-links.mjs dist",
     "check:budget": "node scripts/check-performance-budget.mjs dist",
     "check:external": "node scripts/check-external-links.mjs",
+    "check:external:site": "node scripts/check-external-links.mjs --scope=site --dir=dist",
     "import:wordpress": "node scripts/import-wordpress.mjs",
     "import:pages": "node scripts/import-approved-pages.mjs",
     "audit:wordpress": "node scripts/audit-content.mjs",
