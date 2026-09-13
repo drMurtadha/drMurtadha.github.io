@@ -1,0 +1,17 @@
+{
+  "primary": [
+    { "label": "Research", "href": "/research-areasinterest/", "target": "/research/" },
+    { "label": "Publications", "href": "/scopus-indexed-publications/", "target": "/publications/" },
+    { "label": "People", "href": "/phd-students/", "target": "/people/" },
+    { "label": "Teaching", "href": "/teaching/", "target": "/teaching/" },
+    { "label": "Impact", "href": "/consultancy-industry-engagement/", "target": "/impact/" },
+    { "label": "About", "href": "/biography/", "target": "/biography/" }
+  ],
+  "secondary": [
+    { "label": "Curriculum vitae", "href": "/cv/" },
+    { "label": "Connect", "href": "/social-media/" },
+    { "label": "ORCID", "href": "https://orcid.org/0000-0002-1478-0138" },
+    { "label": "Scopus", "href": "https://www.scopus.com/authid/detail.uri?authorId=16033644000" }
+  ],
+  "source": "Fresh homepage HTML captured 2026-09-13; REST menu endpoints return 401."
+}

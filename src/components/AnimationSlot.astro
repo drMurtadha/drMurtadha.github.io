@@ -1,0 +1,7 @@
+---
+interface Props { name: string; label: string; }
+const { name, label } = Astro.props;
+---
+<div class="animation-slot" data-animation-slot={name} aria-label={label}>
+  <slot />
+</div>

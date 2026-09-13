@@ -1,0 +1,20 @@
+{
+  "name": "dr-murtadha-academic-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "npm run validate && ASTRO_TELEMETRY_DISABLED=1 astro build && npm run check:links",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "validate": "node scripts/validate-content.mjs",
+    "check:links": "node scripts/check-links.mjs dist",
+    "check:external": "node scripts/check-external-links.mjs",
+    "import:wordpress": "node scripts/import-wordpress.mjs",
+    "audit:wordpress": "node scripts/audit-content.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.4",
+    "astro": "7.3.2"
+  }
+}

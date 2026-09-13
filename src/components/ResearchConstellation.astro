@@ -1,0 +1,11 @@
+---
+import AnimationSlot from './AnimationSlot.astro';
+const themes = ['Wireless sensor networks', 'Ad-hoc networks', 'Indoor positioning', 'Edge intelligence', 'Network security'];
+---
+<section class="section constellation">
+  <p class="eyebrow">Research constellation</p>
+  <h2>Ideas become stronger through their connections.</h2>
+  <AnimationSlot name="research-constellation" label="Reserved research constellation interaction">
+    <ul>{themes.map((theme, index) => <li style={`--i:${index}`}>{theme}</li>)}</ul>
+  </AnimationSlot>
+</section>

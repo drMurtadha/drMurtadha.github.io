@@ -1,0 +1,37 @@
+---
+interface Props { title: string; description: string; }
+const { title, description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="robots" content={indexable ? 'index,follow' : 'noindex,nofollow'} />
+    <link rel="canonical" href={canonical} />
+    <title>{title} | Mohd Murtadha</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="identity" href="/">Mohd Murtadha</a>
+      <nav aria-label="Primary navigation">
+        <a href="/biography/">Biography</a>
+        <a href="/research/">Research</a>
+        <a href="/publications/">Publications</a>
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer>
+      <p>Academic profile · Universiti Teknologi Malaysia</p>
+      <p class="institutional">Aligned with UTM ASCEND 2030: knowledge, impact and connected intelligence.</p>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>
