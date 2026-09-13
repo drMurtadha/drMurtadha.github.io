@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
-    "build": "npm run validate && ASTRO_TELEMETRY_DISABLED=1 astro build && npm run check:links",
+    "build": "npm run validate && ASTRO_TELEMETRY_DISABLED=1 astro build && npm run validate:build && npm run check:links && npm run check:budget",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
     "validate": "node scripts/validate-content.mjs",
+    "validate:build": "node scripts/validate-build.mjs dist",
     "check:links": "node scripts/check-links.mjs dist",
+    "check:budget": "node scripts/check-performance-budget.mjs dist",
     "check:external": "node scripts/check-external-links.mjs",
     "import:wordpress": "node scripts/import-wordpress.mjs",
     "import:pages": "node scripts/import-approved-pages.mjs",

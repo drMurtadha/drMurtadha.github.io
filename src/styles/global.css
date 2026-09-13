@@ -33,6 +33,10 @@ em { font-weight: 400; }
 .site-header nav a { color: var(--muted); font-size: .91rem; text-decoration: none; }
 .site-header nav a:hover, .site-header nav a:focus-visible { color: var(--ink); text-decoration: underline; }
 .site-header nav a[aria-current="page"] { color: var(--ink); font-weight: 750; text-decoration: underline; text-decoration-color: var(--signal); text-decoration-thickness: 2px; }
+.nav-toggle { display: none; align-items: center; gap: .65rem; padding: .55rem .7rem; border: 1px solid var(--line); background: transparent; color: var(--ink); font: inherit; font-size: .8rem; font-weight: 750; }
+.nav-toggle i, .nav-toggle i::before, .nav-toggle i::after { display: block; width: 1rem; height: 1px; background: currentColor; content: ""; transition: transform .2s ease; }
+.nav-toggle i { position: relative; }.nav-toggle i::before { position: absolute; top: -.3rem; }.nav-toggle i::after { position: absolute; top: .3rem; }
+.nav-toggle[aria-expanded="true"] i { background: transparent; }.nav-toggle[aria-expanded="true"] i::before { top: 0; transform: rotate(45deg); }.nav-toggle[aria-expanded="true"] i::after { top: 0; transform: rotate(-45deg); }
 main { overflow: clip; }
 footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .84rem; }
 .institutional { max-width: 30rem; text-align: right; }
@@ -124,6 +128,8 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 .home-cta h2 { margin: 0 0 2rem; }
 .home-cta h2 em { color: var(--signal); }
 .home-cta > a { font-size: clamp(1rem, 2vw, 1.35rem); font-weight: 750; }
+.not-found { max-width: var(--page); min-height: 70vh; margin: auto; padding: clamp(6rem, 12vw, 11rem) 2rem; }
+.not-found h1 { margin: 0 0 2rem; }.not-found h1 em { color: var(--signal); }.not-found > p:not(.eyebrow) { color: var(--muted); }.not-found .button { margin-top: 1.5rem; }
 
 @media (max-width: 900px) {
   .home-hero { grid-template-columns: 1fr; }
@@ -139,9 +145,13 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 
 @media (max-width: 700px) {
   body::before { height: .25rem; }
-  .site-header, footer { display: block; padding: 1rem 1.25rem; }
-  .site-header nav { margin-top: 1rem; overflow-x: auto; padding-bottom: .35rem; }
-  .site-header nav a { white-space: nowrap; }
+  .site-header { display: flex; flex-wrap: wrap; padding: 1rem 1.25rem; }
+  footer { display: block; padding: 1rem 1.25rem; }
+  .nav-toggle { display: inline-flex; margin-left: auto; }
+  .js .site-header nav { display: none; }
+  .js .site-header nav[data-open] { display: grid; }
+  .site-header nav { flex-basis: 100%; grid-template-columns: 1fr 1fr; gap: 0; margin-top: .25rem; padding-top: .75rem; border-top: 1px solid var(--line); }
+  .site-header nav a { padding: .55rem 0; }
   footer > * + * { margin-top: 1rem; }
   .institutional { text-align: left; }
   .section { padding: 5rem 1.25rem; }

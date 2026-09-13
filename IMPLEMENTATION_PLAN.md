@@ -52,6 +52,8 @@ The remaining Biography, Teaching, Impact, Connect and publication-collection ro
 - Test keyboard use, reduced motion, screen-reader landmarks, mobile layouts and Lighthouse budgets.
 - Create/authenticate the GitHub repository only with explicit approval; publish a noindex preview by manual workflow.
 
+Current progress: the output validator now requires all 13 static outputs (including the custom 404), exactly one main landmark and one H1 per page, descriptions, canonicals, intrinsic image dimensions, alt text and no WordPress media dependency. The responsive navigation is keyboard-operable and returns focus after Escape. A performance budget caps total CSS at 60 KiB, total JavaScript at 30 KiB, individual HTML at 100 KiB and images at 250 KiB.
+
 ### 6. Approved cutover
 
 - Freeze/snapshot WordPress, rerun delta import and validate counts.
@@ -86,4 +88,7 @@ The remaining Biography, Teaching, Impact, Connect and publication-collection ro
 - [x] Convert all remaining public routes to native Astro and remove the catch-all imported-HTML route
 - [x] Structure 12 teaching subjects and the 35/40/5 secondary publication collections
 - [x] Run desktop and 390 px browser QA across all 12 routes with no console errors or horizontal overflow
+- [x] Add accessible mobile navigation and custom static 404 page
+- [x] Add Person structured data, social metadata and web manifest
+- [x] Add output integrity and performance-budget checks to the standard build
 - [ ] GitHub authentication/repository creation

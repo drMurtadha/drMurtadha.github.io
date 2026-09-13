@@ -1,11 +1,26 @@
 ---
-interface Props { title: string; description: string; }
+interface Props { title: string; description: string; noindex?: boolean; }
 import navigation from '../data/navigation.json';
-const { title, description } = Astro.props;
+import profile from '../data/academic-profile.json';
+const { title, description, noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
 const currentPath = Astro.url.pathname;
 const isActive = (target: string) => target === '/' ? currentPath === '/' : currentPath.startsWith(target);
+const profileSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: profile.name,
+  jobTitle: profile.role,
+  affiliation: { '@type': 'CollegeOrUniversity', name: 'Universiti Teknologi Malaysia', url: 'https://www.utm.my/' },
+  email: `mailto:${profile.email}`,
+  url: new URL('/', Astro.site).href,
+  sameAs: [
+    `https://orcid.org/${profile.orcid}`,
+    `https://www.scopus.com/authid/detail.uri?authorId=${profile.scopusAuthorId}`,
+    'https://www.webofscience.com/wos/author/record/C-9887-2011'
+  ]
+};
 ---
 <!doctype html>
 <html lang="en">
@@ -13,21 +28,28 @@ const isActive = (target: string) => target === '/' ? currentPath === '/' : curr
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
-    <meta name="robots" content={indexable ? 'index,follow' : 'noindex,nofollow'} />
+    <meta name="robots" content={indexable && !noindex ? 'index,follow' : 'noindex,nofollow'} />
     <meta name="theme-color" content="#173d34" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={`${title} | Mohd Murtadha`} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL('/assets/images/murtadha-office-desk.jpg', Astro.site)} />
+    <meta property="og:image:alt" content="Mohd Murtadha at his academic office" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href={canonical} />
     <title>{title} | Mohd Murtadha</title>
+    <script type="application/ld+json" set:html={JSON.stringify(profileSchema)}></script>
+    <script is:inline>document.documentElement.classList.add('js');</script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <a class="identity" href="/">Mohd Murtadha</a>
-      <nav aria-label="Primary navigation">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span>Menu</span><i aria-hidden="true"></i></button>
+      <nav id="primary-navigation" aria-label="Primary navigation">
         {navigation.primary.map((item) => <a href={item.target} aria-current={isActive(item.target) ? 'page' : undefined}>{item.label}</a>)}
         <a href="/connect/" aria-current={isActive('/connect/') ? 'page' : undefined}>Connect</a>
       </nav>
@@ -37,14 +59,26 @@ const isActive = (target: string) => target === '/' ? currentPath === '/' : curr
       <p>Mohd Murtadha Mohamad · Academic profile<br /><a href="/cv/">Curriculum vitae</a> · <a href="mailto:murtadha@utm.my">Contact</a></p>
       <p class="institutional">Aligned with UTM ASCEND 2030: knowledge, impact and connected intelligence.</p>
     </footer>
+    <script>
+      const toggle = document.querySelector('.nav-toggle');
+      const nav = document.querySelector('#primary-navigation');
+      if (toggle && nav) {
+        const close = () => { toggle.setAttribute('aria-expanded', 'false'); nav.removeAttribute('data-open'); };
+        toggle.addEventListener('click', () => {
+          const open = toggle.getAttribute('aria-expanded') !== 'true';
+          toggle.setAttribute('aria-expanded', String(open));
+          nav.toggleAttribute('data-open', open);
+        });
+        nav.addEventListener('click', (event) => { if (event.target instanceof HTMLAnchorElement) close(); });
+        document.addEventListener('keydown', (event) => { if (event.key === 'Escape') { close(); toggle.focus(); } });
+      }
+    </script>
   </body>
 </html>
 
 <style is:global>
   @import '../styles/global.css';
-  @import '../styles/imported-content.css';
   @media (max-width: 760px) {
-    .site-header nav { flex-wrap: wrap; overflow: visible; gap: .65rem 1rem; }
     .site-header nav a { font-size: .9rem; }
   }
 </style>
