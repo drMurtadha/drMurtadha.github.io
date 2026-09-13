@@ -70,4 +70,5 @@ Current progress: all 13 approved page records are now stored as static build da
 - [x] Owner decision recorded: migrate 13 current pages; exclude 23 legacy pages
 - [x] Import and sanitise 13 approved page records into 12 static routes
 - [x] Enforce build-time guards against posts, unapproved pages and WordPress media dependencies
+- [x] Desktop and 390 px mobile visual QA for Home and Publications; navigation wrap corrected; no browser console errors
 - [ ] GitHub authentication/repository creation

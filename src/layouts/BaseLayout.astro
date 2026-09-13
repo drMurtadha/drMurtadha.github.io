@@ -12,6 +12,7 @@ const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="robots" content={indexable ? 'index,follow' : 'noindex,nofollow'} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href={canonical} />
     <title>{title} | Mohd Murtadha</title>
   </head>
@@ -35,4 +36,8 @@ const indexable = import.meta.env.PUBLIC_SITE_INDEXABLE === 'true';
 <style is:global>
   @import '../styles/global.css';
   @import '../styles/imported-content.css';
+  @media (max-width: 760px) {
+    .site-header nav { flex-wrap: wrap; overflow: visible; gap: .65rem 1rem; }
+    .site-header nav a { font-size: .9rem; }
+  }
 </style>
