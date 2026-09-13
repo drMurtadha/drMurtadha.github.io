@@ -16,9 +16,9 @@ The visual idea is an academic field guide to connected intelligence: warm paper
 - Establish static Astro starter, content schemas, scripts, validation and CI.
 - Keep deployment manual and indexing disabled.
 
-### 2. Privacy and editorial triage — one owner decision remains
+### 2. Privacy and editorial triage — owner decision applied
 
-- Owner confirms visibility of current-student names and progress details. All non-approved PDFs remain quarantined; the latest CV is approved separately.
+- Owner approved names, programmes and supervision roles while excluding semester and examination-stage details. All non-approved PDFs remain quarantined; the latest CV is approved separately.
 - Classify every item: migrate, archive privately, link to source, merge, or omit.
 - Apply the confirmed decision to exclude all 5,249 legacy posts; keep only their audit records and add no replacement routes.
 - Import the 13 current/newly rebuilt pages and exclude the 23 remaining legacy pages.
@@ -73,7 +73,7 @@ Current progress: the output validator now requires all 13 static outputs (inclu
 - [x] Rate-limited external-link checker and a small persistent-research-link sample
 - [x] Full HTTP status crawl of all 114 unique external links used by the generated site; the 59k legacy-post link pairs remain inventory-only because those posts are excluded
 - [x] Two-record media discrepancy reconciled as a source REST count/visibility inconsistency: two pagination strategies each expose the same 107 unique records while the header reports 109
-- [ ] Remaining owner privacy/editorial decisions for pages and media
+- [x] Owner privacy decision applied: retain student names/programmes/roles and omit detailed current-student progress
 - [x] Owner decision recorded: all 5,249 legacy posts excluded from publication
 - [x] Owner decision recorded: migrate 13 current pages; exclude 23 legacy pages
 - [x] Import and sanitise 13 approved page records into 12 static routes

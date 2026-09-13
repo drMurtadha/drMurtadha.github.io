@@ -11,17 +11,16 @@ This is the final owner checklist before a public preview or production deployme
 - The other 106 visible WordPress media records, including older CV copies and potentially sensitive PDFs, remain excluded and quarantined.
 - The public academic email, ORCID, Scopus Author ID, Web of Science ResearcherID and LinkedIn profile are retained.
 
-## One owner decision remains
+## Owner decision recorded
 
-Confirm whether the People page may publicly show all of the following current-source information:
+Decision recorded on 13 September 2026:
 
-- 14 current postgraduate names;
-- programme and supervision role;
-- semester number or examination-stage status for the nine current PhD researchers;
-- 10 named PhD graduates and their completion years;
-- 10 named Master's graduates stored in the public repository data, although not currently rendered on the page.
+- Retain the 14 current postgraduate names.
+- Retain programme and supervision role.
+- Omit semester numbers and examination-stage details from both the native page data and the public imported-page evidence.
+- Retain the named graduate records already present on the current source page.
 
-If any item should be removed, it can be omitted from both the rendered page and the versioned data before deployment. The safest minimal option is to publish aggregate supervision counts and graduate outcomes while omitting current-student progress details.
+The People page therefore presents a concise public supervision record without detailed individual progress tracking.
 
 ## Editorial confirmations before deployment
 

@@ -268,7 +268,7 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 .people-section > header h2 { margin: 0; font-size: clamp(2.6rem, 5vw, 4.8rem); }
 .people-section > header > p:last-child { margin: .7rem 0 0; color: var(--muted); }
 .people-list { margin: 0; padding: 0; list-style: none; }
-.people-list li { display: grid; grid-template-columns: 3rem 1.5fr .55fr .7fr; gap: 1.4rem; align-items: start; padding: 1.5rem 0; border-top: 1px solid var(--line); }
+.people-list li { display: grid; grid-template-columns: 3rem 1.5fr .7fr; gap: 1.4rem; align-items: start; padding: 1.5rem 0; border-top: 1px solid var(--line); }
 .people-list li > span { color: var(--signal); font-size: .7rem; font-weight: 800; }
 .people-list h3, .name-grid h3, .graduate-grid h3 { margin: 0; font-family: inherit; font-size: 1rem; line-height: 1.35; letter-spacing: -.01em; }
 .people-list p, .name-grid p, .graduate-grid p { margin: .25rem 0 0; color: var(--muted); font-size: .83rem; }
@@ -322,8 +322,7 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 @media (max-width: 800px) {
   .people-section > header { grid-template-columns: 1fr 1fr; }
   .people-section > header .eyebrow { grid-column: 1 / -1; }
-  .people-list li { grid-template-columns: 2rem 1fr 1fr; }
-  .people-list li > p:last-child { grid-column: 2 / -1; }
+  .people-list li { grid-template-columns: 2rem 1fr .7fr; }
   .name-grid, .graduate-grid { grid-template-columns: 1fr 1fr; }
   .cv-hero { grid-template-columns: 1fr; }
   .cv-hero__copy { padding-left: 2rem; }
@@ -336,7 +335,7 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 @media (max-width: 600px) {
   .people-banner { min-height: 24rem; margin-bottom: 4rem; }
   .people-section > header, .people-list li { grid-template-columns: 1fr; }
-  .people-section > header .eyebrow, .people-list li > p:last-child { grid-column: auto; }
+  .people-section > header .eyebrow { grid-column: auto; }
   .people-section--tint { margin-left: -1.25rem; margin-right: -1.25rem; padding-left: 1.25rem; padding-right: 1.25rem; }
   .name-grid, .graduate-grid { grid-template-columns: 1fr; }
   .people-invitation { margin-left: -1.25rem; margin-right: -1.25rem; }

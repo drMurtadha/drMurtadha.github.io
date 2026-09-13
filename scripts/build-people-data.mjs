@@ -10,8 +10,8 @@ const root = parse(source.html);
 const clean = (value = '') => value.trim().replace(/\s+/g, ' ');
 
 const currentPhd = root.querySelectorAll('.mm-table tbody tr').map((row) => {
-  const [name, programme, role, progress] = row.querySelectorAll('td').map((cell) => clean(cell.text));
-  return { name, programme, role, progress };
+  const [name, programme, role] = row.querySelectorAll('td').map((cell) => clean(cell.text));
+  return { name, programme, role };
 });
 const groups = root.querySelectorAll('.mm-names');
 const parseNames = (group) => group?.querySelectorAll('.mm-name').map((item) => ({
