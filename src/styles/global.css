@@ -378,6 +378,15 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
 .biography-numbers > div { padding: 2rem; border-right: 1px solid rgba(23,36,31,.2); }
 .biography-numbers strong { display: block; font-family: Georgia, serif; font-size: 4rem; line-height: 1; }
 .biography-numbers span { color: var(--muted); font-size: .78rem; }
+.section-intro { max-width: 58ch; margin: 0 0 2rem; color: var(--muted); }
+.badge { color: var(--signal); font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-left: .6rem; }
+.photo-strip { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 3rem; }
+.photo-strip figure { margin: 0; }
+.photo-strip img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.photo-strip figcaption { margin-top: .6rem; color: var(--muted); font-size: .7rem; }
+.pub-callout { margin-top: 2rem; padding: 2rem; background: #dce2db; }
+.pub-callout__note { margin: 0 0 1rem; color: var(--muted); font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.pub-callout ol { margin: 0; padding-left: 1.3rem; display: flex; flex-direction: column; gap: .75rem; }
 .teaching-intro { display: grid; grid-template-columns: .55fr 1fr .75fr; gap: 3rem; align-items: start; padding: 5rem 0; border-top: 1px solid var(--ink); }
 .teaching-intro h2 { margin: 0; }
 .teaching-intro > p:last-child { color: var(--muted); }
@@ -443,6 +452,7 @@ h3 { font-size: clamp(1.55rem, 2.4vw, 2.35rem); }
   .biography-intro, .biography-timeline { padding: 5rem 0; gap: 2.5rem; }
   .biography-timeline li { grid-template-columns: 1fr; gap: .5rem; }
   .biography-numbers { grid-template-columns: 1fr; }
+  .photo-strip { grid-template-columns: 1fr; }
   .teaching-intro, .connect-note { grid-template-columns: 1fr; }.teaching-intro .eyebrow, .connect-note .eyebrow { grid-column: auto; }
   .teaching-group--postgraduate { margin-left: -1.25rem; margin-right: -1.25rem; padding-left: 1.25rem; padding-right: 1.25rem; }
   .subject-list summary { grid-template-columns: 2rem minmax(0, 1fr); }.subject-list summary strong { grid-column: 2; }

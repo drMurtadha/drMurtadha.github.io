@@ -29,6 +29,27 @@
       "path": "/assets/images/murtadha-portrait-editorial.jpg",
       "primaryUse": "connect",
       "approvedByOwner": true
+    },
+    {
+      "sourceFilename": "PHOTO-2024-04-22-14-48-32.jpg",
+      "path": "/assets/images/murtadha-ipf-award.jpg",
+      "primaryUse": "student-development",
+      "sourceDate": "2024-04-22",
+      "approvedByOwner": true
+    },
+    {
+      "sourceFilename": "IMG_1118.JPEG",
+      "path": "/assets/images/murtadha-kunming-guiyang-2025.jpg",
+      "primaryUse": "student-development",
+      "sourceDate": "2025-09-23",
+      "approvedByOwner": true
+    },
+    {
+      "sourceFilename": "20250819_163955.JPEG",
+      "path": "/assets/images/murtadha-padang-outreach-2025.jpg",
+      "primaryUse": "student-development",
+      "sourceDate": "2025-08-19",
+      "approvedByOwner": true
     }
   ],
   "documents": [

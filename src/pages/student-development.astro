@@ -1,0 +1,92 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const leadership = [
+  ['2007–15', 'College Principal, Kolej Perdana — four consecutive appointment terms'],
+  ['2017', 'Acting Principal, Kolej Perdana'],
+  ['2020–23', 'Fellow, Kolej Perdana / Pejabat Hal Ehwal Pelajar'],
+  ['2023–25', 'Fellow, Kolej Tun Hussein Onn (renewal in progress)'],
+  ['2024–26', 'Member, Persatuan Felo Kolej Kediaman UTM'],
+];
+
+const ipf = [
+  ['2016', 'Member, Institusi Pembangunan Felo'],
+  ['2023', 'Recognised at Majlis Apresiasi IPF (MAIPF23), alongside KTHO’s Bintang Kejora Kolej award'],
+  ['2025', 'Interview panel and selection committee, Jawatankuasa Kolej Pelajar (JKP) KTHO 2025/2026'],
+  ['2025', 'Strategic planning workshop and annual targets presentation, KTHO student development'],
+];
+
+const field = [
+  ['2011–14', 'Program Misi Perdana UTM De’Everest — Gunung Everest, Nepal'],
+  ['2019', 'Kembara Ilmu Perdana Palembang — Universitas Sriwijaya, Indonesia'],
+  ['2024', 'Pegawai Pengiring, Mobility Outreach Visits Exchange (MOVE’24) — Universitas Padjadjaran, Indonesia'],
+  ['2025', 'Pegawai Pengiring, Borneo Resilience through AI and Sustainability — Universitas Padjadjaran, Indonesia'],
+  ['2025', 'Pengiring, Global Outreach Program academic visit — Guizhou & Kunming, China'],
+  ['2013–23', 'Leadership camps and committee-building retreats — Cameron Highlands, Malacca, Merlimau'],
+  ['2010–19', 'Community service expeditions: KACOMS, UCOS, Girl Power Johor, Hydrocheese Reef'],
+  ['2013–15', 'Cross-Malaysia cycling tours: Kayuhan Merdeka, Kayuhan Kibar Jalur Gemilang'],
+];
+
+const convening = [
+  ['2022–24', 'Lead, International Conference on Student Development (ICOSD) 2023 — funded project, RM49,319'],
+  ['2019', 'Parallel Session Chair, ICOSD 2019'],
+  ['2010–18', 'Committee member, National Student Development Conference (NASDEC)'],
+];
+
+const publications = [
+  'Implication of Global Outreach Program Organizing in Student Leadership, Entrepreneurship and Academic Performance: Kembara Ilmu Perdana Palembang 2019 Case Study (2020, corresponding author)',
+  'Patterns of Internet Use among Students Universiti Teknologi Malaysia: Kolej Perdana Case Study (2020, corresponding author)',
+  'Kem Pemantapan Jawatankuasa Kolej Mahasiswa (JKM) Kolej Perdana: Kepimpinan dan Pembangunan Sahsiah (2018)',
+  'Realiti Kelangsungan Hidup Pelajar Prasiswazah UTM dari Aspek Perbelanjaan Makanan (2018)',
+  'SHAFEX Problem Checklist: Sistem Online Pengesanan Kategori Masalah Pelajar (2016)',
+  'Fostering Team Effectiveness among Young Leaders through Outdoor Experiential Training (2016)',
+];
+---
+<BaseLayout title="Student development" description="Nineteen years of residential college leadership, escorted expeditions and peer-reviewed publications by Mohd Murtadha Mohamad at Universiti Teknologi Malaysia.">
+  <header class="page-hero"><div><p class="eyebrow">Student development / Beyond the classroom</p><h1>Nineteen years of <em>residential life</em>, told alongside the research.</h1><p>Student development is often filed apart from academic work. On the ground it has run the same nineteen years as the research: a college principal's term, an ongoing fellowship, escorted expeditions from Everest to Guizhou, and a body of published work built from that service itself.</p></div><p class="page-hero__statement">Nine years as College Principal, an ongoing fellowship, six escorted international programmes and six peer-reviewed publications arising directly from the work.</p></header>
+
+  <div class="page-body student-development-page">
+    <section class="biography-intro">
+      <figure><img src="/assets/images/murtadha-ipf-award.jpg" alt="Mohd Murtadha Mohamad in baju Melayu, holding a certificate of appreciation" width="1066" height="1600" /><figcaption>Majlis Tautan Ukhuwah Syawal UTM 2024 — pemenang Busana Riang Ria Syawal</figcaption></figure>
+      <div>
+        <p class="eyebrow">01 / Residential leadership</p>
+        <h2>Principal, then fellow.</h2>
+        <p>Nine consecutive years as College Principal, followed by an ongoing fellowship that continues today.</p>
+        <ol class="cv-timeline">{leadership.map(([when, what]) => <li><span>{when}</span><p>{what}</p></li>)}</ol>
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <header><p class="eyebrow">02 / Institusi Pembangunan Felo</p><h2>IPF, and a college that leads on student activity.</h2></header>
+      <p class="section-intro">Kolej Tun Hussein Onn received the Bintang Kejora Kolej award for the highest volume of student development activity among UTM's residential colleges in 2023.</p>
+      <ol class="cv-timeline">{ipf.map(([when, what]) => <li><span>{when}</span><p>{what}</p></li>)}</ol>
+    </section>
+
+    <section class="cv-section">
+      <header><p class="eyebrow">03 / In the field</p><h2>Escorted expeditions and camps.</h2></header>
+      <p class="section-intro">From a base camp on Everest to leadership camps in the Cameron Highlands, escorting students beyond the campus has been a recurring role.</p>
+      <ol class="cv-timeline">{field.map(([when, what]) => <li><span>{when}</span><p>{what}</p></li>)}</ol>
+      <div class="photo-strip">
+        <figure><img src="/assets/images/murtadha-kunming-guiyang-2025.jpg" alt="UTM delegation at Huawei Cloud, holding the Kunming-Guiyang Global Outreach Program banner" width="1600" height="1200" loading="lazy" /><figcaption>Kunming–Guiyang Global Outreach Program, at Huawei Cloud — Sept 2025</figcaption></figure>
+        <figure><img src="/assets/images/murtadha-padang-outreach-2025.jpg" alt="UTM delegation at the airport, holding the Global Outreach Program to Padang banner" width="1600" height="1200" loading="lazy" /><figcaption>Global Outreach Program to Padang, departure — Aug 2025</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <header><p class="eyebrow">04 / Convening the field</p><h2>Student development, at national scale.</h2></header>
+      <p class="section-intro">Organising and chairing the conferences that bring student-development practice into the open.</p>
+      <ol class="cv-timeline">{convening.map(([when, what]) => <li><span>{when}</span><p>{what}</p></li>)}</ol>
+    </section>
+
+    <section class="cv-section">
+      <header><p class="eyebrow">05 / Written from the work</p><h2>Where residential life became research. <span class="badge">Peer-reviewed</span></h2></header>
+      <p class="section-intro">This service was not left undocumented. It produced its own line of published, peer-reviewed work.</p>
+      <div class="pub-callout">
+        <p class="pub-callout__note">Selected publications arising directly from student-development and residential-college activity</p>
+        <ol>{publications.map((item) => <li>{item}</li>)}</ol>
+      </div>
+    </section>
+
+    <section class="research-cta"><p class="eyebrow">Continue the story</p><h2>Not a departure from <em>academic work.</em> Its proving ground.</h2><a class="button" href="mailto:murtadha@utm.my?subject=Postgraduate%20leadership%20or%20outreach">Discuss postgraduate leadership or outreach</a></section>
+  </div>
+</BaseLayout>

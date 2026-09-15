@@ -5,6 +5,7 @@
     { "label": "People", "href": "/phd-students/", "target": "/people/" },
     { "label": "Teaching", "href": "/teaching/", "target": "/teaching/" },
     { "label": "Impact", "href": "/consultancy-industry-engagement/", "target": "/impact/" },
+    { "label": "Student Development", "href": "/student-development/", "target": "/student-development/" },
     { "label": "About", "href": "/biography/", "target": "/biography/" }
   ],
   "secondary": [

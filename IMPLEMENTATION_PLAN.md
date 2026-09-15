@@ -52,7 +52,7 @@ The remaining Biography, Teaching, Impact, Connect and publication-collection ro
 - Test keyboard use, reduced motion, screen-reader landmarks, mobile layouts and Lighthouse budgets.
 - Create/authenticate the GitHub repository only with explicit approval; publish a noindex preview by manual workflow.
 
-Current progress: the output validator now requires all 13 static outputs (including the custom 404), exactly one main landmark and one H1 per page, descriptions, canonicals, intrinsic image dimensions, alt text and no WordPress media dependency. The responsive navigation is keyboard-operable and returns focus after Escape. A performance budget caps total CSS at 60 KiB, total JavaScript at 30 KiB, individual HTML at 100 KiB and images at 250 KiB.
+Current progress: the output validator now requires all 14 static outputs (including the custom 404), exactly one main landmark and one H1 per page, descriptions, canonicals, intrinsic image dimensions, alt text and no WordPress media dependency. The responsive navigation is keyboard-operable and returns focus after Escape. A performance budget caps total CSS at 60 KiB, total JavaScript at 30 KiB, individual HTML at 100 KiB and images at 250 KiB.
 
 ### 6. Approved cutover
 
@@ -95,3 +95,4 @@ Current progress: the output validator now requires all 13 static outputs (inclu
 - [x] Re-verified all 12 routes and the 404 page at desktop and 390 px widths: no horizontal overflow, no console errors, working search/filter and empty-result states, keyboard-operable accordions and navigation, visible focus indicators, reduced-motion support intact
 - [x] Hardened `validate-build.mjs` with a legacy `/murtadha/`-path guard and a `target="_blank"` safe-`rel` guard on the final build output
 - [x] Investigated the one broken legacy DOI via Crossref; no authoritative replacement found, so the record is left unchanged with an editorial-review note (see `MIGRATION_AUDIT.md`)
+- [x] Added `/student-development/` as a 14th route and 7th primary-nav item: native content supplied directly by the owner (not WordPress-derived), covering residential-college leadership, IPF, escorted expeditions, conference convening and the peer-reviewed publications arising from that service; three new owner-supplied photographs added under the existing asset-approval process (see `ASSET_REGISTER.md`)

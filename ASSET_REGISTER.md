@@ -12,7 +12,17 @@ Owner approval recorded: 13 September 2026. Only the assets below may be copied 
 | `murtadha-portrait-mono.jpg` | CV | Formal monochrome portrait |
 | `murtadha-portrait-editorial.jpg` | Connect | Editorial contact/profile portrait |
 
-The five selected files came from the owner-provided `Generated photos` folder. Their use is intentionally page-specific. No additional photograph is required for the current 12-route site.
+The five selected files came from the owner-provided `Generated photos` folder. Their use is intentionally page-specific.
+
+**Owner approval recorded: 16 September 2026** — three further photographs for the new Student Development page, supplied directly by the owner (not from the WordPress media library):
+
+| Local asset | Primary page | Purpose | Source date |
+|---|---|---|---|
+| `murtadha-ipf-award.jpg` | Student Development | IPF appreciation certificate, Majlis Tautan Ukhuwah Syawal UTM 2024 | 2024-04-22 |
+| `murtadha-kunming-guiyang-2025.jpg` | Student Development | Kunming–Guiyang Global Outreach Program delegation, Huawei Cloud | 2025-09-23 |
+| `murtadha-padang-outreach-2025.jpg` | Student Development | Global Outreach Program to Padang delegation, departure | 2025-08-19 |
+
+Each was resized to a 1600px long edge and compressed to stay well under the site's 250 KiB per-image budget.
 
 ## Document
 

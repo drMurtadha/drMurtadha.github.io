@@ -4,7 +4,7 @@ import { readFile, stat } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 const root = resolve(process.argv[2] || 'dist');
-const routes = ['/', '/404.html', '/biography/', '/connect/', '/cv/', '/impact/', '/people/', '/publications/', '/publications/web-of-science/', '/publications/other/', '/publications/non-indexed/', '/research/', '/teaching/'];
+const routes = ['/', '/404.html', '/biography/', '/connect/', '/cv/', '/impact/', '/people/', '/publications/', '/publications/web-of-science/', '/publications/other/', '/publications/non-indexed/', '/research/', '/student-development/', '/teaching/'];
 const failures = [];
 
 for (const route of routes) {
