@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import ResearchConstellation from '../components/ResearchConstellation.astro';
+import ProjectShowcase from '../components/ProjectShowcase.astro';
 import profile from '../data/academic-profile.json';
 ---
 <BaseLayout title="Networked Intelligence" description="Mohd Murtadha Mohamad researches networked sensing, resilient systems, autonomous movement and postgraduate education at Universiti Teknologi Malaysia.">
@@ -17,7 +18,13 @@ import profile from '../data/academic-profile.json';
     </a>
   </section>
 
+  <nav class="section-nav" aria-label="Explore this page"><a href="#research-field-title">Research themes</a><a href="#projects">Selected projects</a><a href="#academic-work">Publications &amp; teaching</a></nav>
   <ResearchConstellation />
+  <div class="section projects-section"><ProjectShowcase /></div>
+  <section class="academic-pathways section" id="academic-work" aria-label="Publications and teaching">
+    <article><p class="eyebrow">Publication record</p><h2>Evidence behind the inquiry.</h2><p>Explore the existing publication collections by title, venue and year, with links to the original records.</p><a class="button" href="/publications/">Browse publications</a></article>
+    <article><p class="eyebrow">Teaching and learning</p><h2>Knowledge put into practice.</h2><p>Undergraduate and postgraduate teaching, research-method resources and practical AI learning materials.</p><a class="button" href="/teaching/">Explore teaching</a></article>
+  </section>
 
   <section class="selected section" aria-labelledby="selected-title">
     <header class="section-heading section-heading--split">
@@ -31,19 +38,19 @@ import profile from '../data/academic-profile.json';
       <article class="story-card story-card--feature">
         <span class="story-card__number">01</span>
         <p class="story-card__tags">IoT · microclimates · explainable AI</p>
-        <h3>Heritage intelligence</h3>
+        <h3><a href="/research/#projects">Heritage intelligence</a></h3>
         <p>Sensing invisible conditions that slowly affect historic buildings—and turning them into better maintenance decisions.</p>
       </article>
       <article class="story-card story-card--dark">
         <span class="story-card__number">02</span>
         <p class="story-card__tags">UWASN · routing · AUV</p>
-        <h3>Networks underwater</h3>
+        <h3><a href="/publications/?q=underwater">Networks underwater</a></h3>
         <p>Designing communication and autonomous navigation for environments where ordinary radio cannot reach.</p>
       </article>
       <article class="story-card story-card--accent">
         <span class="story-card__number">03</span>
         <p class="story-card__tags">MANET · trust · federated learning</p>
-        <h3>Networks without infrastructure</h3>
+        <h3><a href="/publications/?q=routing">Networks without infrastructure</a></h3>
         <p>Building security and trust into distributed systems that keep moving.</p>
       </article>
     </div>

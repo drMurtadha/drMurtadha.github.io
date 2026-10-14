@@ -1,0 +1,15 @@
+---
+interface Props {
+  project: { title: string; summary: string; status: string; technology: string[]; url: string };
+}
+const { project } = Astro.props;
+---
+<article class="project-card">
+  <p class="project-card__status">{project.status}</p>
+  <h3><a href={project.url}>{project.title}</a></h3>
+  <p>{project.summary}</p>
+  <ul class="project-card__tags" aria-label={`${project.title} topics and technologies`}>
+    {project.technology.map((tag) => <li>{tag}</li>)}
+  </ul>
+  <a class="project-card__link" href={project.url} aria-label={`View ${project.title} on GitHub`}>View repository <span aria-hidden="true">↗</span></a>
+</article>

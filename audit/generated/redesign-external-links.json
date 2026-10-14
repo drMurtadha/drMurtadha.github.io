@@ -1,0 +1,865 @@
+{
+  "checkedAt": "2026-10-14T02:17:17.336Z",
+  "scope": "site",
+  "discovered": 121,
+  "checked": 121,
+  "truncated": false,
+  "timeoutMs": 5000,
+  "delayMs": 100,
+  "classifications": {
+    "access-controlled": 8,
+    "broken": 1,
+    "reachable": 97,
+    "timeout": 10,
+    "transport-error": 5
+  },
+  "results": [
+    {
+      "url": "https://github.com/drMurtadha",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://github.com/drMurtadha",
+      "elapsedMs": 1874
+    },
+    {
+      "url": "https://orcid.org/0000-0002-1478-0138",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://orcid.org/0000-0002-1478-0138",
+      "elapsedMs": 1501
+    },
+    {
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=16033644000",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5004
+    },
+    {
+      "url": "https://www.webofscience.com/wos/author/record/C-9887-2011",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5002
+    },
+    {
+      "url": "https://www.linkedin.com/in/mohd-murtadha-mohamad/",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5002
+    },
+    {
+      "url": "https://github.com/drMurtadha/built-heritage-decision-support",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://github.com/drMurtadha/built-heritage-decision-support",
+      "elapsedMs": 866
+    },
+    {
+      "url": "https://github.com/drMurtadha/swk-iot-heritage",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://github.com/drMurtadha/swk-iot-heritage",
+      "elapsedMs": 1284
+    },
+    {
+      "url": "https://github.com/drMurtadha/fc-abstract-review-assistant",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://github.com/drMurtadha/fc-abstract-review-assistant",
+      "elapsedMs": 1357
+    },
+    {
+      "url": "https://github.com/drMurtadha/thesis-to-book-engine",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://github.com/drMurtadha/thesis-to-book-engine",
+      "elapsedMs": 925
+    },
+    {
+      "url": "https://doi.org/10.1007/s11277-026-12069-2",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/article/10.1007/s11277-026-12069-2",
+      "elapsedMs": 2069
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0346790",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346790",
+      "elapsedMs": 3552
+    },
+    {
+      "url": "https://doi.org/10.1145/3786554.3786573",
+      "status": 403,
+      "classification": "access-controlled",
+      "finalUrl": "https://dl.acm.org/doi/10.1145/3786554.3786573",
+      "elapsedMs": 340
+    },
+    {
+      "url": "https://doi.org/10.1145/3786554.3786572",
+      "status": 403,
+      "classification": "access-controlled",
+      "finalUrl": "https://dl.acm.org/doi/10.1145/3786554.3786572",
+      "elapsedMs": 370
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3572619",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/11077142/",
+      "elapsedMs": 419
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595621",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/11112602/",
+      "elapsedMs": 323
+    },
+    {
+      "url": "https://doi.org/10.1080/23311886.2025.2492833",
+      "status": 403,
+      "classification": "access-controlled",
+      "finalUrl": "https://www.tandfonline.com/doi/full/10.1080/23311886.2025.2492833",
+      "elapsedMs": 239
+    },
+    {
+      "url": "https://doi.org/10.11591/ijeecs.v37.i2.pp1032-1041",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5004
+    },
+    {
+      "url": "https://doi.org/10.1007/978-981-96-5223-5_17",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-981-96-5223-5_17",
+      "elapsedMs": 1009
+    },
+    {
+      "url": "https://doi.org/10.18517/ijaseit.15.3.12941",
+      "status": 403,
+      "classification": "access-controlled",
+      "finalUrl": "https://ijaseit.insightsociety.org/index.php/ijaseit/article/view/12941",
+      "elapsedMs": 1883
+    },
+    {
+      "url": "https://doi.org/10.1109/ICBASE66587.2025.11181321",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/11181321/",
+      "elapsedMs": 1441
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3595635",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/11122309/",
+      "elapsedMs": 399
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3554084",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/10947252/",
+      "elapsedMs": 645
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2024.3457682",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/10670401/",
+      "elapsedMs": 345
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2024.3505236",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/10766497/",
+      "elapsedMs": 463
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2024.3362353",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/10422802/",
+      "elapsedMs": 379
+    },
+    {
+      "url": "https://doi.org/10.18280/isi.290638",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://iieta.org/journals/isi/paper/10.18280/isi.290638",
+      "elapsedMs": 1858
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2023.3249966",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/10054374/",
+      "elapsedMs": 444
+    },
+    {
+      "url": "https://doi.org/10.1504/IJVICS.2023.135087",
+      "status": 403,
+      "classification": "access-controlled",
+      "finalUrl": "https://www.inderscienceonline.com/doi/abs/10.1504/IJVICS.2023.135087",
+      "elapsedMs": 2045
+    },
+    {
+      "url": "https://doi.org/10.1109/ICSSA54161.2022.9870979",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9870979/",
+      "elapsedMs": 232
+    },
+    {
+      "url": "https://doi.org/10.1109/ICSSA54161.2022.9870973",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9870973/",
+      "elapsedMs": 149
+    },
+    {
+      "url": "https://doi.org/10.3991/ijim.v16i04.28991",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5003
+    },
+    {
+      "url": "https://doi.org/10.3991/IJIM.V16I03.28963",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5006
+    },
+    {
+      "url": "https://doi.org/10.11591/ijeecs.v28.i1.pp358-364",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5002
+    },
+    {
+      "url": "https://doi.org/10.3390/s22134861",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.mdpi.com/1424-8220/22/13/4861",
+      "elapsedMs": 795
+    },
+    {
+      "url": "https://doi.org/10.1109/ICEECIT55908.2022.10030278",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/10030278/",
+      "elapsedMs": 220
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-98741-1_36",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-3-030-98741-1_36",
+      "elapsedMs": 1258
+    },
+    {
+      "url": "https://doi.org/10.1088/1742-6596/2129/1/012080",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=d08efdf8-bda3-4d4c-8bd8-0dbdbf61fc57&ssb=71032237888&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1742-6596%2F2129%2F1%2F012080&ssi=e3051987-cnvj-41ea-bd23-259c51f2d1f2&ssk=botmanager_support@radware.com&ssm=02180150243244847103333639971671&ssn=ad1bc19be11deebec9b981d5f5d23fd459fb4951e5c4-bdaf-4a20-8a314b&sso=0e48ae83-d879a92df95db5bec6a2dd5e52290474c078eac499592d67&ssp=85328507831791968305179195843947130&ssq=53705764406541650921644065434827720316964&ssr=MTYxLjEzOS4xMDIuMzM=&sst=drMurtadha-migration-link-audit/0.2&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImlvcC5vcmciLCJfX3V6bWYiOiI3ZjkwMDA0OTUxZTVjNC1iZGFmLTRhMjAtOGU4My1kODc5YTkyZGY5NWQxLTE3OTE5NDQwNjU5NDgwLTAwNWJkNmMwMjQyYmY2ZTM1ODAxMCIsInV6bXgiOiI3ZmMwMDA4MDM3MDJjYS05ZmQ4LTQ5NGUtYjkzYS0xNjkxNjNkOWVlZjkxLTE3OTE5NDQwNjU5NDgwLTAwOWRiMmM0M2EyYmVlZTM5NGExMCJ9",
+      "elapsedMs": 2460
+    },
+    {
+      "url": "https://doi.org/10.1109/ICOMITEE53461.2021.9650099",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9650099/",
+      "elapsedMs": 451
+    },
+    {
+      "url": "https://doi.org/10.1109/ICEEIE52663.2021.9616765",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9616765/",
+      "elapsedMs": 453
+    },
+    {
+      "url": "https://doi.org/10.1109/ICVEE54186.2021.9648844",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9648844/",
+      "elapsedMs": 257
+    },
+    {
+      "url": "https://doi.org/10.1109/IRSAEVE52613.2021.9604020",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9604020/",
+      "elapsedMs": 476
+    },
+    {
+      "url": "https://doi.org/10.1109/ICVEE54186.2021.9649682",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9649682/",
+      "elapsedMs": 739
+    },
+    {
+      "url": "https://doi.org/10.1109/ITIS53497.2021.9791611",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9791611/",
+      "elapsedMs": 1601
+    },
+    {
+      "url": "https://doi.org/10.1109/ICVEE50212.2020.9243210",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9243210/",
+      "elapsedMs": 424
+    },
+    {
+      "url": "https://doi.org/10.1109/EECCIS49483.2020.9263435",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9263435/",
+      "elapsedMs": 425
+    },
+    {
+      "url": "https://doi.org/10.1109/ICITACEE50144.2020.9239161",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9239161/",
+      "elapsedMs": 318
+    },
+    {
+      "url": "https://doi.org/10.1109/ICVEE50212.2020.9243193",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9243193/",
+      "elapsedMs": 162
+    },
+    {
+      "url": "https://doi.org/10.1109/ICOVET50258.2020.9230093",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9230093/",
+      "elapsedMs": 289
+    },
+    {
+      "url": "https://doi.org/10.1109/ICOVET50258.2020.9230323",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9230323/",
+      "elapsedMs": 231
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-33582-3_57",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-3-030-33582-3_57",
+      "elapsedMs": 1260
+    },
+    {
+      "url": "https://doi.org/10.1109/iSemantic50169.2020.9234219",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/9234219/",
+      "elapsedMs": 302
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2019.2932422",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/8784036/",
+      "elapsedMs": 403
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-14802-7_48",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-3-030-14802-7_48",
+      "elapsedMs": 943
+    },
+    {
+      "url": "https://doi.org/10.13189/ujeee.2019.060411",
+      "status": null,
+      "classification": "transport-error",
+      "error": "fetch failed",
+      "elapsedMs": 2331
+    },
+    {
+      "url": "https://doi.org/10.30534/ijatcse/2019/93832019",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "http://www.warse.org/IJATCSE/static/pdf/file/ijatcse93832019.pdf",
+      "elapsedMs": 2521
+    },
+    {
+      "url": "https://doi.org/10.35940/ijeat.E1178.0585C19",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5002
+    },
+    {
+      "url": "https://doi.org/10.3837/tiis.2018.07.006",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://itiis.org/digital-library/manuscript/2058",
+      "elapsedMs": 2661
+    },
+    {
+      "url": "https://doi.org/10.1007/978-981-10-5281-1_54",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-981-10-5281-1_54",
+      "elapsedMs": 1659
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-319-59427-9_15",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-3-319-59427-9_15",
+      "elapsedMs": 1471
+    },
+    {
+      "url": "https://doi.org/10.1007/978-981-10-5281-1_30",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-981-10-5281-1_30",
+      "elapsedMs": 1145
+    },
+    {
+      "url": "https://doi.org/10.1109/ICSITech.2016.7852605",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/7852605/",
+      "elapsedMs": 412
+    },
+    {
+      "url": "https://doi.org/10.1166/jmihi.2017.2079",
+      "status": 403,
+      "classification": "access-controlled",
+      "finalUrl": "http://www.ingentaconnect.com/content/10.1166/jmihi.2017.2079",
+      "elapsedMs": 787
+    },
+    {
+      "url": "https://doi.org/10.1109/ICSIPA.2017.8120572",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/8120572/",
+      "elapsedMs": 271
+    },
+    {
+      "url": "https://doi.org/10.1186/s40537-017-0094-3",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://idp.springer.com/transit?redirect_uri=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1186%2Fs40537-017-0094-3&code=f44c4ffc-a483-4f6f-a9ed-0b66a4384bd2",
+      "elapsedMs": 4916
+    },
+    {
+      "url": "https://doi.org/10.1166/jctn.2016.5340",
+      "status": 403,
+      "classification": "access-controlled",
+      "finalUrl": "http://www.ingentaconnect.com/content/10.1166/jctn.2016.5340",
+      "elapsedMs": 315
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0156670",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0156670",
+      "elapsedMs": 2268
+    },
+    {
+      "url": "https://doi.org/10.11113/jt.v78.9198",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://journals.utm.my/index.php/jurnalteknologi/article/view/9198",
+      "elapsedMs": 974
+    },
+    {
+      "url": "https://doi.org/10.1007/978-1-4939-2468-4_10",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-1-4939-2468-4_10",
+      "elapsedMs": 1228
+    },
+    {
+      "url": "https://doi.org/10.14257/ijseia.2015.9.9.19",
+      "status": null,
+      "classification": "transport-error",
+      "error": "fetch failed",
+      "elapsedMs": 1260
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-319-16211-9_31",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-3-319-16211-9_31",
+      "elapsedMs": 1568
+    },
+    {
+      "url": "https://doi.org/10.14257/ijsia.2015.9.11.35",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5001
+    },
+    {
+      "url": "https://doi.org/10.14257/ijsh.2015.9.12.02",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://gvpress.com/journals/IJSH/vol9_no12/2.pdf",
+      "elapsedMs": 2136
+    },
+    {
+      "url": "https://doi.org/10.14257/ijseia.2014.8.2.31",
+      "status": 404,
+      "classification": "broken",
+      "finalUrl": "https://doi.org/10.14257/ijseia.2014.8.2.31",
+      "elapsedMs": 598
+    },
+    {
+      "url": "https://doi.org/10.1007/s11220-014-0095-7",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/article/10.1007/s11220-014-0095-7",
+      "elapsedMs": 1433
+    },
+    {
+      "url": "https://doi.org/10.1007/s13177-013-0064-x",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/article/10.1007/s13177-013-0064-x",
+      "elapsedMs": 2549
+    },
+    {
+      "url": "https://doi.org/10.1109/ISDA.2013.6920721",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/6920721/",
+      "elapsedMs": 1466
+    },
+    {
+      "url": "https://doi.org/10.1155/2013/701834",
+      "status": 403,
+      "classification": "access-controlled",
+      "finalUrl": "https://journals.sagepub.com/doi/10.1155/2013/701834",
+      "elapsedMs": 357
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-642-36546-1_41",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-3-642-36546-1_41",
+      "elapsedMs": 1372
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-642-39218-4_29",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://link.springer.com/chapter/10.1007/978-3-642-39218-4_29",
+      "elapsedMs": 1604
+    },
+    {
+      "url": "https://doi.org/10.4156/ijact.vol4.issue7.30",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.aicit.org/ijact/global/paper_detail.html?jname=IJACT&q=794",
+      "elapsedMs": 1747
+    },
+    {
+      "url": "https://doi.org/10.4156/jcit.vol7.issue12.27",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.aicit.org/jcit/global/paper_detail.html?jname=JCIT&q=1477",
+      "elapsedMs": 1151
+    },
+    {
+      "url": "https://doi.org/10.1109/IS.2006.348503",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/4155510/",
+      "elapsedMs": 389
+    },
+    {
+      "url": "https://doi.org/10.1109/SICE.2006.314876",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/4108266/",
+      "elapsedMs": 442
+    },
+    {
+      "url": "https://doi.org/10.1109/eurcon.2005.1629898",
+      "status": 202,
+      "classification": "reachable",
+      "finalUrl": "https://ieeexplore.ieee.org/document/1629898/",
+      "elapsedMs": 378
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001530173700009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": null,
+      "classification": "timeout",
+      "error": "timeout",
+      "elapsedMs": 5003
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001477106700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001477106700001?&SID=EUW1ED0E2CVr2FLHHeljfCgM2RpfI",
+      "elapsedMs": 3240
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001547311700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": null,
+      "classification": "transport-error",
+      "error": "fetch failed",
+      "elapsedMs": 1915
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001457763200041&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001457763200041?&SID=EUW1ED0C59aKoPvGqYV5N0CRKQC8Z",
+      "elapsedMs": 2885
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001550816100029&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001550816100029?&SID=EUW1ED0D1EvK8ruVhJiKuSOsgcp90",
+      "elapsedMs": 3016
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001339065500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001339065500001?&SID=EUW1ED0C59vQ761NKDiTnM1AV6udT",
+      "elapsedMs": 2518
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001375816400009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001375816400009?&SID=EUW1ED0E2C5pbVYL6qq1nznKdOlsg",
+      "elapsedMs": 3045
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:001162068400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001162068400001?&SID=EUW1ED0A48VslnsA0AerFYIqnstUO",
+      "elapsedMs": 3044
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000953365100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000953365100001?&SID=EUW1ED0A48Dal1Sh0G7VnbdCASP9M",
+      "elapsedMs": 3325
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000825744800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000825744800001?&SID=EUW1ED0D1E6sdvxZgBDrYJm0wLQxe",
+      "elapsedMs": 4089
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000783765200036&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000783765200036?&SID=EUW1ED0C59oPbNnIJ0iWNvsBkkltn",
+      "elapsedMs": 2495
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000863571700092&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000863571700092?&SID=EUW1ED0ED5UstqTogKKZUvCmM9mwU",
+      "elapsedMs": 2049
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000636996700042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": null,
+      "classification": "transport-error",
+      "error": "fetch failed",
+      "elapsedMs": 1691
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000662609800025&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000662609800025?&SID=EUW1ED0D1ECMUpyDJj9mISqE8H7bW",
+      "elapsedMs": 3098
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000662609800015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000662609800015?&SID=EUW1ED0E2C1QMZXKq4LDswiAVXIAa",
+      "elapsedMs": 2015
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000583758100057&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000583758100057?&SID=EUW1ED0A48OlwxhxUF5ZRmgVoEfvx",
+      "elapsedMs": 2459
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000481972100169&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000481972100169?&SID=EUW1ED0E2C8VW1NtBsHwZc5vyzPiQ",
+      "elapsedMs": 2544
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000493319700047&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000493319700047?&SID=EUW1ED0ED5SDPtHMGxf043mgR0CGo",
+      "elapsedMs": 2356
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000440368200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000440368200006?&SID=EUW1ED0ED5FpviGsGydpgaGTNXFiK",
+      "elapsedMs": 3697
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000432202300015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000432202300015?&SID=EUW1ED0ED5PVF0T5dbG9uuKTwGLKe",
+      "elapsedMs": 2250
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000401505300006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000401505300006?&SID=EUW1ED0E2CDJbXf8k6EzJycistgXu",
+      "elapsedMs": 2267
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000377369700099&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000377369700099?&SID=EUW1ED0A48aaXgSPgsICh0ax9vnb7",
+      "elapsedMs": 2268
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000391220700008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000391220700008?&SID=EUW1ED0A48n11EZuvAqxn6xi2aXQb",
+      "elapsedMs": 4870
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000369385600035&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000369385600035?&SID=EUW1ED0C59jMQWcAOVMA5UvyzCxPO",
+      "elapsedMs": 2563
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000378038200031&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000378038200031?&SID=EUW1ED0BC6yRSm7sHUc4ahc2nnnV9",
+      "elapsedMs": 2490
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000211643300002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000211643300002?&SID=EUW1ED0E2C3eYJtUbOorl16c6YnEH",
+      "elapsedMs": 2511
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000218325100012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000218325100012?&SID=EUW1ED0D1EfJuJPBcZTlot4LAaJRA",
+      "elapsedMs": 2556
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000322233700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000322233700001?&SID=EUW1ED0BC6vQ1LVJpJKF4UmsV2PAK",
+      "elapsedMs": 3278
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000340589100041&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000340589100041?&SID=EUW1ED0ED5vOhV7vbwft6iLnHkQ8h",
+      "elapsedMs": 2484
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000364776700029&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000364776700029?&SID=EUW1ED0D1Eq7hytFSOZc02kfZH7bW",
+      "elapsedMs": 4085
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000364966500022&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000364966500022?&SID=EUW1ED0ED593Vaxy1p0gCXJUKSo3O",
+      "elapsedMs": 2027
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000306679700012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000306679700012?&SID=EUW1ED0ED50q8sDbUWtz5YFeSrgHj",
+      "elapsedMs": 2263
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000244714800122&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000244714800122?&SID=EUW1ED0C594QaqDnl4Bi0K1NqtmA0",
+      "elapsedMs": 2248
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000246237601043&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": null,
+      "classification": "transport-error",
+      "error": "fetch failed",
+      "elapsedMs": 2080
+    },
+    {
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=wordpress2026&SrcAuth=WosAPI&KeyUT=WOS:000237248900055&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000237248900055?&SID=EUW1ED0D1EbeAppgrh9TWtETtkc89",
+      "elapsedMs": 4552
+    },
+    {
+      "url": "https://github.com/drMurtadha/AI4FS",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://github.com/drMurtadha/AI4FS",
+      "elapsedMs": 993
+    },
+    {
+      "url": "https://github.com/drMurtadha/ai-warga-krt",
+      "status": 200,
+      "classification": "reachable",
+      "finalUrl": "https://github.com/drMurtadha/ai-warga-krt",
+      "elapsedMs": 871
+    }
+  ]
+}

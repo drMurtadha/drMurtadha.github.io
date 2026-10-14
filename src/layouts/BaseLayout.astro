@@ -18,7 +18,9 @@ const profileSchema = {
   sameAs: [
     `https://orcid.org/${profile.orcid}`,
     `https://www.scopus.com/authid/detail.uri?authorId=${profile.scopusAuthorId}`,
-    'https://www.webofscience.com/wos/author/record/C-9887-2011'
+    'https://www.webofscience.com/wos/author/record/C-9887-2011',
+    'https://github.com/drMurtadha',
+    'https://www.linkedin.com/in/mohd-murtadha-mohamad/'
   ]
 };
 ---
@@ -29,7 +31,7 @@ const profileSchema = {
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="robots" content={indexable && !noindex ? 'index,follow' : 'noindex,nofollow'} />
-    <meta name="theme-color" content="#173d34" />
+    <meta name="theme-color" content="#0b1220" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={`${title} | Mohd Murtadha`} />
     <meta property="og:description" content={description} />
@@ -57,7 +59,7 @@ const profileSchema = {
     <main id="main"><slot /></main>
     <footer>
       <p>Mohd Murtadha Mohamad · Academic profile<br /><a href="/cv/">Curriculum vitae</a> · <a href="mailto:murtadha@utm.my">Contact</a></p>
-      <p class="institutional">Aligned with UTM ASCEND 2030: knowledge, impact and connected intelligence.</p>
+      <p class="institutional">Personal academic portfolio. Affiliation: Universiti Teknologi Malaysia. Views and projects do not imply institutional endorsement.</p>
     </footer>
     <script>
       const toggle = document.querySelector('.nav-toggle');
@@ -70,7 +72,7 @@ const profileSchema = {
           nav.toggleAttribute('data-open', open);
         });
         nav.addEventListener('click', (event) => { if (event.target instanceof HTMLAnchorElement) close(); });
-        document.addEventListener('keydown', (event) => { if (event.key === 'Escape') { close(); toggle.focus(); } });
+        document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { close(); toggle.focus(); } });
       }
     </script>
   </body>
