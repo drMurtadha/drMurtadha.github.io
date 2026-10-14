@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "built-heritage-decision-support",
+    "title": "Built heritage decision support",
+    "group": "Research",
+    "status": "Research documents",
+    "summary": "Research documents exploring sensor- and AI-informed decision support for heritage conservation in Johor Bahru.",
+    "technology": [
+      "Heritage conservation",
+      "Decision support"
+    ],
+    "url": "https://github.com/drMurtadha/built-heritage-decision-support",
+    "source": "https://github.com/drMurtadha/built-heritage-decision-support/blob/main/README.md",
+    "verifiedAt": "2026-10-14"
+  },
+  {
+    "slug": "swk-iot-heritage",
+    "title": "IoT for heritage environments",
+    "group": "Research",
+    "status": "Research framework",
+    "summary": "A research framework for environmental sensing, visitor impact and predictive conservation, including proposed integration with historical climate data.",
+    "technology": [
+      "IoT",
+      "Microclimates",
+      "AI"
+    ],
+    "url": "https://github.com/drMurtadha/swk-iot-heritage",
+    "source": "https://github.com/drMurtadha/swk-iot-heritage/blob/main/README.md",
+    "verifiedAt": "2026-10-14"
+  },
+  {
+    "slug": "fc-abstract-review-assistant",
+    "title": "FC Abstract Review Assistant",
+    "group": "Technical",
+    "status": "Review application",
+    "summary": "A bilingual abstract-review application with rule-based checks, reviewer overrides and printable reports. It assists human review; it does not approve abstracts automatically.",
+    "technology": [
+      "React",
+      "Vite",
+      "Apps Script"
+    ],
+    "url": "https://github.com/drMurtadha/fc-abstract-review-assistant",
+    "source": "https://github.com/drMurtadha/fc-abstract-review-assistant/blob/main/README.md",
+    "verifiedAt": "2026-10-14"
+  },
+  {
+    "slug": "thesis-to-book-engine",
+    "title": "Thesis-to-Book Transformation Engine",
+    "group": "Technical",
+    "status": "Interactive manual",
+    "summary": "A Malay-language scholarly writing manual with eighteen phases, quality gates, search and reading progress. It guides transformation of a thesis into a book.",
+    "technology": [
+      "JavaScript",
+      "Static HTML",
+      "Node.js"
+    ],
+    "url": "https://github.com/drMurtadha/thesis-to-book-engine",
+    "source": "https://github.com/drMurtadha/thesis-to-book-engine/blob/main/README.md",
+    "verifiedAt": "2026-10-14"
+  },
+  {
+    "slug": "AI4FS",
+    "title": "AI tools for postgraduate research",
+    "group": "Learning",
+    "status": "Learning resource",
+    "summary": "A collection of research-tool resources covering literature discovery, visualisation, citation management and systematic reviews.",
+    "technology": [
+      "Research methods",
+      "AI literacy"
+    ],
+    "url": "https://github.com/drMurtadha/AI4FS",
+    "source": "https://github.com/drMurtadha/AI4FS/blob/main/README.md",
+    "verifiedAt": "2026-10-14"
+  },
+  {
+    "slug": "ai-warga-krt",
+    "title": "AI untuk Warga KRT",
+    "group": "Learning",
+    "status": "Community workshop resource",
+    "summary": "Mobile-first Malay-language activities and practical AI prompts developed for the KRT Meranti community workshop.",
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "url": "https://github.com/drMurtadha/ai-warga-krt",
+    "source": "https://github.com/drMurtadha/ai-warga-krt/blob/main/README.md",
+    "verifiedAt": "2026-10-14"
+  }
+]

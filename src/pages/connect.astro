@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import profile from '../data/academic-profile.json';
 const links = [
+  { type: 'Open research and software', name: 'GitHub', detail: 'Research frameworks, technical projects and learning resources.', href: 'https://github.com/drMurtadha' },
   { type: 'Supervision', name: profile.email, detail: 'Send a CV and a one-page proposal.', href: `mailto:${profile.email}?subject=PhD%20supervision%20inquiry` },
   { type: 'Collaboration and consultancy', name: profile.email, detail: 'Research partnerships, advisory work and training.', href: `mailto:${profile.email}?subject=Research%20collaboration` },
   { type: 'ORCID', name: profile.orcid, detail: 'Persistent researcher identifier.', href: `https://orcid.org/${profile.orcid}` },

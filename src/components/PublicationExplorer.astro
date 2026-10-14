@@ -18,6 +18,7 @@ const years = [...new Set(records.map((record) => record.year))];
       </select>
     </label>
     <p class="publication-count" aria-live="polite"><strong data-publication-count>{records.length}</strong> detailed records</p>
+  <button class="filter-reset" type="button" data-publication-reset>Clear filters</button>
   </div>
   <ol class="publication-list">
     {records.map((record, index) => (
@@ -25,14 +26,14 @@ const years = [...new Set(records.map((record) => record.year))];
         <span class="publication-index">{String(index + 1).padStart(2, '0')}</span>
         <div>
           <p class="publication-meta">{record.year} · {record.venue}{record.type ? ` · ${record.type}` : ''}</p>
-          <h2>{record.title}</h2>
+          <h2>{record.url ? <a href={record.url}>{record.title}</a> : record.title}</h2>
           <p class="publication-citations">{record.citations != null ? `${record.citations} ${record.citations === 1 ? 'citation' : 'citations'}` : record.status}</p>
         </div>
         {record.url ? <a href={record.url} rel="noopener noreferrer" aria-label={`Open record: ${record.title}`}>↗</a> : <span></span>}
       </li>
     ))}
   </ol>
-  <p class="publication-empty" data-publication-empty hidden>No records match this search.</p>
+  <p class="publication-empty" data-publication-empty hidden>No records match this search. Try another title or clear the filters.</p>
 </section>
 
 <script>
@@ -55,6 +56,9 @@ const years = [...new Set(records.map((record) => record.year))];
       count.textContent = String(visible);
       empty.hidden = visible !== 0;
     };
+    search.value = new URLSearchParams(window.location.search).get('q') || '';
+    filter();
+    explorer.querySelector('[data-publication-reset]').addEventListener('click', () => { search.value = ''; year.value = ''; filter(); search.focus(); });
     search.addEventListener('input', filter);
     year.addEventListener('change', filter);
   }

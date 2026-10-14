@@ -1,0 +1,14 @@
+---
+import ProjectCard from './ProjectCard.astro';
+import projects from '../data/projects.json';
+interface Props { group?: string; id?: string; }
+const { group, id = 'projects' } = Astro.props;
+const selected = group ? projects.filter((project) => project.group === group) : projects.filter((project) => project.group !== 'Learning');
+---
+<section class="project-showcase" id={id} aria-labelledby={`${id}-title`}>
+  <header class="section-heading">
+    <div><p class="eyebrow">Open research and tools</p><h2 id={`${id}-title`}>{group === 'Learning' ? 'Resources for learning.' : 'From inquiry to implementation.'}</h2></div>
+    <p>{group === 'Learning' ? 'Practical materials for research methods and community AI learning.' : 'Research frameworks and software, with the scope of each project made explicit.'}</p>
+  </header>
+  <div class="project-grid">{selected.map((project) => <ProjectCard project={project} />)}</div>
+</section>
